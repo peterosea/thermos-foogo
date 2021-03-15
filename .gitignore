@@ -1,0 +1,6 @@
+.wordpress
+backup
+zeplin
+
+Theme/*.css
+!Theme/style.css
