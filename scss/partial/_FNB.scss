@@ -1,0 +1,61 @@
+.FNB {
+  background-color: $very-light-pink;
+  .rootWrap {
+    margin: auto;
+    padding: 50px 0;
+    @include respondTo('md') {
+      max-width: 90%;
+    }
+  }
+
+  .row {
+    margin-bottom: 28px;
+  }
+  .row:last-of-type {
+    margin-bottom: 0;
+  }
+  .infoList {
+    $gutter: 38px;
+
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      // Layout
+      position: relative;
+      // Text
+      font-size: 16px;
+      color: $black-two;
+      a {
+        font-size: 16px;
+        color: $black-two;
+        text-decoration: none;
+      }
+    }
+    li:after {
+      content: ' · ';
+      width: $gutter;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0;
+    }
+    li:not(:last-child) {
+      padding-right: $gutter;
+    }
+    li:last-child:after {
+      content: none;
+    }
+  }
+
+  .copyright {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -0.28px;
+    color: $brown-grey;
+  }
+}

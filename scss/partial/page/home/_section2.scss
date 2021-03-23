@@ -1,0 +1,84 @@
+.homepage .section2 {
+  color: $white;
+  position: relative;
+
+  .fp-tableCell {
+    vertical-align: bottom;
+  }
+  .layer {
+    .group41 {
+      width: 100%;
+      height: 700px;
+      position: relative;
+      bottom: 0;
+    }
+    .path105 {
+      bottom: 0;
+      transform: translateX(0);
+      transition: transform 2s ease-in-out;
+      transition-delay: 0.3s;
+    }
+    .path41 {
+      bottom: 0;
+      transform: translateX(0);
+      transition: transform 1.5s ease-in-out;
+      transition-delay: 0.8s;
+    }
+    .path2616 {
+      right: 150px;
+      top: 0;
+      transform: translateX(10%) translateY(10%);
+      transition: transform 1s ease-in-out;
+      transition-delay: 0.3s;
+    }
+    .path2955 {
+      left: 50%;
+      bottom: -50px;
+      transform: translateX(-50%) translateY(100px);
+      transition: transform 1s ease-in-out;
+    }
+    .path2956 {
+      left: 589px;
+      top: 0;
+      transform: translateY(-50%) scale(0.9);
+      transition: transform 1s ease-in-out;
+      transition-delay: 0.5s;
+    }
+  }
+  &.active .layer {
+    .path2956 {
+      transform: translateY(-50%) scale(1);
+    }
+    .path2955 {
+      transform: translateX(-50%) translateY(0);
+    }
+    .path2616 {
+      transform: translateX(0) translateY(0);
+    }
+    .path105 {
+      transform: translateX(-100px);
+    }
+    .path41 {
+      transform: translateX(100px);
+    }
+  }
+  .fp-bg {
+    background-image: url(#{$zeplin}/2927@3x.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .container {
+    padding-bottom: 145px;
+  }
+  h1 {
+    margin-bottom: 50px;
+    font-weight: 800;
+  }
+  h2 {
+    margin-bottom: 26px;
+  }
+  .pointBg {
+    background-color: $denim;
+    color: $parchment;
+  }
+}

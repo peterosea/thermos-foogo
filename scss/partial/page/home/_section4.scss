@@ -1,0 +1,51 @@
+.homepage .section4 {
+  background-color: $beige;
+  color: $dark-taupe;
+  &.active .layer {
+    --count: 0;
+    &[data-slide='0'] {
+      --count: 0;
+    }
+    &[data-slide='1'] {
+      --count: 1;
+    }
+    .path2626 {
+      --motion: calc(var(--count) * -50px);
+      --motionScale: calc(1 - var(--count) * 0.03);
+      left: 465px;
+      top: 50%;
+      transform: scale(var(--motionScale)) translateY(-50%)
+        translateX(var(--motion));
+      transition: transform 1s ease-in-out;
+    }
+    .path43 {
+      --motion: calc(var(--count) * -300px);
+      bottom: 0;
+      transform: translateX(var(--motion));
+      transition: transform 1s ease-in-out;
+    }
+  }
+  .layer {
+    .path2626 {
+      left: 465px;
+      top: 50%;
+      transform: scale(0.88) translateY(-50%) translateX(0);
+    }
+    .path43 {
+      bottom: 0;
+      transform: translateX(200px);
+    }
+  }
+  h1 {
+    color: $dark-taupe;
+  }
+  .container {
+    @include respondTo('lg') {
+      max-width: 900px;
+    }
+  }
+  .pointBg {
+    background-color: $pale;
+    color: $copper;
+  }
+}

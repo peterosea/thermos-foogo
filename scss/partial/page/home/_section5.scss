@@ -1,0 +1,91 @@
+.homepage .section5 {
+  background-color: $white-two;
+  color: $greyish-brown-two;
+
+  .layer {
+    .path96 {
+      bottom: 0;
+      transform: translateX(20px) translateY(100px);
+      transition: transform 1s ease-in-out;
+    }
+    .path2963 {
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+  .container {
+    @include respondTo('lg') {
+      max-width: 900px;
+    }
+  }
+  &.active .layer {
+    .path96 {
+      transform: translateX(0) translateY(0);
+    }
+    .path2963 {
+      animation-duration: 8s;
+      animation-name: Wave;
+    }
+    @keyframes Wave {
+      0% {
+        transform: translateX(-50%) translateY(5px);
+      }
+      10% {
+        transform: translateX(-50%) translateY(0);
+      }
+      20% {
+        transform: translateX(-50%) translateY(5px);
+      }
+      30% {
+        transform: translateX(-50%) translateY(0);
+      }
+      40% {
+        transform: translateX(-50%) translateY(5px);
+      }
+      50% {
+        transform: translateX(-50%) translateY(0);
+      }
+      60% {
+        transform: translateX(-50%) translateY(5px);
+      }
+      70% {
+        transform: translateX(-50%) translateY(0);
+      }
+      80% {
+        transform: translateX(-50%) translateY(5px);
+      }
+      100% {
+        transform: translateX(-50%) translateY(0);
+      }
+    }
+  }
+  &.active .slide.active {
+    .cloudGroup {
+      .path14 {
+        transform: translateX(0) translateY(0);
+      }
+    }
+  }
+  .cloudGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-80%);
+    .path14 {
+      transform: translateX(20px) translateY(-100px);
+      transition: transform 0.8s ease-in-out;
+      transition-delay: 0.3s;
+    }
+  }
+  img.main {
+    transform: translateX(25%);
+  }
+  .pointBg {
+    color: $black-four;
+    background-color: $cloudy-blue;
+  }
+}

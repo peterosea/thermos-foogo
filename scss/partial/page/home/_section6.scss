@@ -1,0 +1,21 @@
+.homepage .section6 {
+  color: $white;
+  background-color: $light-grey-blue;
+  .layer {
+    .path44 {
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%) translateY(100px);
+      transition: transform 0.8s ease;
+    }
+  }
+  &.active .layer {
+    .path44 {
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+  .header {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+}
