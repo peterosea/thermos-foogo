@@ -9,5 +9,8 @@
       <h1>푸고 공식 인스타그램</h1>
       <p>푸고 공식 인스타그램에 매일 업데이트되는 새로운 이야기를 만나보세요</p>
     </div>
+    <div class="body">
+      <?php echo do_shortcode('[elfsight_instagram_feed id="2"]') ?>
+    </div>
   </div>
 </div>

@@ -11,7 +11,7 @@ get_template_part('template-parts/head/slickslide');
 get_template_part('template-parts/home/index');
 get_header();
 ?>
-<main class="homepage">
+<main class="pageTemplate homepage">
   <div id="fullpage">
     <?php include_once('home/section1.php') ?>
     <?php include_once('home/section2.php') ?>
