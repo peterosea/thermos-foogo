@@ -28,6 +28,9 @@ main.tkfe350 {
       }
       strong {
         font-weight: 800;
+        font-size: 22px;
+        margin-bottom: 9px;
+        display: block;
       }
     }
   }
@@ -191,25 +194,33 @@ main.tkfe350 {
       .title {
         font-size: 25px;
         font-weight: 800;
+        margin-bottom: 20px;
       }
     }
     .list {
       list-style: none;
-      text-align: right;
+      padding: 0;
       li {
-        counter-increment: my-awesome-counter;
         display: flex;
-        justify-content: flex-end;
+        counter-increment: my-awesome-counter;
         align-items: flex-start;
         &:not(:last-child) {
           margin-bottom: 16px;
         }
         &:after {
+          order: -1;
           color: $white;
           display: inline-block;
           padding: 3px 14px;
           border-radius: 9999px;
           background-color: $warm-grey-three;
+          margin-right: 10px;
+        }
+      }
+      &.end li {
+        text-align: right;
+        justify-content: flex-end;
+        &:after {
           margin-left: 10px;
         }
       }
@@ -228,6 +239,7 @@ main.tkfe350 {
       padding-bottom: 60px;
       .header {
         display: flex;
+        margin-bottom: 50px;
         h2 {
           margin-right: 70px;
           font-weight: 800;
