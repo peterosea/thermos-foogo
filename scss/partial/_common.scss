@@ -21,6 +21,10 @@ body a:hover {
   color: inherit;
 }
 
+a {
+  outline: none;
+}
+
 * {
   font-family: 'NanumSquareRound', sans-serif;
 }
