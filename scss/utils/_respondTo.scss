@@ -26,16 +26,16 @@ $breakpoints: (
       max-width: 576px,
     ),
   'mmd': (
-    min-width: 768px,
+    max-width: 768px,
   ),
   'mlg': (
-    min-width: 992px,
+    max-width: 992px,
   ),
   'mxl': (
-    min-width: 1200px,
+    max-width: 1200px,
   ),
   'mxxl': (
-    min-width: 1400px,
+    max-width: 1400px,
   ),
   'mhg': (
     max-width: 1440px,

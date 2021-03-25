@@ -1,0 +1,346 @@
+main.tkfe350 {
+  .main {
+    position: relative;
+
+    .container {
+      margin-top: 80px;
+      // Layout
+      top: 0;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      left: 50%;
+      transform: translateX(-50%);
+      padding-top: 60px;
+      @include respondTo('lg') {
+        padding-top: 100px;
+      }
+    }
+    .imgWrap {
+      margin-bottom: 50px;
+    }
+    .body {
+      text-align: center;
+      color: $milk-chocolate;
+      h1 {
+        margin-bottom: 30px;
+      }
+      strong {
+        font-weight: 800;
+      }
+    }
+  }
+  .section1 {
+    padding-top: 120px;
+    text-align: center;
+    .header {
+      margin-bottom: 50px;
+    }
+  }
+  .section3 {
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
+  .section4 {
+    .container {
+      background-color: $beige-three;
+      color: $military-green;
+      text-align: center;
+      padding-top: 83px;
+      padding-bottom: 63px;
+    }
+    .body {
+      margin-bottom: 79px;
+      .icon {
+        margin-bottom: 32px;
+      }
+    }
+    .table {
+      max-width: 900px;
+      margin: 0 auto;
+      .head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $military-green;
+      }
+      .row > div {
+        border: 1px solid $light-grey-green;
+        margin: -0.5px;
+      }
+    }
+    .labelImgWrap {
+      .imgWrap {
+        position: relative;
+        &:after {
+          content: '';
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateY(50%) translateX(-50%);
+          width: 100px;
+          height: 30px;
+          background-color: $military-green;
+          color: $white;
+        }
+        &:nth-child(1):after {
+          content: '균 첨가 직후';
+        }
+        &:nth-child(2):after {
+          content: '4시간 후';
+        }
+        &:nth-child(3):after {
+          content: '6시간 후';
+        }
+        &:nth-child(4):after {
+          content: '8시간 후';
+          background-color: $tomato;
+        }
+      }
+    }
+    .imgGroupWrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        margin: 30px 0;
+      }
+    }
+    .src {
+      font-size: 15px;
+      text-align: right;
+      max-width: 900px;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    .pointBg {
+      box-shadow: inset 0px -0.8em 0px 0px $light-khaki;
+    }
+  }
+  .section5 {
+    padding-top: 120px;
+    .header {
+      text-align: center;
+      h1 {
+        margin-bottom: 50px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 2;
+      }
+      margin-bottom: 80px;
+    }
+    .contentCol {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .comment {
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: -0.64px;
+        font-weight: 400;
+      }
+    }
+    .row {
+      margin-bottom: 30px;
+      color: $white;
+      .imgCol {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      p {
+        font-size: 18px;
+      }
+      &.pink,
+      &.two,
+      &.three {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      &.pink {
+        background-color: $blush;
+      }
+      &.two {
+        background-color: $bluegrey-three;
+      }
+      &.three {
+        background-color: $light-grey;
+      }
+    }
+  }
+  .section6 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    p {
+      font-size: 16px;
+    }
+    .row:not(:last-child) {
+      margin-bottom: -50px;
+    }
+    .contentCol {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .title {
+        font-size: 25px;
+        font-weight: 800;
+      }
+    }
+    .list {
+      list-style: none;
+      text-align: right;
+      li {
+        counter-increment: my-awesome-counter;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        &:not(:last-child) {
+          margin-bottom: 16px;
+        }
+        &:after {
+          color: $white;
+          display: inline-block;
+          padding: 3px 14px;
+          border-radius: 9999px;
+          background-color: $warm-grey-three;
+          margin-left: 10px;
+        }
+      }
+      li:nth-of-type(1):after {
+        content: '0' counter(my-awesome-counter) ' 바디링';
+      }
+      li:nth-of-type(2):after {
+        content: '0' counter(my-awesome-counter) ' 손잡이';
+      }
+    }
+  }
+  .section7 {
+    background-color: $white-five;
+    .container {
+      padding-top: 65px;
+      padding-bottom: 60px;
+      .header {
+        display: flex;
+        h2 {
+          margin-right: 70px;
+          font-weight: 800;
+        }
+        p {
+          font-size: 14px;
+          line-height: 1.71;
+          color: $black-four;
+        }
+      }
+      .body {
+        display: flex;
+        .item {
+          width: 190px;
+          height: 190px;
+          margin: 0 6px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          background-color: $white;
+          background-position: center;
+          background-size: cover;
+          padding: 20px;
+          span {
+            font-size: 16px;
+            color: $grey-brown;
+          }
+        }
+      }
+    }
+  }
+  .section8 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .header {
+      display: flex;
+      margin-bottom: 50px;
+      h2 {
+        margin-right: 70px;
+        font-weight: 800;
+      }
+      p {
+        font-size: 14px;
+        line-height: 1.71;
+        color: $black-four;
+      }
+    }
+    .body {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+
+        li {
+          counter-increment: my-awesome-counter;
+          text-align: center;
+          font-size: 12px;
+          line-height: 1.33;
+          letter-spacing: -0.24px;
+          color: $black-four;
+          display: flex;
+          flex-direction: column;
+          background-color: $white-seven;
+          width: 90px;
+          height: 90px;
+          align-items: center;
+          justify-content: space-between;
+          border-radius: 9999px;
+          position: relative;
+          padding: 20px 0;
+
+          span {
+            display: block;
+            height: 100%;
+          }
+
+          &:not(:last-child) {
+            margin-right: 20px;
+          }
+          &:last-child:after {
+            content: none;
+          }
+          &.active {
+            background-color: $blush;
+            color: $white;
+          }
+          &:after {
+            content: '\f054';
+            text-rendering: auto;
+            position: absolute;
+            right: -18px;
+            top: 50%;
+            transform: translateY(-50%) translateX(-50%);
+            /* 아래가 핵심 */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            color: $black-four;
+          }
+          &:before {
+            content: '0' counter(my-awesome-counter);
+            font-size: 18px;
+            letter-spacing: -0.36px;
+            text-align: center;
+            font-weight: 800;
+          }
+          &:nth-of-type(n + 10):before {
+            content: counter(my-awesome-counter);
+          }
+        }
+      }
+    }
+  }
+}

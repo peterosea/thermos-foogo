@@ -78,7 +78,7 @@
     margin-bottom: 26px;
   }
   .pointBg {
-    background-color: $denim;
+    box-shadow: inset 0px -0.8em 0px 0px $denim;
     color: $parchment;
   }
 }

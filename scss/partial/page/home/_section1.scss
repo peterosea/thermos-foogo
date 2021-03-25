@@ -70,7 +70,7 @@
     margin-bottom: 26px;
   }
   .pointBg {
-    background-color: $camo;
+    box-shadow: inset 0px -0.8em 0px 0px $camo;
     color: $parchment;
   }
 }

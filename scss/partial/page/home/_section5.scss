@@ -86,6 +86,6 @@
   }
   .pointBg {
     color: $black-four;
-    background-color: $cloudy-blue;
+    box-shadow: inset 0px -0.8em 0px 0px $cloudy-blue;
   }
 }

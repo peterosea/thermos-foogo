@@ -21,6 +21,8 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin'; ?>
     )); ?>
   </div>
   <div class="right iconWrap">
-    <i class="fab fa-instagram"></i>
+    <a target="_blank" href="https://www.instagram.com/foogo.kr/">
+      <i class="fab fa-instagram"></i>
+    </a>
   </div>
 </nav>
