@@ -206,7 +206,7 @@ main.tkfe350 {
       li {
         display: flex;
         counter-increment: my-awesome-counter;
-        align-items: flex-start;
+        align-items: center;
         &:not(:last-child) {
           margin-bottom: 16px;
         }
@@ -225,6 +225,7 @@ main.tkfe350 {
         justify-content: flex-end;
         &:after {
           margin-left: 10px;
+          order: 2;
         }
       }
       li:nth-of-type(1):after {
@@ -232,6 +233,14 @@ main.tkfe350 {
       }
       li:nth-of-type(2):after {
         content: '0' counter(my-awesome-counter) ' 손잡이';
+      }
+      &.tkfd200 {
+        li:nth-of-type(1):after {
+          content: '0' counter(my-awesome-counter) ' 시피컵';
+        }
+        li:nth-of-type(2):after {
+          content: '0' counter(my-awesome-counter) ' 빨대컵';
+        }
       }
     }
   }
