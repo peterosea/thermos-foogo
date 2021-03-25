@@ -207,6 +207,7 @@ main.tkfe350 {
         display: flex;
         counter-increment: my-awesome-counter;
         align-items: center;
+        line-height: 1.63;
         &:not(:last-child) {
           margin-bottom: 16px;
         }

@@ -25,7 +25,7 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
       </div>
       <div class="row copyright">
         <div class="col-12">
-          <div>본 사이트의 이미지 및 콘텐츠 저작권은 써모스코리아 주식회사에 있으며, 무단 전재, 복사, 배포 등을 금합니다.</div>
+          <div>본 사이트의 이미지 및 콘텐츠 저작권은 써모스코리아<br class="d-block d-sm-none" /> 주식회사에 있으며, 무단 전재, 복사, 배포 등을 금합니다.</div>
           <div>COPYRIGHTⓒ Thermos Korea Co., Ltd. All rights reserved.</div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 header.productHeader {
+  border-bottom: 2px solid $white-six;
   .col-12 {
     @include respondTo('mlg') {
       --bs-gutter-x: 60px;

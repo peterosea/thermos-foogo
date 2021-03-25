@@ -1,0 +1,43 @@
+nav.GNB.mobile {
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba($black, 0.05);
+  &.shrink {
+    border-bottom: none;
+  }
+  .logo img {
+    width: auto;
+    height: 44px;
+  }
+  .rightWrap {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    position: relative;
+    padding: 0;
+    transform: none;
+    top: auto;
+    padding-left: 20px;
+    @include respondTo('lg') {
+      padding-left: 24px;
+    }
+  }
+
+  &.mbOver {
+    .rightWrap {
+      width: 100%;
+      background-color: #443f3f;
+    }
+    ul.quickAction {
+      display: flex;
+    }
+    .logo,
+    .sponsor {
+      display: none;
+    }
+    .hamburgerButton svg path {
+      stroke: $white;
+    }
+  }
+}
