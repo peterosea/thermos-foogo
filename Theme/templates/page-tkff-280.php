@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: TKFF?-280
+ * Template Name: TKFF-280
  * Template Post Type: page
  */
 
@@ -20,7 +20,7 @@ include('product/hero.php');
       <div class="body">
         <h1>성장 단계에 따른 토출량 조절</h1>
         <strong>푸고 프리미엄 뉴트럴 시리즈 유아용 텀블러</strong>
-        <p>TKFF-280</p>
+        <p><?php echo get_the_title() ?></p>
       </div>
     </div>
   </div>
@@ -178,7 +178,7 @@ include('product/hero.php');
     <div class="container">
       <div class="row">
         <div class="col-5">
-          <img draggable="false" src="<?php echo $zeplin ?>/3035.png" srcset="<?php echo $zeplin ?>/3035@2x.png 2x, <?php echo $zeplin ?>/3035@3x.png 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/3018.png" srcset="<?php echo $zeplin ?>/3018@2x.png 2x, <?php echo $zeplin ?>/3018@3x.png 3x">
         </div>
         <div class="col-7 contentCol">
           <div class="title">
@@ -260,7 +260,7 @@ include('product/hero.php');
           </p>
         </div>
         <div class="col-5">
-          <img draggable="false" src="<?php echo $zeplin ?>/3040.png" srcset="<?php echo $zeplin ?>/3040@2x.png 2x, <?php echo $zeplin ?>/3040@3x.png 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/3020.png" srcset="<?php echo $zeplin ?>/3020@2x.png 2x, <?php echo $zeplin ?>/3020@3x.png 3x">
         </div>
       </div>
 

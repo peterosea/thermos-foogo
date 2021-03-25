@@ -1,5 +1,6 @@
 <?php
-function sectionHero() {
+function sectionHero($isBaby = true)
+{
   $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
   $content = <<<HTML
     <h2>푸고, 처음으로 만나는 자연스러움</h2>
@@ -11,6 +12,8 @@ function sectionHero() {
       <span class="pointBg">Earthy Neutrals</span>의 자연을 보여주고 싶은 마음을 담았습니다.<br />
       자연을 담은 푸고 프리미엄 뉴트럴 시리즈를 만나보세요.
     </p>
+HTML;
+  if ($isBaby) $content .= <<<HTML
     <div class="divider"></div>
     <h2>푸고, 손으로 느끼는 상상력</h2>
     <h1>
@@ -22,7 +25,6 @@ function sectionHero() {
       아이들이 작은 손으로 직접 느낄 수 있는 푸고 프리미엄 뉴트럴 시리즈를 만들었습니다.
     </p>
 HTML;
-
   return <<<HTML
   <div class="section hero">
     <img draggable="false" src="$zeplin/all.jpg" srcset="$zeplin/all@2x.jpg 2x, $zeplin/all@3x.jpg 3x">

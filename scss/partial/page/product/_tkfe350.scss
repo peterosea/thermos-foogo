@@ -175,6 +175,9 @@ main.tkfe350 {
       &.three {
         background-color: $light-grey;
       }
+      &.light-blue-grey {
+        background-color: $light-blue-grey;
+      }
     }
   }
   .section6 {
@@ -237,6 +240,8 @@ main.tkfe350 {
     .container {
       padding-top: 65px;
       padding-bottom: 60px;
+      display: flex;
+      flex-wrap: wrap;
       .header {
         display: flex;
         margin-bottom: 50px;
