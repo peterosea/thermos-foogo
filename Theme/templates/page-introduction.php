@@ -7,7 +7,6 @@
 
 // variables
 $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
-get_header();
 ?>
 <main class="pageTemplate introduction">
   <div class="layer">

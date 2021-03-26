@@ -8,6 +8,7 @@
 $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
 get_header();
 include('product/hero.php');
+get_template_part('template-parts/header/mobileProduct');
 ?>
 <main class="pageTemplate tkfe350">
   <div class="section main">

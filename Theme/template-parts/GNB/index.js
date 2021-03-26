@@ -1,10 +1,14 @@
 (($) => {
-  var myElement = document.querySelector('nav.GNB');
-  var options = {};
-
   try {
+    var myElement = document.querySelector('nav.GNB');
+    var options = {};
     var headroom = new Headroom(myElement, options);
     headroom.init();
+
+    var myElement2 = document.querySelector('.MobilesubMegaMenu');
+    var options = {};
+    var headroom2 = new Headroom(myElement2, options);
+    headroom2.init();
   } catch {}
 
   // mobile
@@ -12,9 +16,9 @@
   $(window).scroll(function () {
     var scroll = getCurrentScroll();
     if (scroll >= shrinkHeader) {
-      $('nav.GNB').addClass('shrink');
+      $('nav.GNB, .MobilesubMegaMenu').addClass('shrink');
     } else {
-      $('nav.GNB').removeClass('shrink');
+      $('nav.GNB, .MobilesubMegaMenu').removeClass('shrink');
     }
   });
   function getCurrentScroll() {
