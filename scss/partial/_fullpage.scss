@@ -8,6 +8,10 @@ body .listStyle {
   top: 50%;
   right: 35px;
   transform: translateY(-50%);
+  display: none;
+  @include respondTo('md') {
+    display: block;
+  }
   &:hover::after {
     opacity: 0.2;
   }

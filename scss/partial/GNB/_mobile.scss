@@ -2,12 +2,17 @@ nav.GNB.mobile {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba($black, 0.05);
+  &:not(.shrink) {
+    background-color: transparent;
+    .hamburgerButton svg path {
+      stroke: $white;
+    }
+    .logo svg .cls-2 {
+      fill: $white;
+    }
+  }
   &.shrink {
     border-bottom: none;
-  }
-  .logo img {
-    width: auto;
-    height: 44px;
   }
   .rightWrap {
     display: flex;
@@ -19,6 +24,9 @@ nav.GNB.mobile {
     transform: none;
     top: auto;
     padding-left: 20px;
+    .cls-2 {
+      fill: $warm-grey-three;
+    }
     @include respondTo('lg') {
       padding-left: 24px;
     }

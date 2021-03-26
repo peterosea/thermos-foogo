@@ -1,3 +1,22 @@
+.homepage .banner {
+  background-color: $blush;
+  .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    a {
+      text-decoration: none;
+      color: $white;
+      font-weight: 800;
+      font-size: 20px;
+      @include respondTo('md') {
+        font-size: 30px;
+      }
+    }
+    .pointColor {
+      color: $buff;
+    }
+  }
+}
 .homepage .section6 {
   color: $white;
   background-color: $light-grey-blue;
@@ -16,6 +35,8 @@
   }
   .header {
     margin-bottom: 40px;
-    text-align: center;
+    @include respondTo('lg') {
+      text-align: center;
+    }
   }
 }

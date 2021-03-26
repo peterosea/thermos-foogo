@@ -7,6 +7,9 @@ body.admin-bar {
   }
   nav.GNB.mobile.shrink {
     top: 0;
+    @media screen and (min-width: 600px) {
+      top: 46px;
+    }
     @media screen and (min-width: 783px) {
       top: 32px;
     }
@@ -64,6 +67,12 @@ nav.GNB {
     transform: translateY(-50%);
     &.logoWrap {
       height: 50px;
+      svg {
+        height: 50px;
+        .cls-2 {
+          fill: $warm-grey-three;
+        }
+      }
     }
     svg {
       width: 100%;

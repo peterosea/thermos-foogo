@@ -1,5 +1,14 @@
 new fullpage('#fullpage', {
-  anchors: ['first', 'second', 'third', 'fourth', 'five', 'six', 'footer'],
+  anchors: [
+    'first',
+    'second',
+    'third',
+    'fourth',
+    'five',
+    'six',
+    'banner',
+    'footer',
+  ],
   menu: '#myMenu',
   slidesNavigation: true,
   controlArrows: false,
@@ -22,6 +31,11 @@ new fullpage('#fullpage', {
       document
         .querySelector('.section4 .layer')
         .setAttribute('data-slide', destination.index);
+    }
+  },
+  afterResponsive: function (isResponsive) {
+    if (isResponsive) {
+      fullpage_api.parallax.destroy();
     }
   },
 });
@@ -174,7 +188,7 @@ new fullpage('#fullpage', {
     }
   }
 
-  const items = Array.from(document.querySelectorAll('.item'));
+  const items = Array.from(document.querySelectorAll('.section3 .item'));
   const init = (() => items.forEach((item) => new ImgItem(item)))();
   setTimeout(() => document.body.classList.remove('loading'), 2000);
 }

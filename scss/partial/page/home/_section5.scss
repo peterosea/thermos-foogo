@@ -64,7 +64,16 @@
     .cloudGroup {
       .path14 {
         transform: translateX(0) translateY(0);
+        @include respondTo('mmd') {
+          transform: translateX(-30%) translateY(0);
+        }
       }
+    }
+  }
+  .container {
+    @include respondTo('mmd') {
+      height: 100%;
+      padding-top: 60px;
     }
   }
   .cloudGroup {
@@ -74,7 +83,25 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateY(-50%) translateX(-80%);
+    transform: translateY(-70%) translateX(-50%);
+    @include respondTo('mmd') {
+      width: 300px;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        width: 50%;
+        height: 50%;
+        background-color: #cfe1e2;
+      }
+    }
+    @include respondTo('md') {
+      transform: translateY(-50%) translateX(-80%);
+    }
     .path14 {
       transform: translateX(20px) translateY(-100px);
       transition: transform 0.8s ease-in-out;
@@ -82,7 +109,13 @@
     }
   }
   img.main {
-    transform: translateX(25%);
+    @include respondTo('mmd') {
+      width: 310px;
+      z-index: 2;
+    }
+    @include respondTo('md') {
+      transform: translateX(25%);
+    }
   }
   .pointBg {
     color: $black-four;

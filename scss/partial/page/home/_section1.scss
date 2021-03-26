@@ -30,6 +30,11 @@
       right: 150px;
       top: 0;
     }
+    .path24 {
+      right: 0;
+      top: 0;
+      transform: translate(20px, -20px);
+    }
   }
   &.active .layer {
     .path2740,
@@ -37,14 +42,20 @@
       transform: translate(0, 0);
     }
     .path280 {
-      transform: translate(100px, 0);
       transition: transform 1.5s ease-in-out;
       transition-delay: 0.5s;
+      transform: translate(-20px, 0);
+      @include respondTo('md') {
+        transform: translate(100px, 0);
+      }
     }
     .path281 {
-      transform: translate(-200px, 0);
       transition: transform 1.5s ease-in-out;
       transition-delay: 0.5s;
+      transform: translate(0, 0);
+      @include respondTo('md') {
+        transform: translate(-200px, 0);
+      }
     }
     .path2740 {
       transition: transform 1s ease-in-out;
@@ -54,20 +65,38 @@
       transition: transform 1s ease-in-out;
     }
   }
+  @include respondTo('mmd') {
+    .fp-tableCell {
+      vertical-align: bottom;
+    }
+  }
+
   .container {
     position: relative;
+    @include respondTo('mmd') {
+      padding-bottom: 60px;
+    }
   }
   .fp-bg {
-    background-image: url(#{$zeplin}/36@3x.jpg);
     background-size: cover;
     background-position: center;
+    background-image: url(#{$zeplin}/tkfe-280-p-1@3x.jpg);
+    @include respondTo('md') {
+      background-image: url(#{$zeplin}/36@3x.jpg);
+    }
   }
   h1 {
-    margin-bottom: 50px;
     font-weight: 800;
+    margin-bottom: 25px;
+    @include respondTo('md') {
+      margin-bottom: 50px;
+    }
   }
   h2 {
-    margin-bottom: 26px;
+    margin-bottom: 15px;
+    @include respondTo('md') {
+      margin-bottom: 26px;
+    }
   }
   .pointBg {
     box-shadow: inset 0px -0.8em 0px 0px $camo;
