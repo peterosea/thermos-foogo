@@ -24,27 +24,27 @@ get_header();
   <ul id="myMenu" class="listStyle">
     <li data-menuanchor="first" class="active">
       <div class="label"></div>
-      <a href="#first">푸고 첫번째 이야기</a>
+      <a href="#first">자연을 닮은 푸고</a>
     </li>
     <li data-menuanchor="second">
       <div class="label"></div>
-      <a href="#second">section2</a>
+      <a href="#second">우리 아이들을 위한 제품</a>
     </li>
     <li data-menuanchor="third">
       <div class="label"></div>
-      <a href="#third">section3</a>
+      <a href="#third">영상으로 만나는 푸고</a>
     </li>
     <li data-menuanchor="fourth">
       <div class="label"></div>
-      <a href="#fourth">section4</a>
+      <a href="#fourth">푸고의 특장점</a>
     </li>
     <li data-menuanchor="five">
       <div class="label"></div>
-      <a href="#five">section5</a>
+      <a href="#five">푸고 프리미엄 뉴트럴 시리즈</a>
     </li>
     <li data-menuanchor="six">
       <div class="label"></div>
-      <a href="#six">section6</a>
+      <a href="#six">푸고 공식 인스타그램</a>
     </li>
   </ul>
 </main>

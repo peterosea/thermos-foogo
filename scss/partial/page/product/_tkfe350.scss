@@ -267,6 +267,7 @@ main.tkfe350 {
       }
       .body {
         display: flex;
+        flex-wrap: wrap;
         .item {
           width: 190px;
           height: 190px;
@@ -305,6 +306,7 @@ main.tkfe350 {
     .body {
       ul {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         list-style: none;
