@@ -20,6 +20,27 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin'; ?>
       'menu' => 'GNB',
       'depth' => 1
     )); ?>
+    <div class="subMegaMenu container">
+      <?php
+      foreach (wp_get_nav_menu_items('Product') as $mi) {
+        $content = get_field('content', $mi->ID);
+        $content2 = get_field('strong', $mi->ID);
+        $img = get_field('img', $mi->ID);
+        echo <<<HTML
+          <a href="$mi->url" class="item">
+            <div class="imgWrap">
+              <img src="$img" alt="">
+            </div>
+            <div class="body">
+              <div class="title">$mi->title</div>
+              $content
+              <strong>$content2</strong>
+            </div>
+          </a>
+HTML;
+      }
+      ?>
+    </div>
   </div>
   <div class="right iconWrap">
     <a target="_blank" href="https://www.instagram.com/foogo.kr/">
@@ -27,29 +48,6 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin'; ?>
     </a>
   </div>
 </nav>
-<div class="subMegaMenu">
-  <div class="container">
-    <?php
-    foreach (wp_get_nav_menu_items('Product') as $mi) {
-      $content = get_field('content', $mi->ID);
-      $content2 = get_field('strong', $mi->ID);
-      $img = get_field('img', $mi->ID);
-      echo <<<HTML
-      <a href="$mi->url" class="item">
-        <div class="imgWrap">
-          <img src="$img" alt="">
-        </div>
-        <div class="body">
-          <div class="title">$mi->title</div>
-          $content
-          <strong>$content2</strong>
-        </div>
-      </a>
-HTML;
-    }
-    ?>
-  </div>
-</div>
 
 
 <nav class="GNB mobile d-flex d-lg-none">

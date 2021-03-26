@@ -2,10 +2,7 @@ body.admin-bar {
   nav.GNB {
     top: 32px;
   }
-  .subMegaMenu {
-    top: calc(32px + 80px);
-  }
-  nav.GNB:hover + .subMegaMenu {
+  .menu-gnb-container:hover + .subMegaMenu {
     transform: translateX(-50%) translateY(0);
   }
   nav.GNB.mobile.shrink {
@@ -86,7 +83,7 @@ nav.GNB {
   .iconWrap {
     font-size: 30px;
   }
-  .container,
+  > .container,
   .menu-gnb-container,
   .menu {
     height: 100%;
@@ -159,7 +156,7 @@ nav.GNB {
   }
 }
 
-nav.GNB:hover + .subMegaMenu,
+.menu-gnb-container:hover + .subMegaMenu,
 .subMegaMenu:hover {
   transform: translateX(-50%) translateY(0);
 }
@@ -185,7 +182,7 @@ nav.GNB:hover + .subMegaMenu,
 // }
 
 .subMegaMenu {
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 80px;
   padding-top: 60px;
@@ -193,12 +190,7 @@ nav.GNB:hover + .subMegaMenu,
   transform: translateX(-50%) translateY(-150%);
   z-index: 8000;
   transition: transform 0.3s ease-in-out;
-  .container {
-    display: flex;
-    .item:not(:last-child) {
-      margin-right: 20px;
-    }
-  }
+  display: flex;
   .item {
     padding: 35px 23px;
     background-color: $white;
@@ -213,6 +205,9 @@ nav.GNB:hover + .subMegaMenu,
     text-decoration: none;
 
     transition: all 0.3s ease-in-out;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
     .imgWrap {
       border-radius: 9999px;
       background-color: $white;
