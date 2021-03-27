@@ -48,9 +48,12 @@ main.tkfe350 {
       }
       strong {
         font-weight: 800;
-        font-size: 22px;
         margin-bottom: 9px;
+        font-size: 18px;
         display: block;
+        @include respondTo('lg') {
+          font-size: 22px;
+        }
       }
     }
   }
@@ -132,7 +135,10 @@ main.tkfe350 {
         }
       }
       p {
-        font-size: 18px;
+        font-size: 14px;
+        @include respondTo('lg') {
+          font-size: 18px;
+        }
       }
       &.pink,
       &.two,
@@ -207,6 +213,12 @@ main.tkfe350 {
         align-items: center;
         line-height: 1.63;
         font-size: 14px;
+        @include respondTo('mlg') {
+          flex-direction: column;
+          text-align: left;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
         @include respondTo('lg') {
           font-size: 16px;
         }
@@ -224,6 +236,11 @@ main.tkfe350 {
           border-radius: 9999px;
           background-color: $warm-grey-three;
           margin-right: 10px;
+          @include respondTo('mlg') {
+            order: -1;
+            margin-left: 0;
+            margin-bottom: 20px;
+          }
         }
       }
       &.end li {

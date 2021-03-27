@@ -9,6 +9,7 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
 get_header();
 include('product/hero.php');
 include('product/why.php');
+include('product/inspection.php');
 ?>
 <main class="pageTemplate tkfe350">
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
@@ -37,18 +38,14 @@ include('product/why.php');
       <img draggable="false" src="<?php echo $zeplin ?>/29311.png" srcset="<?php echo $zeplin ?>/29311@2x.png 2x, <?php echo $zeplin ?>/29311@3x.png 3x">
     </div>
   </div>
-  <?php
-  echo sectionHero();
-  ?>
+  <?php echo sectionHero(); ?>
   <div class="section section3">
     <div class="container px-0">
       <img draggable="false" src="<?php echo $zeplin ?>/96.jpg" srcset="<?php echo $zeplin ?>/96@2x.jpg 2x, <?php echo $zeplin ?>/96@3x.jpg 3x">
       <img draggable="false" src="<?php echo $zeplin ?>/tkfe-350-all-2.jpg" srcset="<?php echo $zeplin ?>/tkfe-350-all-2@2x.jpg 2x, <?php echo $zeplin ?>/tkfe-350-all-2@3x.jpg 3x">
     </div>
   </div>
-  <?php
-  echo why(array('img' => '3029'));
-  ?>
+  <?php echo why($arg = array('img' => '3029')); ?>
   <div class="section section5">
     <div class="container">
       <div class="header">
@@ -130,12 +127,16 @@ include('product/why.php');
           </p>
         </div>
         <div class="col-5">
-          <img draggable="false" src="<?php echo $zeplin ?>/3034.png" srcset="<?php echo $zeplin ?>/3034@2x.png 2x, <?php echo $zeplin ?>/3034@3x.png 3x">
+
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/2969.png" srcset="<?php echo $zeplin ?>/2969@2x.png 2x, <?php echo $zeplin ?>/2969@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2994.png" srcset="<?php echo $zeplin ?>/2994@2x.png 2x, <?php echo $zeplin ?>/2994@3x.png 3x">
         </div>
       </div>
       <div class="row">
         <div class="col-5">
-          <img draggable="false" src="<?php echo $zeplin ?>/3018.png" srcset="<?php echo $zeplin ?>/3018@2x.png 2x, <?php echo $zeplin ?>/3018@3x.png 3x">
+
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3018.png" srcset="<?php echo $zeplin ?>/3018@2x.png 2x, <?php echo $zeplin ?>/3018@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2970.png" srcset="<?php echo $zeplin ?>/2970@2x.png 2x, <?php echo $zeplin ?>/2970@3x.png 3x">
         </div>
         <div class="col-7 contentCol">
           <div class="title">
@@ -157,7 +158,9 @@ include('product/why.php');
           </p>
         </div>
         <div class="col-5">
-          <img draggable="false" src="<?php echo $zeplin ?>/3036.png" srcset="<?php echo $zeplin ?>/3036@2x.png 2x, <?php echo $zeplin ?>/3036@3x.png 3x">
+
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29711.png" srcset="<?php echo $zeplin ?>/29711@2x.png 2x, <?php echo $zeplin ?>/29711@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2971.png" srcset="<?php echo $zeplin ?>/2971@2x.png 2x, <?php echo $zeplin ?>/2971@3x.png 3x">
         </div>
       </div>
       <div class="row">
@@ -196,7 +199,9 @@ include('product/why.php');
 
       <div class="row">
         <div class="col-5">
-          <img draggable="false" src="<?php echo $zeplin ?>/3039.png" srcset="<?php echo $zeplin ?>/3039@2x.png 2x, <?php echo $zeplin ?>/3039@3x.png 3x">
+
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/2973.png" srcset="<?php echo $zeplin ?>/2973@2x.png 2x, <?php echo $zeplin ?>/2973@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29731.png" srcset="<?php echo $zeplin ?>/29731@2x.png 2x, <?php echo $zeplin ?>/29731@3x.png 3x">
         </div>
         <div class="col-7 contentCol">
           <div class="title">빨대컵을 보호하는 실리콘 바닥 커버</div>
@@ -216,7 +221,9 @@ include('product/why.php');
           </p>
         </div>
         <div class="col-5">
-          <img draggable="false" src="<?php echo $zeplin ?>/3020.png" srcset="<?php echo $zeplin ?>/3020@2x.png 2x, <?php echo $zeplin ?>/3020@3x.png 3x">
+
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29741.png" srcset="<?php echo $zeplin ?>/29741@2x.png 2x, <?php echo $zeplin ?>/29741@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2974.png" srcset="<?php echo $zeplin ?>/2974@2x.png 2x, <?php echo $zeplin ?>/2974@3x.png 3x">
         </div>
       </div>
 
@@ -280,88 +287,7 @@ include('product/why.php');
       </div>
     </div>
   </div>
-  <div class="section8">
-    <div class="container">
-      <div class="header">
-        <h2>
-          써모스의<br />
-          품질관리 프로세스
-        </h2>
-        <p>
-          전수검사 2번, 추출검사 2번 실시!<br />
-          오래 걸리더라도, <br />
-          믿을 수 있는 제품을 만들고 있습니다.
-        </p>
-      </div>
-      <div class="body">
-        <ul>
-          <li>
-            <span>
-              스테인리스<br />
-              재료
-            </span>
-          </li>
-          <li>
-            <span>
-
-              금속 프레스<br />
-              가공
-            </span>
-          </li>
-          <li>
-            <span>
-              진공 열처리
-            </span>
-          </li>
-          <li class="active">
-            <span>
-              전수검사<br />
-              시행
-            </span>
-          </li>
-          <li>
-            <span>
-              에이징
-            </span>
-          </li>
-          <li class="active">
-            <span>
-              전수검사<br />
-              시행
-            </span>
-          </li>
-          <li>
-            <span>
-              도장/연마/<br />
-              인쇄
-            </span>
-          </li>
-          <li class="active">
-            <span>
-              추출검사<br />
-              시행
-            </span>
-          </li>
-          <li>
-            <span>
-              조립
-            </span>
-          </li>
-          <li class="active">
-            <span>
-              추출검사<br />
-              시행
-            </span>
-          </li>
-          <li>
-            <span>
-              제품 출하
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <?php echo inspection() ?>
 </main>
 <?php
 get_footer();

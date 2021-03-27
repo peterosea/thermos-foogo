@@ -8,6 +8,7 @@
 $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
 get_header();
 include('product/hero.php');
+include('product/inspection.php');
 ?>
 <main class="pageTemplate tkfe350">
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
@@ -105,7 +106,9 @@ include('product/hero.php');
     <div class="container">
       <div class="row">
         <div class="col-5">
-          <img draggable="false" src="<?php echo $zeplin ?>/3018.png" srcset="<?php echo $zeplin ?>/3018@2x.png 2x, <?php echo $zeplin ?>/3018@3x.png 3x">
+
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3018.png" srcset="<?php echo $zeplin ?>/3018@2x.png 2x, <?php echo $zeplin ?>/3018@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2970.png" srcset="<?php echo $zeplin ?>/2970@2x.png 2x, <?php echo $zeplin ?>/2970@3x.png 3x">
         </div>
         <div class="col-7 contentCol">
           <div class="title">
@@ -132,7 +135,9 @@ include('product/hero.php');
 
       <div class="row">
         <div class="col-5">
-          <img draggable="false" src="<?php echo $zeplin ?>/3020.png" srcset="<?php echo $zeplin ?>/3020@2x.png 2x, <?php echo $zeplin ?>/3020@3x.png 3x">
+
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29741.png" srcset="<?php echo $zeplin ?>/29741@2x.png 2x, <?php echo $zeplin ?>/29741@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2974.png" srcset="<?php echo $zeplin ?>/2974@2x.png 2x, <?php echo $zeplin ?>/2974@3x.png 3x">
         </div>
         <div class="col-7 contentCol">
           <div class="title">
@@ -195,88 +200,7 @@ include('product/hero.php');
       </div>
     </div>
   </div>
-  <div class="section8">
-    <div class="container">
-      <div class="header">
-        <h2>
-          써모스의<br />
-          품질관리 프로세스
-        </h2>
-        <p>
-          전수검사 2번, 추출검사 2번 실시!<br />
-          오래 걸리더라도, <br />
-          믿을 수 있는 제품을 만들고 있습니다.
-        </p>
-      </div>
-      <div class="body">
-        <ul>
-          <li>
-            <span>
-              스테인리스<br />
-              재료
-            </span>
-          </li>
-          <li>
-            <span>
-
-              금속 프레스<br />
-              가공
-            </span>
-          </li>
-          <li>
-            <span>
-              진공 열처리
-            </span>
-          </li>
-          <li class="active">
-            <span>
-              전수검사<br />
-              시행
-            </span>
-          </li>
-          <li>
-            <span>
-              에이징
-            </span>
-          </li>
-          <li class="active">
-            <span>
-              전수검사<br />
-              시행
-            </span>
-          </li>
-          <li>
-            <span>
-              도장/연마/<br />
-              인쇄
-            </span>
-          </li>
-          <li class="active">
-            <span>
-              추출검사<br />
-              시행
-            </span>
-          </li>
-          <li>
-            <span>
-              조립
-            </span>
-          </li>
-          <li class="active">
-            <span>
-              추출검사<br />
-              시행
-            </span>
-          </li>
-          <li>
-            <span>
-              제품 출하
-            </span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <?php echo inspection() ?>
 </main>
 <?php
 get_footer();

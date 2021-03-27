@@ -7,7 +7,10 @@
     padding-bottom: 63px;
   }
   .body {
-    margin-bottom: 79px;
+    margin-bottom: 49px;
+    @include respondTo('lg') {
+      margin-bottom: 79px;
+    }
     .icon {
       margin-bottom: 32px;
     }
@@ -50,11 +53,14 @@
       align-items: center;
       justify-content: center;
       color: $military-green;
-      min-height: 100px;
+      @include respondTo('mlg') {
+        height: 100px;
+      }
     }
-    .row > div {
+    .row > * {
       border: 1px solid $light-grey-green;
       margin: -0.5px;
+      --bs-gutter-x: 1.5rem;
     }
   }
   .labelImgWrap {
@@ -106,6 +112,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    // height: 100%;
     @include respondTo('md') {
       flex-direction: row;
     }

@@ -41,7 +41,7 @@ function why($arg)
       </div>
       <div class="table">
         <div class="row">
-          <div class="col-12 col-lg-2 head">
+          <div class="col-12 col-lg-2 head px-0">
             써모스 진공단열<br />
             스테인리스 보틀
           </div>
@@ -61,7 +61,7 @@ function why($arg)
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-2 head">플라스틱 보틀</div>
+          <div class="col-12 col-lg-2 head px-0">플라스틱 보틀</div>
           <div class="col-12 col-lg-10 imgGroupWrap">
             <div class="imgWrap">
               <img class="icon" draggable="false" src="$zeplin/76.png" srcset="$zeplin/76@2x.png 2x, $zeplin/76@3x.png 3x">
