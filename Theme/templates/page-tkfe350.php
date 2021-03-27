@@ -34,7 +34,12 @@ include('product/inspection.php');
         <h1>COLOR · SIZE</h1>
         <p>색상 및 용량</p>
       </div>
-      <img draggable="false" src="<?php echo $zeplin ?>/3026.png" srcset="<?php echo $zeplin ?>/3026@2x.png 2x, <?php echo $zeplin ?>/3026@3x.png 3x">
+      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3026.png" srcset="<?php echo $zeplin ?>/3026@2x.png 2x, <?php echo $zeplin ?>/3026@3x.png 3x">
+      <!-- mobile -->
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/3014.png" srcset="<?php echo $zeplin ?>/3014@2x.png 2x, <?php echo $zeplin ?>/3014@3x.png 3x">
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/1763.png" srcset="<?php echo $zeplin ?>/1763@2x.png 2x, <?php echo $zeplin ?>/1763@3x.png 3x">
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29243.png" srcset="<?php echo $zeplin ?>/29243@2x.png 2x, <?php echo $zeplin ?>/29243@3x.png 3x">
+      <!-- 공통 -->
       <img draggable="false" src="<?php echo $zeplin ?>/29311.png" srcset="<?php echo $zeplin ?>/29311@2x.png 2x, <?php echo $zeplin ?>/29311@3x.png 3x">
     </div>
   </div>
@@ -54,9 +59,9 @@ include('product/inspection.php');
           자연스러운 디자인
         </h1>
         <p>
-          지구의 자연을 연상시키는 얼씨톤의 컬러를 포인트로 사용하고 마개와 버튼 모양을 변경하여 <br />
-          아이들이 직접 손으로 만지며 창의력을 높일 수 있는 NEW 디자인으로 만들었어요.<br />
-          꽃, 과일, 구름 등 자연을 닮은 그래픽에 표정을 넣어 아이와 눈 맞춤 하는 푸고를 만나보세요.
+          지구의 자연을 연상시키는 얼씨톤의 컬러를<br class="d-block d-lg-none" /> 포인트로 사용하고 마개와 버튼 모양을 변경하여 <br />
+          아이들이 직접 손으로 만지며 창의력을 높일 수 있는<br class="d-block d-lg-none" /> NEW 디자인으로 만들었어요.<br />
+          꽃, 과일, 구름 등 자연을 닮은 그래픽에 표정을 넣어<br class="d-block d-lg-none" /> 아이와 눈 맞춤 하는 푸고를 만나보세요.
         </p>
       </div>
       <div class="row">
@@ -65,10 +70,10 @@ include('product/inspection.php');
         </div>
       </div>
       <div class="row pink">
-        <div class="col-6 imgCol">
+        <div class="col-12 col-lg-5 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/224.png" srcset="<?php echo $zeplin ?>/224@2x.png 2x, <?php echo $zeplin ?>/224@3x.png 3x">
         </div>
-        <div class="col-6 contentCol">
+        <div class="col-12 col-lg-7 contentCol">
           <h1>
             긴 외출에도<br />
             충분한 대용량 빨대컵
@@ -80,10 +85,10 @@ include('product/inspection.php');
         </div>
       </div>
       <div class="row two">
-        <div class="col-6 imgCol">
+        <div class="col-12 col-lg-5 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/226.png" srcset="<?php echo $zeplin ?>/226@2x.png 2x, <?php echo $zeplin ?>/226@3x.png 3x">
         </div>
-        <div class="col-6 contentCol">
+        <div class="col-12 col-lg-7 contentCol">
           <h1>
             확 달라진 빨대 구조
           </h1>
@@ -96,19 +101,19 @@ include('product/inspection.php');
         </div>
       </div>
       <div class="row three">
-        <div class="col-6 imgCol">
+        <div class="col-12 col-lg-5 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/3055.png" srcset="<?php echo $zeplin ?>/3055@2x.png 2x, <?php echo $zeplin ?>/3055@3x.png 3x">
         </div>
-        <div class="col-6 contentCol">
+        <div class="col-12 col-lg-7 contentCol">
           <h1>
             성장단계에 맞춰<br />
             상호 호환 가능<span class="comment">(*별도구매)</span>
           </h1>
           <p>
-            푸고 프리미엄 뉴트럴 시리즈는 아이의 성장단계에 맞추어 소모품을<br />
-            자유롭게 변경할 수 있는데요.<br />
-            시리즈를 톤온톤 배색으로 디자인하여 호환해 사용해도 잘 어울려요<br />
-            바닥 커버도 시리즈 내 호환이 가능해<br />
+            푸고 프리미엄 뉴트럴 시리즈는 아이의 성장단계에 맞추어 소모품을<br class="d-none d-lg-block" />
+            자유롭게 변경할 수 있는데요.<br class="d-none d-lg-block" />
+            시리즈를 톤온톤 배색으로 디자인하여 호환해 사용해도 잘 어울려요<br class="d-none d-lg-block" />
+            바닥 커버도 시리즈 내 호환이 가능해<br class="d-none d-lg-block" />
             원하는 컬러로 변경하며 사용할 수 있어요.
           </p>
         </div>
@@ -118,7 +123,7 @@ include('product/inspection.php');
   <div class="section section6">
     <div class="container">
       <div class="row">
-        <div class="col-7 contentCol align-items-end">
+        <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
           <div class="title">
             부드러운 소재의 빨대
           </div>
@@ -126,19 +131,17 @@ include('product/inspection.php');
             고품질 실리콘 소재로 아이가 빨기에 부드럽고 씹어도 잘 끊어지지 않아요.
           </p>
         </div>
-        <div class="col-5">
-
+        <div class="col-12 col-lg-5 imgCol">
           <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/2969.png" srcset="<?php echo $zeplin ?>/2969@2x.png 2x, <?php echo $zeplin ?>/2969@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2994.png" srcset="<?php echo $zeplin ?>/2994@2x.png 2x, <?php echo $zeplin ?>/2994@3x.png 3x">
         </div>
       </div>
       <div class="row">
-        <div class="col-5">
-
+        <div class="col-12 col-lg-5 imgCol">
           <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3018.png" srcset="<?php echo $zeplin ?>/3018@2x.png 2x, <?php echo $zeplin ?>/3018@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2970.png" srcset="<?php echo $zeplin ?>/2970@2x.png 2x, <?php echo $zeplin ?>/2970@3x.png 3x">
         </div>
-        <div class="col-7 contentCol">
+        <div class="col-12 col-lg-7 contentCol">
           <div class="title">
             원터치 더블액션 버튼
           </div>
@@ -149,7 +152,7 @@ include('product/inspection.php');
         </div>
       </div>
       <div class="row">
-        <div class="col-7 contentCol align-items-end">
+        <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
           <div class="title">
             새지 않아 안심
           </div>
@@ -157,17 +160,17 @@ include('product/inspection.php');
             뚜껑을 닫으면 내용물이 새지 않아 물샘 걱정 없이 외출할 수 있어요.
           </p>
         </div>
-        <div class="col-5">
+        <div class="col-12 col-lg-5 imgCol">
 
           <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29711.png" srcset="<?php echo $zeplin ?>/29711@2x.png 2x, <?php echo $zeplin ?>/29711@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2971.png" srcset="<?php echo $zeplin ?>/2971@2x.png 2x, <?php echo $zeplin ?>/2971@3x.png 3x">
         </div>
       </div>
       <div class="row">
-        <div class="col-5">
+        <div class="col-12 col-lg-5 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/3037.png" srcset="<?php echo $zeplin ?>/3037@2x.png 2x, <?php echo $zeplin ?>/3037@3x.png 3x">
         </div>
-        <div class="col-7 contentCol">
+        <div class="col-12 col-lg-7 contentCol">
           <div class="title">안이 보이는 마개</div>
           <p>
             뚜껑만 열어도 투명한 창으로 음료의 남은 양을 확인할 수 있어요.
@@ -175,7 +178,7 @@ include('product/inspection.php');
         </div>
       </div>
       <div class="row">
-        <div class="col-7 contentCol align-items-end">
+        <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
           <div class="title">
             취향에 맞춰 사용하는 그립
           </div>
@@ -192,18 +195,18 @@ include('product/inspection.php');
             </li>
           </ul>
         </div>
-        <div class="col-5">
+        <div class="col-12 col-lg-5 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/3038.png" srcset="<?php echo $zeplin ?>/3038@2x.png 2x, <?php echo $zeplin ?>/3038@3x.png 3x">
         </div>
       </div>
 
       <div class="row">
-        <div class="col-5">
+        <div class="col-12 col-lg-5 imgCol">
 
           <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/2973.png" srcset="<?php echo $zeplin ?>/2973@2x.png 2x, <?php echo $zeplin ?>/2973@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29731.png" srcset="<?php echo $zeplin ?>/29731@2x.png 2x, <?php echo $zeplin ?>/29731@3x.png 3x">
         </div>
-        <div class="col-7 contentCol">
+        <div class="col-12 col-lg-7 contentCol">
           <div class="title">빨대컵을 보호하는 실리콘 바닥 커버</div>
           <p>
             제품이 미끄러지지 않게 막아주고, 가벼운 충격으로부터 제품을 보호해 줘요.
@@ -212,7 +215,7 @@ include('product/inspection.php');
       </div>
 
       <div class="row">
-        <div class="col-7 contentCol align-items-end">
+        <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
           <div class="title">
             진공단열 스테인리스 이중구조
           </div>
@@ -220,7 +223,7 @@ include('product/inspection.php');
             스테인리스 이중구조로 음료를 안전하고 신선하게 보관이 가능해요.
           </p>
         </div>
-        <div class="col-5">
+        <div class="col-12 col-lg-5 imgCol">
 
           <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29741.png" srcset="<?php echo $zeplin ?>/29741@2x.png 2x, <?php echo $zeplin ?>/29741@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2974.png" srcset="<?php echo $zeplin ?>/2974@2x.png 2x, <?php echo $zeplin ?>/2974@3x.png 3x">
@@ -228,10 +231,10 @@ include('product/inspection.php');
       </div>
 
       <div class="row">
-        <div class="col-5">
+        <div class="col-12 col-lg-5 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/3041.png" srcset="<?php echo $zeplin ?>/3041@2x.png 2x, <?php echo $zeplin ?>/3041@3x.png 3x">
         </div>
-        <div class="col-7 contentCol">
+        <div class="col-12 col-lg-7 contentCol">
           <div class="title">안전한 소재로 안심</div>
           <p>
             본체 내외 병은 모두 SUS304 레벨의 스테인리스를 사용하고 있으며,<br />
@@ -245,44 +248,52 @@ include('product/inspection.php');
   <div class="section section7">
     <div class="container-fluid px-0">
       <div class="row mx-0">
-        <div class="col-6 px-0">
+        <div class="col-12 col-lg-6 px-0">
           <img draggable="false" src="<?php echo $zeplin ?>/88.jpg" srcset="<?php echo $zeplin ?>/88@2x.jpg 2x, <?php echo $zeplin ?>/88@3x.jpg 3x">
         </div>
-        <div class="col-6 px-0">
+        <div class="col-12 col-lg-6 px-0">
           <img draggable="false" src="<?php echo $zeplin ?>/89.jpg" srcset="<?php echo $zeplin ?>/89@2x.jpg 2x, <?php echo $zeplin ?>/89@3x.jpg 3x">
         </div>
       </div>
     </div>
     <div class="container">
-      <div class="header">
-        <h2>
-          경제적으로<br />
-          사용할 수 있어요
-        </h2>
-        <p>
-          푸고 소모품은 별도 구매가 가능합니다.<br />
-          구성품을 잃어버렸거나, 소모품 사용 주기가 끝났다면,<br />
-          소모품만 교체하여 푸고 사용 주기를 늘려보세요.
-        </p>
+      <div class="row">
+        <div class="col-12">
+          <div class="header">
+            <h2>
+              경제적으로<br />
+              사용할 수 있어요
+            </h2>
+            <p>
+              푸고 소모품은 별도 구매가 가능합니다.<br />
+              구성품을 잃어버렸거나, 소모품 사용 주기가 끝났다면,<br />
+              소모품만 교체하여 푸고 사용 주기를 늘려보세요.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="body">
-        <div class="item" style="background-image: url(<?php echo $zeplin ?>/182@3x.png)">
-          <span>손잡이</span>
-        </div>
-        <div class="item" style="background-image: url(<?php echo $zeplin ?>/183@3x.png)">
-          <span>바디링</span>
-        </div>
-        <div class="item" style="background-image: url(<?php echo $zeplin ?>/184@3x.png)">
-          <span>바닥커버</span>
-        </div>
-        <div class="item" style="background-image: url(<?php echo $zeplin ?>/185@3x.png)">
-          <span>빨대세트</span>
-        </div>
-        <div class="item" style="background-image: url(<?php echo $zeplin ?>/186@3x.png)">
-          <span>마개패킹</span>
-        </div>
-        <div class="item" style="background-image: url(<?php echo $zeplin ?>/187@3x.png)">
-          <span>빨대타입 마개</span>
+      <div class="row">
+        <div class="col-12">
+          <div class="body">
+            <div class="item" style="background-image: url(<?php echo $zeplin ?>/182@3x.png)">
+              <span>손잡이</span>
+            </div>
+            <div class="item" style="background-image: url(<?php echo $zeplin ?>/183@3x.png)">
+              <span>바디링</span>
+            </div>
+            <div class="item" style="background-image: url(<?php echo $zeplin ?>/184@3x.png)">
+              <span>바닥커버</span>
+            </div>
+            <div class="item" style="background-image: url(<?php echo $zeplin ?>/185@3x.png)">
+              <span>빨대세트</span>
+            </div>
+            <div class="item" style="background-image: url(<?php echo $zeplin ?>/186@3x.png)">
+              <span>마개패킹</span>
+            </div>
+            <div class="item" style="background-image: url(<?php echo $zeplin ?>/187@3x.png)">
+              <span>빨대타입 마개</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
