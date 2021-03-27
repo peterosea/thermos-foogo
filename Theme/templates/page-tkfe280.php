@@ -139,7 +139,7 @@ include('product/inspection.php');
           <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3018.png" srcset="<?php echo $zeplin ?>/3018@2x.png 2x, <?php echo $zeplin ?>/3018@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2970.png" srcset="<?php echo $zeplin ?>/2970@2x.png 2x, <?php echo $zeplin ?>/2970@3x.png 3x">
         </div>
-        <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
+        <div class="col-12 col-lg-7 contentCol">
           <div class="title">
             원터치 더블액션 버튼
           </div>
@@ -168,7 +168,7 @@ include('product/inspection.php');
           <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29722.png" srcset="<?php echo $zeplin ?>/29722@2x.png 2x, <?php echo $zeplin ?>/29722@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29721.png" srcset="<?php echo $zeplin ?>/29721@2x.png 2x, <?php echo $zeplin ?>/29721@3x.png 3x">
         </div>
-        <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
+        <div class="col-12 col-lg-7 contentCol">
           <div class="title">
             취향에 맞춰 사용하는 그립
           </div>
@@ -203,7 +203,7 @@ include('product/inspection.php');
           <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29741.png" srcset="<?php echo $zeplin ?>/29741@2x.png 2x, <?php echo $zeplin ?>/29741@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2974.png" srcset="<?php echo $zeplin ?>/2974@2x.png 2x, <?php echo $zeplin ?>/2974@3x.png 3x">
         </div>
-        <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
+        <div class="col-12 col-lg-7 contentCol">
           <div class="title">
             진공단열 스테인리스 이중구조
           </div>
