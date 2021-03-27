@@ -138,8 +138,10 @@ HTML;
   document.querySelector('.coverMenu input[type="checkbox"]').addEventListener('change', (e) => {
     if (e.target.checked) {
       document.querySelector('.mobileCover').classList.add('active');
+      document.querySelector('nav.GNB.mobile').classList.add('active');
     } else {
       document.querySelector('.mobileCover').classList.remove('active');
+      document.querySelector('nav.GNB.mobile').classList.remove('active');
     }
   })
 </script>

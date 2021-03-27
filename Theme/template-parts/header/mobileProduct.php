@@ -26,4 +26,7 @@ HTML;
     }
     ?>
   </ul>
+  <script>
+    document.querySelector('nav.GNB.mobile').classList.add('active');
+  </script>
 </div>

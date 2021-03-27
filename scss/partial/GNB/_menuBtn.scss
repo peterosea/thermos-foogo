@@ -69,6 +69,9 @@ body.ie .rightWrap {
   }
 
   .cross input:checked + svg {
+    path {
+      stroke: $warm-grey-three !important;
+    }
     .line--1,
     .line--3 {
       --length: 22.627416998;

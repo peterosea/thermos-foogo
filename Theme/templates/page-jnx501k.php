@@ -8,9 +8,9 @@
 $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
 get_header();
 include('product/hero.php');
-get_template_part('template-parts/header/mobileProduct');
 ?>
 <main class="pageTemplate tkfe350">
+  <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
     <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/139.jpg" srcset="<?php echo $zeplin ?>/139@2x.jpg 2x, <?php echo $zeplin ?>/139@3x.jpg 3x">
     <img class="d-block d-lg-none w-100" draggable="false" src="<?php echo $zeplin ?>/1742.jpg" srcset="<?php echo $zeplin ?>/1742@2x.jpg 2x, <?php echo $zeplin ?>/1742@3x.jpg 3x">

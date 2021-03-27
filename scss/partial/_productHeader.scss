@@ -11,8 +11,8 @@ header.productHeader {
   }
   .linkWrap {
     @include respondTo('mlg') {
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 27px;
+      padding-bottom: 27px;
       justify-content: space-between;
     }
     display: flex;
@@ -25,12 +25,18 @@ header.productHeader {
     .group {
       margin-right: 50px;
       .title {
-        font-size: 26px;
         font-weight: 800;
+        font-size: 20px;
+        @include respondTo('lg') {
+          font-size: 26px;
+        }
       }
       span {
-        font-size: 16px;
         color: $warm-grey-four;
+        font-size: 14px;
+        @include respondTo('lg') {
+          font-size: 16px;
+        }
       }
     }
   }

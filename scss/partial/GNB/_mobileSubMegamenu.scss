@@ -13,7 +13,7 @@ body.admin-bar {
   }
 }
 
-.MobilesubMegaMenu {
+.pageTemplate div.container.MobilesubMegaMenu {
   position: fixed;
   margin-top: 80px;
   z-index: 7000;
@@ -21,6 +21,12 @@ body.admin-bar {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-150%);
   transition: all 0.3s ease-in-out;
+  &:not(.headroom--pinned):not(.headroom--unpinned),
+  &.headroom--pinned.headroom--top {
+    position: static;
+    transform: none;
+    top: 0;
+  }
   &.headroom--pinned {
     transform: translateY(0);
   }

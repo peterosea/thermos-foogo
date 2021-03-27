@@ -8,9 +8,10 @@
 $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
 get_header();
 include('product/hero.php');
-get_template_part('template-parts/header/mobileProduct');
+include('product/why.php');
 ?>
 <main class="pageTemplate tkfe350">
+  <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
     <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/tkfe-350-all.jpg" srcset="<?php echo $zeplin ?>/tkfe-350-all@2x.jpg 2x, <?php echo $zeplin ?>/tkfe-350-all@3x.jpg 3x">
     <img class="d-block d-lg-none w-100" draggable="false" src="<?php echo $zeplin ?>/1742.jpg" srcset="<?php echo $zeplin ?>/1742@2x.jpg 2x, <?php echo $zeplin ?>/1742@3x.jpg 3x">
@@ -45,76 +46,9 @@ get_template_part('template-parts/header/mobileProduct');
       <img draggable="false" src="<?php echo $zeplin ?>/tkfe-350-all-2.jpg" srcset="<?php echo $zeplin ?>/tkfe-350-all-2@2x.jpg 2x, <?php echo $zeplin ?>/tkfe-350-all-2@3x.jpg 3x">
     </div>
   </div>
-  <div class="section section4">
-    <div class="container">
-      <h1>
-        아이의 빨대컵은 왜<br />
-        <span class="pointBg">진공단열 스테인리스 빨대컵</span>이어야 할까?
-      </h1>
-      <img draggable="false" src="<?php echo $zeplin ?>/3029.png" srcset="<?php echo $zeplin ?>/3029@2x.png 2x, <?php echo $zeplin ?>/3029@3x.png 3x">
-      <div class="body">
-        <h2>대장균 증식을 억제하는 건강한 보틀, 푸고</h2>
-        <p>
-          내 아이를 물 건강을 위해서<br />
-          물컵 속 대장균 관리가 무엇보다 중요합니다.<br />
-          최적의 온도 유지로 대장균 증식을 억제하는<br />
-          진공단열 스테인리스 보틀, 푸고<br />
-          엄마아빠의 마음으로 만든 건강한 물컵입니다.
-        </p>
-      </div>
-      <div class="body">
-        <img class="icon" draggable="false" src="<?php echo $zeplin ?>/27052.png" srcset="<?php echo $zeplin ?>/27052@2x.png 2x, <?php echo $zeplin ?>/27052@3x.png 3x">
-        <p>
-          아이가 빨대컵으로 음료를 마실 때 입안의 음식물이 컵 안으로 들어갈 수 있어,<br />
-          유아용 빨대컵 안에서 균이 발생하는 것은 불가피합니다.<br />
-          일정 시간이 지나 아이가 균이 침투된 내용물을 다시 마시게 된다면,<br />
-          아이의 상태에 따라 건강에 악영향을 끼칠 수 있습니다.<br />
-          진공단열 스테인리스 보틀인 푸고는 최적의 온도 유지로<br />
-          여름철 대장균 증식을 억제하는 유아용 스테인리스 보틀입니다.
-        </p>
-      </div>
-      <div class="table">
-        <div class="row m-n1">
-          <div class="col-12 col-lg-2 head">
-            써모스 진공단열<br />
-            스테인리스 보틀
-          </div>
-          <div class="col-12 col-lg-10 imgGroupWrap labelImgWrap">
-            <div class="imgWrap">
-              <img class="icon" draggable="false" src="<?php echo $zeplin ?>/72.png" srcset="<?php echo $zeplin ?>/72@2x.png 2x, <?php echo $zeplin ?>/72@3x.png 3x">
-            </div>
-            <div class="imgWrap">
-              <img class="icon" draggable="false" src="<?php echo $zeplin ?>/73.png" srcset="<?php echo $zeplin ?>/73@2x.png 2x, <?php echo $zeplin ?>/73@3x.png 3x">
-            </div>
-            <div class="imgWrap">
-              <img class="icon" draggable="false" src="<?php echo $zeplin ?>/74.png" srcset="<?php echo $zeplin ?>/74@2x.png 2x, <?php echo $zeplin ?>/74@3x.png 3x">
-            </div>
-            <div class="imgWrap">
-              <img class="icon" draggable="false" src="<?php echo $zeplin ?>/75.png" srcset="<?php echo $zeplin ?>/75@2x.png 2x, <?php echo $zeplin ?>/75@3x.png 3x">
-            </div>
-          </div>
-        </div>
-        <div class="row m-n1">
-          <div class="col-12 col-lg-2 head">플라스틱 보틀</div>
-          <div class="col-12 col-lg-10 imgGroupWrap">
-            <div class="imgWrap">
-              <img class="icon" draggable="false" src="<?php echo $zeplin ?>/76.png" srcset="<?php echo $zeplin ?>/76@2x.png 2x, <?php echo $zeplin ?>/76@3x.png 3x">
-            </div>
-            <div class="imgWrap">
-              <img class="icon" draggable="false" src="<?php echo $zeplin ?>/77.png" srcset="<?php echo $zeplin ?>/77@2x.png 2x, <?php echo $zeplin ?>/77@3x.png 3x">
-            </div>
-            <div class="imgWrap">
-              <img class="icon" draggable="false" src="<?php echo $zeplin ?>/78.png" srcset="<?php echo $zeplin ?>/78@2x.png 2x, <?php echo $zeplin ?>/78@3x.png 3x">
-            </div>
-            <div class="imgWrap">
-              <img class="icon" draggable="false" src="<?php echo $zeplin ?>/79.png" srcset="<?php echo $zeplin ?>/79@2x.png 2x, <?php echo $zeplin ?>/79@3x.png 3x">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="src">출처: 써모스 자체 조사</div>
-    </div>
-  </div>
+  <?php
+  echo why(array('img' => '3029'));
+  ?>
   <div class="section section5">
     <div class="container">
       <div class="header">

@@ -1,9 +1,22 @@
 main.tkfe350 {
+  .MobilesubMegaMenu.headroom--pinned:not(.headroom--top) + .main,
+  .MobilesubMegaMenu.headroom--unpinned + .main {
+    .container {
+      @include respondTo('mlg') {
+        margin-top: 80px;
+      }
+    }
+  }
+
+  .row > * {
+    @include respondTo('msm') {
+      --bs-gutter-x: 80px;
+    }
+  }
   .main {
     position: relative;
 
     .container {
-      margin-top: 80px;
       // Layout
       top: 0;
       position: absolute;
@@ -14,17 +27,24 @@ main.tkfe350 {
       transform: translateX(-50%);
       padding-top: 60px;
       @include respondTo('lg') {
+        margin-top: 80px;
         padding-top: 100px;
       }
     }
     .imgWrap {
-      margin-bottom: 50px;
+      margin-bottom: 30px;
+      @include respondTo('lg') {
+        margin-bottom: 50px;
+      }
     }
     .body {
       text-align: center;
       color: $milk-chocolate;
       h1 {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+        @include respondTo('lg') {
+          margin-bottom: 30px;
+        }
       }
       strong {
         font-weight: 800;
@@ -35,107 +55,54 @@ main.tkfe350 {
     }
   }
   .section1 {
-    padding-top: 120px;
     text-align: center;
+    padding-top: 56px;
+    @include respondTo('lg') {
+      padding-top: 120px;
+    }
     .header {
       margin-bottom: 50px;
     }
+    img {
+      &:not(:last-child) {
+        @include respondTo('mlg') {
+          margin: 0 auto 50px;
+        }
+      }
+    }
   }
   .section3 {
-    padding-top: 120px;
-    padding-bottom: 50px;
-  }
-  .section4 {
-    .container {
-      background-color: $beige-three;
-      color: $military-green;
-      text-align: center;
-      padding-top: 83px;
-      padding-bottom: 63px;
-    }
-    .body {
-      margin-bottom: 79px;
-      .icon {
-        margin-bottom: 32px;
-      }
-    }
-    .table {
-      max-width: 900px;
-      margin: 0 auto;
-      .head {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: $military-green;
-      }
-      .row > div {
-        border: 1px solid $light-grey-green;
-        margin: -0.5px;
-      }
-    }
-    .labelImgWrap {
-      .imgWrap {
-        position: relative;
-        &:after {
-          content: '';
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          transform: translateY(50%) translateX(-50%);
-          width: 100px;
-          height: 30px;
-          background-color: $military-green;
-          color: $white;
-        }
-        &:nth-child(1):after {
-          content: '균 첨가 직후';
-        }
-        &:nth-child(2):after {
-          content: '4시간 후';
-        }
-        &:nth-child(3):after {
-          content: '6시간 후';
-        }
-        &:nth-child(4):after {
-          content: '8시간 후';
-          background-color: $tomato;
-        }
-      }
-    }
-    .imgGroupWrap {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      img {
-        margin: 30px 0;
-      }
-    }
-    .src {
-      font-size: 15px;
-      text-align: right;
-      max-width: 900px;
-      margin: 0 auto;
-      margin-top: 20px;
-    }
-    .pointBg {
-      box-shadow: inset 0px -0.8em 0px 0px $light-khaki;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    @include respondTo('lg') {
+      padding-top: 120px;
+      padding-bottom: 50px;
     }
   }
   .section5 {
-    padding-top: 120px;
+    padding-top: 61px;
+    @include respondTo('lg') {
+      padding-top: 120px;
+    }
     .header {
       text-align: center;
+      margin-bottom: 50px;
+      @include respondTo('lg') {
+        margin-bottom: 80px;
+      }
       h1 {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+        @include respondTo('lg') {
+          margin-bottom: 50px;
+        }
       }
       p {
-        font-size: 20px;
         line-height: 2;
+        font-size: 14px;
+        @include respondTo('md') {
+          font-size: 20px;
+        }
       }
-      margin-bottom: 80px;
     }
     .contentCol {
       display: flex;
@@ -150,12 +117,19 @@ main.tkfe350 {
       }
     }
     .row {
-      margin-bottom: 30px;
       color: $white;
+      margin-bottom: 10px;
+
+      @include respondTo('lg') {
+        margin-bottom: 30px;
+      }
       .imgCol {
         display: flex;
         align-items: center;
         justify-content: center;
+        @include respondTo('mlg') {
+          margin-bottom: 50px;
+        }
       }
       p {
         font-size: 18px;
@@ -181,13 +155,34 @@ main.tkfe350 {
     }
   }
   .section6 {
-    padding-top: 130px;
-    padding-bottom: 130px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    @include respondTo('lg') {
+      padding-top: 130px;
+      padding-bottom: 130px;
+    }
     p {
-      font-size: 16px;
+      font-size: 14px;
+      @include respondTo('lg') {
+        font-size: 16px;
+      }
     }
     .row:not(:last-child) {
-      margin-bottom: -50px;
+      margin-bottom: 75px;
+      @include respondTo('lg') {
+        margin-bottom: -50px;
+      }
+      .title + p {
+        @include respondTo('mlg') {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .imgCol {
+      @include respondTo('mlg') {
+        order: -1;
+        margin-bottom: 47px;
+      }
     }
     .contentCol {
       display: flex;
@@ -195,9 +190,12 @@ main.tkfe350 {
       justify-content: center;
 
       .title {
-        font-size: 25px;
         font-weight: 800;
         margin-bottom: 20px;
+        font-size: 20px;
+        @include respondTo('lg') {
+          font-size: 25px;
+        }
       }
     }
     .list {
@@ -208,8 +206,15 @@ main.tkfe350 {
         counter-increment: my-awesome-counter;
         align-items: center;
         line-height: 1.63;
+        font-size: 14px;
+        @include respondTo('lg') {
+          font-size: 16px;
+        }
         &:not(:last-child) {
           margin-bottom: 16px;
+          @include respondTo('mlg') {
+            margin-bottom: 30px;
+          }
         }
         &:after {
           order: -1;
@@ -224,9 +229,20 @@ main.tkfe350 {
       &.end li {
         text-align: right;
         justify-content: flex-end;
+        @include respondTo('mlg') {
+          flex-direction: column;
+          text-align: left;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
         &:after {
           margin-left: 10px;
           order: 2;
+          @include respondTo('mlg') {
+            order: -1;
+            margin-left: 0;
+            margin-bottom: 20px;
+          }
         }
       }
       li:nth-of-type(1):after {
@@ -254,10 +270,20 @@ main.tkfe350 {
       flex-wrap: wrap;
       .header {
         display: flex;
-        margin-bottom: 50px;
+        flex-direction: column;
+        margin-bottom: 40px;
+        @include respondTo('lg') {
+          margin-bottom: 50px;
+          flex-direction: row;
+        }
         h2 {
-          margin-right: 70px;
           font-weight: 800;
+          @include respondTo('mlg') {
+            margin-bottom: 20px;
+          }
+          @include respondTo('lg') {
+            margin-right: 70px;
+          }
         }
         p {
           font-size: 14px;
@@ -269,9 +295,7 @@ main.tkfe350 {
         display: flex;
         flex-wrap: wrap;
         .item {
-          width: 190px;
-          height: 190px;
-          margin: 0 6px;
+          margin: 6px;
           display: flex;
           align-items: flex-end;
           justify-content: center;
@@ -279,6 +303,12 @@ main.tkfe350 {
           background-position: center;
           background-size: cover;
           padding: 20px;
+          width: 135px;
+          height: 135px;
+          @include respondTo('lg') {
+            width: 190px;
+            height: 190px;
+          }
           span {
             font-size: 16px;
             color: $grey-brown;
@@ -292,10 +322,20 @@ main.tkfe350 {
     padding-bottom: 60px;
     .header {
       display: flex;
-      margin-bottom: 50px;
+      flex-direction: column;
+      margin-bottom: 40px;
+      @include respondTo('lg') {
+        margin-bottom: 50px;
+        flex-direction: row;
+      }
       h2 {
-        margin-right: 70px;
         font-weight: 800;
+        @include respondTo('mlg') {
+          margin-bottom: 20px;
+        }
+        @include respondTo('lg') {
+          margin-right: 70px;
+        }
       }
       p {
         font-size: 14px;
@@ -308,10 +348,12 @@ main.tkfe350 {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-between;
         list-style: none;
         margin: 0 auto;
         padding: 0;
+        @include respondTo('lg') {
+          justify-content: space-between;
+        }
 
         li {
           counter-increment: my-awesome-counter;
@@ -330,6 +372,9 @@ main.tkfe350 {
           border-radius: 9999px;
           position: relative;
           padding: 20px 0;
+          @include respondTo('mlg') {
+            margin-bottom: 15px;
+          }
 
           span {
             display: block;
@@ -356,7 +401,10 @@ main.tkfe350 {
             /* 아래가 핵심 */
             font-family: 'Font Awesome 5 Free';
             font-weight: 900;
-            color: $black-four;
+            color: $pinkish-grey-two;
+            @include respondTo('lg') {
+              color: $black-four;
+            }
           }
           &:before {
             content: '0' counter(my-awesome-counter);
