@@ -9,6 +9,7 @@ new fullpage('#fullpage', {
     'banner',
     'footer',
   ],
+  paddingTop: '80px',
   menu: '#myMenu',
   slidesNavigation: true,
   controlArrows: false,
@@ -30,6 +31,17 @@ new fullpage('#fullpage', {
     if (section.index === 3) {
       document
         .querySelector('.section4 .layer')
+        .setAttribute('data-slide', destination.index);
+      document
+        .querySelector('.section4')
+        .setAttribute('data-slide', destination.index);
+    }
+    if (section.index === 4) {
+      document
+        .querySelector('.section .layer')
+        .setAttribute('data-slide', destination.index);
+      document
+        .querySelector('.section')
         .setAttribute('data-slide', destination.index);
     }
   },

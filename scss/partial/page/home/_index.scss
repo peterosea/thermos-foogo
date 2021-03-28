@@ -24,4 +24,9 @@
       content: '';
     }
   }
+  .section {
+    @include respondTo('mmd') {
+      padding-top: 0 !important;
+    }
+  }
 }

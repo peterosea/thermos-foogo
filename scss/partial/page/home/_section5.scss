@@ -72,10 +72,13 @@
   }
   .container {
     @include respondTo('mmd') {
-      height: 100%;
       padding-top: 60px;
     }
   }
+  // .fp-slide,
+  // .fp-slide .fp-tableCell {
+  //   overflow: visible;
+  // }
   .cloudGroup {
     display: flex;
     flex-direction: column;
@@ -84,19 +87,21 @@
     top: 50%;
     left: 50%;
     transform: translateY(-70%) translateX(-50%);
-    @include respondTo('mmd') {
-      width: 300px;
-      &:after {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 100px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 50%;
-        width: 50%;
-        height: 50%;
-        background-color: #cfe1e2;
+    &.after {
+      @include respondTo('mmd') {
+        width: 300px;
+        &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 100px;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 50%;
+          width: 50%;
+          height: 50%;
+          background-color: #cfe1e2;
+        }
       }
     }
     @include respondTo('md') {
@@ -107,14 +112,54 @@
       transition: transform 0.8s ease-in-out;
       transition-delay: 0.3s;
     }
+    .path3032 {
+      transform: translate(-130%, -60%);
+      @include respondTo('lg') {
+        transform: translate(-100%, -100%);
+      }
+    }
+    .path30361 {
+      transform: translate(-30%, 10%);
+      @include respondTo('lg') {
+        transform: translate(-100px, -100px);
+      }
+    }
+    .path30301 {
+      transform: translate(-40%, 30%);
+      @include respondTo('lg') {
+        transform: translate(-100px, 50px);
+      }
+    }
+    .path2714 {
+      @include respondTo('mmd') {
+        transform: translate(-60%, 80%);
+      }
+    }
+  }
+  .contentRow {
+    z-index: 2;
+    position: relative;
   }
   img.main {
-    @include respondTo('mmd') {
-      width: 310px;
-      z-index: 2;
+    &.path2932 {
+      @include respondTo('msm') {
+        max-width: 200px;
+      }
     }
-    @include respondTo('md') {
-      transform: translateX(25%);
+    &.path1051 {
+      @include respondTo('mmd') {
+        transform: translateX(25%);
+      }
+    }
+    @include respondTo('mmd') {
+      width: 80vw;
+      z-index: 2;
+      max-width: 310px;
+    }
+    &:not(.nt) {
+      @include respondTo('md') {
+        transform: translateX(25%);
+      }
     }
   }
   .pointBg {
