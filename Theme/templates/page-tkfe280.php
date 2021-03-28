@@ -201,7 +201,7 @@ include('product/inspection.php');
       <div class="row">
         <div class="col-12 col-lg-5 imgCol">
           <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29741.png" srcset="<?php echo $zeplin ?>/29741@2x.png 2x, <?php echo $zeplin ?>/29741@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2974.png" srcset="<?php echo $zeplin ?>/2974@2x.png 2x, <?php echo $zeplin ?>/2974@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30201.png" srcset="<?php echo $zeplin ?>/30201@2x.png 2x, <?php echo $zeplin ?>/30201@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">

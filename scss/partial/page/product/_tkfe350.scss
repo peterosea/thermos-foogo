@@ -67,6 +67,7 @@ main.tkfe350 {
       margin-bottom: 50px;
     }
     img {
+      margin: 0 auto;
       &:not(:last-child) {
         @include respondTo('mlg') {
           margin: 0 auto 50px;
@@ -90,6 +91,7 @@ main.tkfe350 {
     .header {
       text-align: center;
       margin-bottom: 50px;
+      color: $black-four;
       @include respondTo('lg') {
         margin-bottom: 80px;
       }
@@ -157,6 +159,10 @@ main.tkfe350 {
       }
       &.light-blue-grey {
         background-color: $light-blue-grey;
+        @include respondTo('mlg') {
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
       }
     }
   }
