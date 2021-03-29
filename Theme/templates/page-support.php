@@ -25,9 +25,9 @@ include('product/hero.php');
       </div>
       <div class="col-12 col-lg-6">
         <div class="card">
-          <h2>고객상담실(A/S 문의)</h2>
+          <h2>영업관련 문의</h2>
           <img draggable="false" src="<?php echo $zeplin; ?>/29322.png" srcset="<?php echo $zeplin; ?>/29322@2x.png 2x, <?php echo $zeplin; ?>/29322@3x.png 3x">
-          <a href="mailto:sale@thermos.kr" class="point mail">sale@thermos.kr</a>
+          <a style="line-height: 2.6" href="mailto:sale@thermos.kr" class="point mail">sale@thermos.kr</a>
         </div>
       </div>
     </div>

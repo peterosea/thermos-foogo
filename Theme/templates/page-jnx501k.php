@@ -73,8 +73,8 @@ include('product/inspection.php');
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-lg-6 imgCol px-lg-0">
-          <img draggable="false" src="<?php echo $zeplin ?>/543.jpg" srcset="<?php echo $zeplin ?>/543@2x.jpg 2x, <?php echo $zeplin ?>/543@3x.jpg 3x">
+        <div class="col-12 imgCol px-lg-0">
+          <img draggable="false" src="<?php echo $zeplin ?>/546.jpg" srcset="<?php echo $zeplin ?>/546@2x.jpg 2x, <?php echo $zeplin ?>/546@3x.jpg 3x">
         </div>
       </div>
       <div class="row light-blue-grey">

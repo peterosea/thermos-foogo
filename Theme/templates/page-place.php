@@ -10,8 +10,8 @@ get_header();
 include('product/hero.php');
 ?>
 <main class="pageTemplate place">
-  <img draggable="false" class="d-none d-lg-block" src="<?php echo $zeplin ?>/all3.jpg" srcset="<?php echo $zeplin ?>/all3@2x.jpg 2x, <?php echo $zeplin ?>/all3@3x.jpg 3x">
-  <img draggable="false" class="d-block d-lg-none" src="<?php echo $zeplin ?>/all4.jpg" srcset="<?php echo $zeplin ?>/all4@2x.jpg 2x, <?php echo $zeplin ?>/all4@3x.jpg 3x">
+  <img draggable="false" class="header d-none d-lg-block" src="<?php echo $zeplin ?>/all3.jpg" srcset="<?php echo $zeplin ?>/all3@2x.jpg 2x, <?php echo $zeplin ?>/all3@3x.jpg 3x">
+  <img draggable="false" class="header d-block d-lg-none" src="<?php echo $zeplin ?>/all4.jpg" srcset="<?php echo $zeplin ?>/all4@2x.jpg 2x, <?php echo $zeplin ?>/all4@3x.jpg 3x">
   <div class="section">
     <div class="container">
       <div class="header">

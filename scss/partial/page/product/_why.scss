@@ -15,10 +15,14 @@
       margin-bottom: 32px;
     }
   }
+  h1 {
+    font-size: 40px;
+  }
   h2 {
+    font-weight: 800;
+    margin-bottom: 31px;
     @include respondTo('mmd') {
       font-size: 18px;
-      font-weight: 800;
       margin-bottom: 21px;
     }
   }
@@ -35,15 +39,17 @@
         position: absolute;
         top: 40%;
         left: 50%;
-        transform: translateX(100px);
+        transform: translateX(50%) translateY(260%);
+        font-size: 30px;
       }
     }
   }
   .table {
     max-width: 900px;
     margin: 0 auto;
-    @include respondTo('mmd') {
+    @include respondTo('mlg') {
       display: flex;
+      justify-content: center;
       .row {
         margin: -0.5px;
       }
@@ -113,7 +119,7 @@
     align-items: center;
     flex-direction: column;
     // height: 100%;
-    @include respondTo('md') {
+    @include respondTo('lg') {
       flex-direction: row;
     }
     img {

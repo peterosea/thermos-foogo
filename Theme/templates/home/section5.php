@@ -80,7 +80,8 @@
       </div>
       <div class="row">
         <div class="col-12 d-flex justify-content-center position-relative">
-          <img class="main" draggable="false" src="<?php echo $zeplin ?>/177.png" srcset="<?php echo $zeplin ?>/177@2x.png 2x, <?php echo $zeplin ?>/177@3x.png 3x">
+          <img class="main d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/1772.png" srcset="<?php echo $zeplin ?>/1772@2x.png 2x, <?php echo $zeplin ?>/1772@3x.png 3x">
+          <img class="main d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/177.png" srcset="<?php echo $zeplin ?>/177@2x.png 2x, <?php echo $zeplin ?>/177@3x.png 3x">
         </div>
       </div>
     </div>

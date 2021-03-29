@@ -14,11 +14,6 @@
       transform: translateX(-50%) translateY(0);
     }
   }
-  .container {
-    @include respondTo('lg') {
-      max-width: 900px;
-    }
-  }
   &.active .layer {
     .path96 {
       transform: translateX(0) translateY(0);
@@ -121,13 +116,13 @@
     .path30361 {
       transform: translate(-30%, 10%);
       @include respondTo('lg') {
-        transform: translate(-100px, -100px);
+        transform: translate(0, 0);
       }
     }
     .path30301 {
       transform: translate(-40%, 30%);
       @include respondTo('lg') {
-        transform: translate(-100px, 50px);
+        transform: translate(-20%, 30%);
       }
     }
     .path2714 {

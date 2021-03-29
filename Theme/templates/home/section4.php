@@ -100,7 +100,7 @@
   <div class="slide">
     <div class="container">
       <div class="row gx-md-5">
-        <div class="col-12 col-md-6 px-4 px-md--3">
+        <div class="col-12 col-md-6 px-4 px-md-3">
           <h1>
             계속 자라는 아이를<br />
             생각했어요.
@@ -151,7 +151,7 @@
       </div>
       <div class="row">
         <div class="col-12 px-4 px-md-3 d-flex justify-content-center">
-          <img class="main" style="max-width: 500px" draggable="false" src="<?php echo $zeplin ?>/3031.png" srcset="<?php echo $zeplin ?>/3031@2x.png 2x, <?php echo $zeplin ?>/3031@3x.png 3x">
+          <img class="main cp" style="max-width: 500px" draggable="false" src="<?php echo $zeplin ?>/3031.png" srcset="<?php echo $zeplin ?>/3031@2x.png 2x, <?php echo $zeplin ?>/3031@3x.png 3x">
         </div>
       </div>
     </div>

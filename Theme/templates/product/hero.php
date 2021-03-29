@@ -30,15 +30,15 @@ HTML;
     <img draggable="false" src="$zeplin/all.jpg" srcset="$zeplin/all@2x.jpg 2x, $zeplin/all@3x.jpg 3x">
     <div class="container position-absolute">
       <div class="row">
-        <div class="col text-center text-xl-start">
+        <div class="col text-center text-xxl-start">
           <img class="logo" draggable="false" src="$zeplin/logo-3.png" srcset="$zeplin/logo-3@2x.png 2x, $zeplin/logo-3@3x.png 3x">
         </div>
-        <div class="col-8 d-none d-xl-block body">
+        <div class="col-8 d-none d-xxl-block body">
           $content
         </div>
       </div>
     </div>
-    <div class="container position-static d-block d-xl-none">
+    <div class="container position-static d-block d-xxl-none">
       $content
     </div>
   </div>

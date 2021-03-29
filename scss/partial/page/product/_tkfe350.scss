@@ -8,6 +8,10 @@ main.tkfe350 {
     }
   }
 
+  h1 {
+    font-weight: 700;
+  }
+
   .row > * {
     @include respondTo('msm') {
       --bs-gutter-x: 80px;
@@ -30,6 +34,9 @@ main.tkfe350 {
         margin-top: 80px;
         padding-top: 100px;
       }
+    }
+    img {
+      width: 100%;
     }
     .imgWrap {
       margin-bottom: 30px;
@@ -88,6 +95,11 @@ main.tkfe350 {
     @include respondTo('lg') {
       padding-top: 120px;
     }
+    .container .row:nth-of-type(2) {
+      img {
+        width: 100%;
+      }
+    }
     .header {
       text-align: center;
       margin-bottom: 50px;
@@ -136,6 +148,10 @@ main.tkfe350 {
           margin-bottom: 50px;
         }
       }
+      h1 {
+        font-size: 40px;
+        margin-bottom: 19px;
+      }
       p {
         font-size: 14px;
         @include respondTo('lg') {
@@ -144,7 +160,8 @@ main.tkfe350 {
       }
       &.pink,
       &.two,
-      &.three {
+      &.three,
+      &.light-blue-grey {
         padding-top: 50px;
         padding-bottom: 50px;
       }
@@ -286,6 +303,9 @@ main.tkfe350 {
   }
   .section7 {
     background-color: $white-five;
+    img {
+      width: 100%;
+    }
     .container {
       padding-top: 65px;
       padding-bottom: 60px;
@@ -329,8 +349,8 @@ main.tkfe350 {
           width: 135px;
           height: 135px;
           @include respondTo('lg') {
-            width: 190px;
-            height: 190px;
+            width: 180px;
+            height: 180px;
           }
           span {
             font-size: 16px;

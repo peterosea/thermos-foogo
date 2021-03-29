@@ -46,7 +46,7 @@
       transition: transform 1s ease-in-out, opacity 1s ease-in-out;
     }
     .path43 {
-      --motion: calc(var(--count) * -300px);
+      --motion: calc(var(--count) * -50px);
       bottom: 0;
       transform: translateX(var(--motion));
       transition: transform 1s ease-in-out;
@@ -90,7 +90,9 @@
     color: $copper;
   }
   img.main {
-    max-width: 500px;
     width: 80vw;
+    &.cp {
+      max-width: 500px;
+    }
   }
 }

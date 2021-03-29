@@ -29,6 +29,7 @@ main.introduction {
   }
   .layer {
     img {
+      width: 100%;
       @include respondTo('mxl') {
         width: 140vw;
         max-width: none;

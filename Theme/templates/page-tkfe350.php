@@ -22,7 +22,7 @@ include('product/inspection.php');
       </div>
       <div class="body">
         <h1>긴 외출에도 걱정 없는 대용량</h1>
-        <p>푸고 프리미엄 뉴트럴 시리즈 유아용 빨대컵 350ml</p>
+        <strong>푸고 프리미엄 뉴트럴 시리즈 유아용 빨대컵 350ml</strong>
         <p><?php echo get_the_title() ?></p>
       </div>
     </div>
