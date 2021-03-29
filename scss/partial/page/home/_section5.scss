@@ -136,6 +136,11 @@
     z-index: 2;
     position: relative;
   }
+  .imgRow {
+    img {
+      max-height: 50vh;
+    }
+  }
   img.main {
     &.path2932 {
       @include respondTo('msm') {

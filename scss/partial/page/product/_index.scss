@@ -230,7 +230,7 @@ main.productLending {
     .row:not(:last-child) {
       margin-bottom: 75px;
       @include respondTo('lg') {
-        margin-bottom: -50px;
+        margin-bottom: -30px;
       }
       .title + p {
         @include respondTo('mlg') {

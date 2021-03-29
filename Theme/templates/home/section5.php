@@ -2,10 +2,10 @@
   <div class="layer">
     <div class="innerLayer">
       <div class="group46">
-        <img class="d-none d-md-block" draggable="false" class="position-absolute path96" src="<?php echo $zeplin ?>/96.png" srcset="<?php echo $zeplin ?>/96@2x.png 2x, <?php echo $zeplin ?>/96@3x.png 3x">
+        <img class="d-none d-md-block position-absolute path96" draggable="false" src="<?php echo $zeplin ?>/96.png" srcset="<?php echo $zeplin ?>/96@2x.png 2x, <?php echo $zeplin ?>/96@3x.png 3x">
       </div>
     </div>
-    <img class="d-none d-md-block" draggable="false" class="position-absolute path2963" src="<?php echo $zeplin ?>/2963.png" srcset="<?php echo $zeplin ?>/2963@2x.png 2x, <?php echo $zeplin ?>/2963@3x.png 3x">
+    <img class="d-none d-md-block position-absolute path2963" draggable="false" src="<?php echo $zeplin ?>/2963.png" srcset="<?php echo $zeplin ?>/2963@2x.png 2x, <?php echo $zeplin ?>/2963@3x.png 3x">
   </div>
   <div class="slide">
     <div class="container">
@@ -24,7 +24,7 @@
           </p>
         </div>
       </div>
-      <div class="row mb-5">
+      <div class="row imgRow">
         <div class="col-12 d-flex justify-content-center position-relative">
           <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/1821.png" srcset="<?php echo $zeplin ?>/1821@2x.png 2x, <?php echo $zeplin ?>/1821@3x.png 3x">
           <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/183552.png" srcset="<?php echo $zeplin ?>/183552@2x.png 2x, <?php echo $zeplin ?>/183552@3x.png 3x">
@@ -48,7 +48,7 @@
           </p>
         </div>
       </div>
-      <div class="row mb-5">
+      <div class="row imgRow">
         <div class="col-12 d-flex justify-content-center position-relative">
           <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/181.png" srcset="<?php echo $zeplin ?>/181@2x.png 2x, <?php echo $zeplin ?>/181@3x.png 3x">
           <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1822.png" srcset="<?php echo $zeplin ?>/1822@2x.png 2x, <?php echo $zeplin ?>/1822@3x.png 3x">
@@ -73,7 +73,7 @@
           </p>
         </div>
       </div>
-      <div class="row mb-5">
+      <div class="row imgRow">
         <div class="col-12 d-flex justify-content-center position-relative">
           <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/18355.png" srcset="<?php echo $zeplin ?>/18355@2x.png 2x, <?php echo $zeplin ?>/18355@3x.png 3x">
           <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1835.png" srcset="<?php echo $zeplin ?>/1835@2x.png 2x, <?php echo $zeplin ?>/1835@3x.png 3x">
@@ -97,7 +97,7 @@
           </p>
         </div>
       </div>
-      <div class="row mb-5">
+      <div class="row imgRow">
         <div class="col-12 d-flex justify-content-center position-relative">
           <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/179.png" srcset="<?php echo $zeplin ?>/179@2x.png 2x, <?php echo $zeplin ?>/179@3x.png 3x">
           <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1843.png" srcset="<?php echo $zeplin ?>/1843@2x.png 2x, <?php echo $zeplin ?>/1843@3x.png 3x">
@@ -123,7 +123,7 @@
           </p>
         </div>
       </div>
-      <div class="row mb-5">
+      <div class="row imgRow">
         <div class="col-12 d-flex justify-content-center position-relative">
           <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/178.png" srcset="<?php echo $zeplin ?>/178@2x.png 2x, <?php echo $zeplin ?>/178@3x.png 3x">
           <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/183553.png" srcset="<?php echo $zeplin ?>/183553@2x.png 2x, <?php echo $zeplin ?>/183553@3x.png 3x">
