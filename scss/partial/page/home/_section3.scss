@@ -63,6 +63,9 @@
   .body {
     display: flex;
     justify-content: center;
+    .custom {
+      position: absolute;
+    }
   }
   .item {
     position: relative;
@@ -135,7 +138,7 @@
     writing-mode: vertical-rl;
   }
 
-  .item__title {
+  .item__title_disable {
     font-size: 1.165em;
     font-weight: 600;
     width: 100%;

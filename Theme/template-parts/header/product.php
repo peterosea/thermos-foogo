@@ -2,7 +2,7 @@
 $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
 ?>
 <header class="productHeader">
-  <div class="container">
+  <div class="container-lg">
     <div class="row">
       <div class="col-12 col-lg">
         <a class="linkWrap" href="#">

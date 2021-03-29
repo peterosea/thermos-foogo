@@ -12,7 +12,6 @@
       <p>푸고 프리미엄 뉴트럴 시리즈의 탄생이야기를 지금 영상으로 만나보세요</p>
     </div>
     <div class="body">
-
       <div class="item item--style-2" data-animation-path-duration="1500" data-animation-path-easing="easeOutElastic" data-morph-path="M 418.1,159.8 C 460.9,222.9 497,321.5 452.4,383.4 417.2,432.4 371.2,405.6 271.3,420.3 137.2,440 90.45,500.6 42.16,442.8 -9.572,381 86.33,289.1 117.7,215.5 144.3,153.4 145.7,54.21 212.7,36.25 290.3,15.36 373.9,94.6 418.1,159.8 Z" data-path-scaleY="1.1" data-image-scaleX="1.3" data-image-scaleY="1.3" data-animation-deco-duration="2000" data-animation-deco-delay="100" data-deco-rotate="-10">
         <svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
           <clipPath id="clipShape2">
@@ -26,8 +25,10 @@
           </g>
         </svg>
         <div class="item__meta">
-          <h2 class="item__title">푸고 프리미엄</h2>
-          <h3 class="item__subtitle">뉴트럴 시리즈 이야기</h3>
+          <div class="custom">
+            <img src="<?php echo $zeplin ?>/btn-play.png" srcset="<?php echo $zeplin ?>/btn-play@2x.png 2x, <?php echo $zeplin ?>/btn-play@3x.png 3x">
+          </div>
+          <h2 class="item__title_disable">푸고 프리미엄<br /> 뉴트럴 시리즈 이야기</h2>
         </div>
       </div>
     </div>

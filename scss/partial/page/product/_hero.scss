@@ -2,6 +2,9 @@
   position: relative;
   background-color: $off-white;
   color: $brownish-grey;
+  p {
+    font-size: 16px;
+  }
   @include respondTo('xl') {
     color: $black-four;
   }

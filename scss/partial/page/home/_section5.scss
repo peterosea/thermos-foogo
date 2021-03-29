@@ -82,6 +82,7 @@
     top: 50%;
     left: 50%;
     transform: translateY(-70%) translateX(-50%);
+    z-index: -1;
     &.after {
       @include respondTo('mmd') {
         width: 300px;
@@ -140,18 +141,15 @@
       @include respondTo('msm') {
         max-width: 200px;
       }
-    }
-    &.path1051 {
       @include respondTo('mmd') {
-        transform: translateX(25%);
+        width: 80vw;
+        z-index: 2;
+        max-width: 310px;
       }
     }
-    @include respondTo('mmd') {
-      width: 80vw;
-      z-index: 2;
-      max-width: 310px;
+    &.path1051 {
     }
-    &:not(.nt) {
+    &.nt {
       @include respondTo('md') {
         transform: translateX(25%);
       }

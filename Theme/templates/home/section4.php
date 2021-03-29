@@ -120,8 +120,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 px-4 px-md-3 d-flex justify-content-center">
-          <img class="main" draggable="false" src="<?php echo $zeplin ?>/2931.png" srcset="<?php echo $zeplin ?>/2931@2x.png 2x, <?php echo $zeplin ?>/2931@3x.png 3x">
+        <div class="col-12 px-0 px-md-3 d-flex justify-content-center">
+          <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/2931.png" srcset="<?php echo $zeplin ?>/2931@2x.png 2x, <?php echo $zeplin ?>/2931@3x.png 3x">
+          <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1873.png" srcset="<?php echo $zeplin ?>/1873@2x.png 2x, <?php echo $zeplin ?>/1873@3x.png 3x">
         </div>
       </div>
     </div>

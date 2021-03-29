@@ -2,35 +2,32 @@
   <div class="layer">
     <div class="innerLayer">
       <div class="group46">
-        <img draggable="false" class="position-absolute path96" src="<?php echo $zeplin ?>/96.png" srcset="<?php echo $zeplin ?>/96@2x.png 2x, <?php echo $zeplin ?>/96@3x.png 3x">
+        <img class="d-none d-md-block" draggable="false" class="position-absolute path96" src="<?php echo $zeplin ?>/96.png" srcset="<?php echo $zeplin ?>/96@2x.png 2x, <?php echo $zeplin ?>/96@3x.png 3x">
       </div>
     </div>
-    <img draggable="false" class="position-absolute path2963" src="<?php echo $zeplin ?>/2963.png" srcset="<?php echo $zeplin ?>/2963@2x.png 2x, <?php echo $zeplin ?>/2963@3x.png 3x">
+    <img class="d-none d-md-block" draggable="false" class="position-absolute path2963" src="<?php echo $zeplin ?>/2963.png" srcset="<?php echo $zeplin ?>/2963@2x.png 2x, <?php echo $zeplin ?>/2963@3x.png 3x">
   </div>
   <div class="slide">
     <div class="container">
       <div class="row gx-md-5 mb-5 mb-md-0 contentRow">
         <div class="col-12 col-md-6 px-4 px-md-3">
           <h1>
-            긴 외출에도<br />
-            걱정 없는 대용량
+            두 가지 타입으로<br />
+            변신
           </h1>
         </div>
         <div class="col-12 col-md-6 px-4 px-md-5">
           <p>
-            자라나는 아이를 위해 사이즈를 키웠어요.<br />
-            <span class="pointBg">350ml 충분한 용량</span>으로 물을 많이 마시는<br />
-            우리 아이에게 잘 맞아요.
+            시피컵과 빨대컵, 두 가지로 사용할 수 있어요.<br />
+            <span class="pointBg">마개만 바꾸면 아이의 성장 단계에 맞게</span><br />
+            쓸 수 있어 더욱 좋아요.
           </p>
         </div>
       </div>
       <div class="row">
         <div class="col-12 d-flex justify-content-center position-relative">
-          <div class="cloudGroup after">
-            <img class="path2964" draggable="false" src="<?php echo $zeplin ?>/2964.png" srcset="<?php echo $zeplin ?>/2964@2x.png 2x, <?php echo $zeplin ?>/2964@3x.png 3x">
-            <img class="path14" draggable="false" src="<?php echo $zeplin ?>/14.png" srcset="<?php echo $zeplin ?>/14@2x.png 2x, <?php echo $zeplin ?>/14@3x.png 3x">
-          </div>
-          <img class="main path2932" draggable="false" src="<?php echo $zeplin ?>/2932.png" srcset="<?php echo $zeplin ?>/2932@2x.png 2x, <?php echo $zeplin ?>/2932@3x.png 3x">
+          <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/1821.png" srcset="<?php echo $zeplin ?>/1821@2x.png 2x, <?php echo $zeplin ?>/1821@3x.png 3x">
+          <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/183552.png" srcset="<?php echo $zeplin ?>/183552@2x.png 2x, <?php echo $zeplin ?>/183552@3x.png 3x">
         </div>
       </div>
     </div>
@@ -53,11 +50,33 @@
       </div>
       <div class="row">
         <div class="col-12 d-flex justify-content-center position-relative">
-          <div class="cloudGroup">
-            <img class="path2964 path2714" draggable="false" src="<?php echo $zeplin ?>/2714.png" srcset="<?php echo $zeplin ?>/2714@2x.png 2x, <?php echo $zeplin ?>/2714@3x.png 3x">
-            <img class="path3032" draggable="false" src="<?php echo $zeplin ?>/3032.png" srcset="<?php echo $zeplin ?>/3032@2x.png 2x, <?php echo $zeplin ?>/3032@3x.png 3x">
-          </div>
-          <img class="main" draggable="false" src="<?php echo $zeplin ?>/2925.png" srcset="<?php echo $zeplin ?>/2925@2x.png 2x, <?php echo $zeplin ?>/2925@3x.png 3x">
+          <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/181.png" srcset="<?php echo $zeplin ?>/181@2x.png 2x, <?php echo $zeplin ?>/181@3x.png 3x">
+          <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1822.png" srcset="<?php echo $zeplin ?>/1822@2x.png 2x, <?php echo $zeplin ?>/1822@3x.png 3x">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="container">
+      <div class="row gx-md-5 mb-5 mb-md-0 contentRow">
+        <div class="col-12 col-md-6 px-4 px-md-3">
+          <h1>
+            긴 외출에도<br />
+            걱정 없는 대용량
+          </h1>
+        </div>
+        <div class="col-12 col-md-6 px-4 px-md-5">
+          <p>
+            자라나는 아이를 위해 사이즈를 키웠어요.<br />
+            <span class="pointBg">350ml 충분한 용량</span>으로 물을 많이 마시는<br />
+            우리 아이에게 잘 맞아요.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center position-relative">
+          <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/18355.png" srcset="<?php echo $zeplin ?>/18355@2x.png 2x, <?php echo $zeplin ?>/18355@3x.png 3x">
+          <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1835.png" srcset="<?php echo $zeplin ?>/1835@2x.png 2x, <?php echo $zeplin ?>/1835@3x.png 3x">
         </div>
       </div>
     </div>
@@ -80,8 +99,8 @@
       </div>
       <div class="row">
         <div class="col-12 d-flex justify-content-center position-relative">
-          <img class="main d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/1772.png" srcset="<?php echo $zeplin ?>/1772@2x.png 2x, <?php echo $zeplin ?>/1772@3x.png 3x">
-          <img class="main d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/177.png" srcset="<?php echo $zeplin ?>/177@2x.png 2x, <?php echo $zeplin ?>/177@3x.png 3x">
+          <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/179.png" srcset="<?php echo $zeplin ?>/179@2x.png 2x, <?php echo $zeplin ?>/179@3x.png 3x">
+          <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1843.png" srcset="<?php echo $zeplin ?>/1843@2x.png 2x, <?php echo $zeplin ?>/1843@3x.png 3x">
         </div>
       </div>
     </div>
@@ -106,11 +125,8 @@
       </div>
       <div class="row">
         <div class="col-12 d-flex justify-content-center position-relative">
-          <div class="cloudGroup">
-            <img class="path30301" draggable="false" src="<?php echo $zeplin ?>/30301.png" srcset="<?php echo $zeplin ?>/30301@2x.png 2x, <?php echo $zeplin ?>/30301@3x.png 3x">
-            <img class="path30361" draggable="false" src="<?php echo $zeplin ?>/30361.png" srcset="<?php echo $zeplin ?>/30361@2x.png 2x, <?php echo $zeplin ?>/30361@3x.png 3x">
-          </div>
-          <img class="main path1051" draggable="false" src="<?php echo $zeplin ?>/1051.png" srcset="<?php echo $zeplin ?>/1051@2x.png 2x, <?php echo $zeplin ?>/1051@3x.png 3x">
+          <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/178.png" srcset="<?php echo $zeplin ?>/178@2x.png 2x, <?php echo $zeplin ?>/178@3x.png 3x">
+          <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/183553.png" srcset="<?php echo $zeplin ?>/183553@2x.png 2x, <?php echo $zeplin ?>/183553@3x.png 3x">
         </div>
       </div>
     </div>

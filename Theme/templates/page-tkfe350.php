@@ -101,10 +101,10 @@ include('product/inspection.php');
         </div>
       </div>
       <div class="row three">
-        <div class="col-12 col-lg-5 imgCol">
+        <div class="col-12 col-lg-6 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/3055.png" srcset="<?php echo $zeplin ?>/3055@2x.png 2x, <?php echo $zeplin ?>/3055@3x.png 3x">
         </div>
-        <div class="col-12 col-lg-7 contentCol">
+        <div class="col-12 col-lg-6 contentCol">
           <h1>
             성장단계에 맞춰<br />
             상호 호환 가능<span class="comment">(*별도구매)</span>
