@@ -172,7 +172,7 @@ include('product/detail.php');
       </div>
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row m-0">
         <div class="col-12">
           <div class="header">
             <h2>
@@ -187,7 +187,7 @@ include('product/detail.php');
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row m-0">
         <div class="col-12">
           <div class="body">
             <div class="item" style="background-image: url(<?php echo $zeplin ?>/220@3x.png)">

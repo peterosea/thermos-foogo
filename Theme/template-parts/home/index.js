@@ -9,7 +9,6 @@ new fullpage('#fullpage', {
     'banner',
     'footer',
   ],
-  paddingTop: '80px',
   menu: '#myMenu',
   slidesNavigation: true,
   controlArrows: false,

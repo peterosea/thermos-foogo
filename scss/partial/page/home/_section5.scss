@@ -66,6 +66,9 @@
     }
   }
   .container {
+    @include respondTo('md') {
+      max-width: 900px;
+    }
     @include respondTo('mmd') {
       padding-top: 60px;
     }
