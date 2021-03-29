@@ -10,12 +10,15 @@ get_header();
 include('product/hero.php');
 include('product/why.php');
 include('product/inspection.php');
+include('product/detail.php');
 ?>
-<main class="pageTemplate tkfe350">
+<main class="pageTemplate productLending">
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
-    <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/tkfd-200-all03.jpg" srcset="<?php echo $zeplin ?>/tkfd-200-all03@2x.jpg 2x, <?php echo $zeplin ?>/tkfd-200-all03@3x.jpg 3x">
-    <img class="d-block d-lg-none w-100" draggable="false" src="<?php echo $zeplin ?>/17422.jpg" srcset="<?php echo $zeplin ?>/17422@2x.jpg 2x, <?php echo $zeplin ?>/17422@3x.jpg 3x">
+    <div class="mainSectionImgWrap">
+      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/tkfd-200-all03.jpg" srcset="<?php echo $zeplin ?>/tkfd-200-all03@2x.jpg 2x, <?php echo $zeplin ?>/tkfd-200-all03@3x.jpg 3x">
+      <img class="d-block d-lg-none w-100" draggable="false" src="<?php echo $zeplin ?>/17422.jpg" srcset="<?php echo $zeplin ?>/17422@2x.jpg 2x, <?php echo $zeplin ?>/17422@3x.jpg 3x">
+    </div>
     <div class="container">
       <div class="imgWrap">
         <img draggable="false" src="<?php echo $zeplin ?>/2724.png" srcset="<?php echo $zeplin ?>/2724@2x.png 2x, <?php echo $zeplin ?>/2724@3x.png 3x">
@@ -90,7 +93,7 @@ include('product/inspection.php');
           </p>
         </div>
       </div>
-      <div class="row two pb-0">
+      <div class="row two pb-lg-0">
         <div class="col-12 col-lg-6 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/226.png" srcset="<?php echo $zeplin ?>/226@2x.png 2x, <?php echo $zeplin ?>/226@3x.png 3x">
         </div>
@@ -107,25 +110,7 @@ include('product/inspection.php');
         </div>
       </div>
 
-      <div class="row three">
-        <div class="col-12 col-lg-6 imgCol">
-          <img draggable="false" src="<?php echo $zeplin ?>/3055.png" srcset="<?php echo $zeplin ?>/3055@2x.png 2x, <?php echo $zeplin ?>/3055@3x.png 3x">
-        </div>
-        <div class="col-12 col-lg-6 contentCol">
-          <h1>
-            성장단계에 맞춰<br />
-            상호 호환 가능<span class="comment">(*별도구매)</span>
-          </h1>
-          <p>
-            푸고 프리미엄 뉴트럴 시리즈는 아이의 성장단계에 맞추어 소모품을<br />
-            자유롭게 변경할 수 있는데요.<br />
-            시리즈를 톤온톤 배색으로 디자인하여 호환해 사용해도 잘 어울려요<br />
-            바닥 커버도 시리즈 내 호환이 가능해<br />
-            원하는 컬러로 변경하며 사용할 수 있어요.
-          </p>
-        </div>
-      </div>
-
+      <?php echo detail($arg = 'three') ?>
     </div>
   </div>
   <div class="section section6">

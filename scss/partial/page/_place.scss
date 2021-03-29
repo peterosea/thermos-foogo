@@ -1,7 +1,4 @@
 main.place {
-  @include respondTo('mlg') {
-    padding-top: 80px;
-  }
   color: $black-four;
   .header {
     width: 100%;

@@ -9,12 +9,15 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
 get_header();
 include('product/hero.php');
 include('product/inspection.php');
+include('product/detail.php');
 ?>
-<main class="pageTemplate tkfe350">
+<main class="pageTemplate productLending">
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
-    <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/139.jpg" srcset="<?php echo $zeplin ?>/139@2x.jpg 2x, <?php echo $zeplin ?>/139@3x.jpg 3x">
-    <img class="d-block d-lg-none w-100" draggable="false" src="<?php echo $zeplin ?>/1746.jpg" srcset="<?php echo $zeplin ?>/1746@2x.jpg 2x, <?php echo $zeplin ?>/1746@3x.jpg 3x">
+    <div class="mainSectionImgWrap">
+      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/139.jpg" srcset="<?php echo $zeplin ?>/139@2x.jpg 2x, <?php echo $zeplin ?>/139@3x.jpg 3x">
+      <img class="d-block d-lg-none w-100" draggable="false" src="<?php echo $zeplin ?>/1746.jpg" srcset="<?php echo $zeplin ?>/1746@2x.jpg 2x, <?php echo $zeplin ?>/1746@3x.jpg 3x">
+    </div>
     <div class="container">
       <div class="imgWrap">
         <img draggable="false" src="<?php echo $zeplin ?>/2849.png" srcset="<?php echo $zeplin ?>/2849@2x.png 2x, <?php echo $zeplin ?>/2849@3x.png 3x">
@@ -79,7 +82,8 @@ include('product/inspection.php');
       </div>
       <div class="row light-blue-grey">
         <div class="col-12 col-lg-6 imgCol">
-          <img draggable="false" src="<?php echo $zeplin ?>/217.png" srcset="<?php echo $zeplin ?>/217@2x.png 2x, <?php echo $zeplin ?>/217@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/217.png" srcset="<?php echo $zeplin ?>/217@2x.png 2x, <?php echo $zeplin ?>/217@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/244.png" srcset="<?php echo $zeplin ?>/244@2x.png 2x, <?php echo $zeplin ?>/244@3x.png 3x">
         </div>
         <div class="col-12 col-lg-6 contentCol">
           <h1>
@@ -93,21 +97,7 @@ include('product/inspection.php');
           </p>
         </div>
       </div>
-      <div class="row three pb-lg-0">
-        <div class="col-12 col-lg-6 imgCol">
-          <img draggable="false" src="<?php echo $zeplin ?>/3017.png" srcset="<?php echo $zeplin ?>/3017@2x.png 2x, <?php echo $zeplin ?>/3017@3x.png 3x">
-        </div>
-        <div class="col-12 col-lg-6 contentCol">
-          <h1>
-            엄마·아빠의<br />
-            텀블러로 안성맞춤
-          </h1>
-          <p>
-            아기가 커서 더는 분유를 먹지 않으면 엄마와 아빠를 위한 <br class="d-none d-lg-block" />
-            휴대용 텀블러로 사용할 수 있어요.
-          </p>
-        </div>
-      </div>
+      <?php echo detail($arg = 'three') ?>
     </div>
   </div>
   <div class="section section6">

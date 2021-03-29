@@ -8,6 +8,11 @@
     }
   }
 
+  .row > * {
+    @include respondTo('msm') {
+      --bs-gutter-x: 80px;
+    }
+  }
   .row {
     margin-bottom: 28px;
   }

@@ -10,12 +10,15 @@ get_header();
 include('product/hero.php');
 include('product/why.php');
 include('product/inspection.php');
+include('product/detail.php');
 ?>
-<main class="pageTemplate tkfe350">
+<main class="pageTemplate productLending">
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
-    <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/tkfe-280-all2.jpg" srcset="<?php echo $zeplin ?>/tkfe-280-all2@2x.jpg 2x, <?php echo $zeplin ?>/tkfe-280-all2@3x.jpg 3x">
-    <img class="d-block d-lg-none w-100" draggable="false" src="<?php echo $zeplin ?>/1743.jpg" srcset="<?php echo $zeplin ?>/1743@2x.jpg 2x, <?php echo $zeplin ?>/1743@3x.jpg 3x">
+    <div class="mainSectionImgWrap">
+      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/tkfe-280-all2.jpg" srcset="<?php echo $zeplin ?>/tkfe-280-all2@2x.jpg 2x, <?php echo $zeplin ?>/tkfe-280-all2@3x.jpg 3x">
+      <img class="d-block d-lg-none w-100" draggable="false" src="<?php echo $zeplin ?>/1743.jpg" srcset="<?php echo $zeplin ?>/1743@2x.jpg 2x, <?php echo $zeplin ?>/1743@3x.jpg 3x">
+    </div>
     <div class="container">
       <div class="imgWrap">
         <img draggable="false" src="<?php echo $zeplin ?>/28182.png" srcset="<?php echo $zeplin ?>/28182@2x.png 2x, <?php echo $zeplin ?>/28182@3x.png 3x">
@@ -71,7 +74,8 @@ include('product/inspection.php');
       </div>
       <div class="row two">
         <div class="col-12 col-lg-6 imgCol">
-          <img draggable="false" src="<?php echo $zeplin ?>/226.png" srcset="<?php echo $zeplin ?>/226@2x.png 2x, <?php echo $zeplin ?>/226@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/226.png" srcset="<?php echo $zeplin ?>/226@2x.png 2x, <?php echo $zeplin ?>/226@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/234.png" srcset="<?php echo $zeplin ?>/234@2x.png 2x, <?php echo $zeplin ?>/234@3x.png 3x">
         </div>
         <div class="col-12 col-lg-6 contentCol">
           <h1>
@@ -87,7 +91,8 @@ include('product/inspection.php');
       </div>
       <div class="row pink">
         <div class="col-12 col-lg-6 imgCol">
-          <img draggable="false" src="<?php echo $zeplin ?>/222.png" srcset="<?php echo $zeplin ?>/222@2x.png 2x, <?php echo $zeplin ?>/222@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/222.png" srcset="<?php echo $zeplin ?>/222@2x.png 2x, <?php echo $zeplin ?>/222@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/241.png" srcset="<?php echo $zeplin ?>/241@2x.png 2x, <?php echo $zeplin ?>/241@3x.png 3x">
         </div>
         <div class="col-12 col-lg-6 contentCol">
           <h1>
@@ -98,24 +103,7 @@ include('product/inspection.php');
           </p>
         </div>
       </div>
-      <div class="row three">
-        <div class="col-12 col-lg-6 imgCol">
-          <img draggable="false" src="<?php echo $zeplin ?>/3055.png" srcset="<?php echo $zeplin ?>/3055@2x.png 2x, <?php echo $zeplin ?>/3055@3x.png 3x">
-        </div>
-        <div class="col-12 col-lg-6 contentCol">
-          <h1>
-            성장단계에 맞춰<br />
-            상호 호환 가능<span class="comment">(*별도구매)</span>
-          </h1>
-          <p>
-            푸고 프리미엄 뉴트럴 시리즈는 아이의 성장단계에 맞추어 소모품을<br class="d-none d-lg-block" />
-            자유롭게 변경할 수 있는데요.<br class="d-none d-lg-block" />
-            시리즈를 톤온톤 배색으로 디자인하여 호환해 사용해도 잘 어울려요<br class="d-none d-lg-block" />
-            바닥 커버도 시리즈 내 호환이 가능해<br class="d-none d-lg-block" />
-            원하는 컬러로 변경하며 사용할 수 있어요.
-          </p>
-        </div>
-      </div>
+      <?php echo detail($arg = 'three') ?>
     </div>
   </div>
   <div class="section section6">

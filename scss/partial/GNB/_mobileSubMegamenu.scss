@@ -57,6 +57,7 @@ body.admin-bar {
       padding: 0 10px;
 
       &.current {
+        order: -1;
         a {
           color: $cocoa;
           font-weight: 800;
