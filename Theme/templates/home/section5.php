@@ -9,7 +9,7 @@
   </div>
   <div class="slide">
     <div class="container">
-      <div class="row gx-md-5 mb-5 mb-md-0 contentRow">
+      <div class="row gx-md-5 mb-2 mb-sm-5 mb-md-0 contentRow">
         <div class="col-12 col-md-6 px-4 px-md-3">
           <h1>
             두 가지 타입으로<br />
@@ -24,7 +24,7 @@
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-12 d-flex justify-content-center position-relative">
           <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/1821.png" srcset="<?php echo $zeplin ?>/1821@2x.png 2x, <?php echo $zeplin ?>/1821@3x.png 3x">
           <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/183552.png" srcset="<?php echo $zeplin ?>/183552@2x.png 2x, <?php echo $zeplin ?>/183552@3x.png 3x">
@@ -34,7 +34,7 @@
   </div>
   <div class="slide">
     <div class="container">
-      <div class="row gx-md-5 mb-5 mb-md-0 contentRow">
+      <div class="row gx-md-5 mb-2 mb-sm-5 mb-md-0 contentRow">
         <div class="col-12 col-md-6 px-4 px-md-3">
           <h1>
             확 달라진 빨대 구조
@@ -48,7 +48,7 @@
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-12 d-flex justify-content-center position-relative">
           <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/181.png" srcset="<?php echo $zeplin ?>/181@2x.png 2x, <?php echo $zeplin ?>/181@3x.png 3x">
           <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1822.png" srcset="<?php echo $zeplin ?>/1822@2x.png 2x, <?php echo $zeplin ?>/1822@3x.png 3x">
@@ -58,7 +58,7 @@
   </div>
   <div class="slide">
     <div class="container">
-      <div class="row gx-md-5 mb-5 mb-md-0 contentRow">
+      <div class="row gx-md-5 mb-2 mb-sm-5 mb-md-0 contentRow">
         <div class="col-12 col-md-6 px-4 px-md-3">
           <h1>
             긴 외출에도<br />
@@ -73,7 +73,7 @@
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-12 d-flex justify-content-center position-relative">
           <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/18355.png" srcset="<?php echo $zeplin ?>/18355@2x.png 2x, <?php echo $zeplin ?>/18355@3x.png 3x">
           <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1835.png" srcset="<?php echo $zeplin ?>/1835@2x.png 2x, <?php echo $zeplin ?>/1835@3x.png 3x">
@@ -83,7 +83,7 @@
   </div>
   <div class="slide">
     <div class="container">
-      <div class="row gx-md-5 mb-5 mb-md-0 contentRow">
+      <div class="row gx-md-5 mb-2 mb-sm-5 mb-md-0 contentRow">
         <div class="col-12 col-md-6 px-4 px-md-3">
           <h1>
             성장 단계에 따른<br />
@@ -97,7 +97,7 @@
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-12 d-flex justify-content-center position-relative">
           <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/179.png" srcset="<?php echo $zeplin ?>/179@2x.png 2x, <?php echo $zeplin ?>/179@3x.png 3x">
           <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1843.png" srcset="<?php echo $zeplin ?>/1843@2x.png 2x, <?php echo $zeplin ?>/1843@3x.png 3x">
@@ -107,7 +107,7 @@
   </div>
   <div class="slide">
     <div class="container">
-      <div class="row gx-md-5 mb-5 mb-md-0 contentRow">
+      <div class="row gx-md-5 mb-2 mb-sm-5 mb-md-0 contentRow">
         <div class="col-12 col-md-6 px-4 px-md-3">
           <h1>
             분유 조제부터<br />
@@ -123,7 +123,7 @@
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-12 d-flex justify-content-center position-relative">
           <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/178.png" srcset="<?php echo $zeplin ?>/178@2x.png 2x, <?php echo $zeplin ?>/178@3x.png 3x">
           <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/183553.png" srcset="<?php echo $zeplin ?>/183553@2x.png 2x, <?php echo $zeplin ?>/183553@3x.png 3x">
