@@ -9,6 +9,9 @@
       font-size: 16px;
     }
   }
+  .section {
+    overflow-x: hidden;
+  }
   .section:after {
     position: absolute;
     width: 296px;

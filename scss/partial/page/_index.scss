@@ -23,6 +23,8 @@
   }
   .section {
     position: relative;
+    max-width: 100vw;
+    width: 100%;
   }
 
   .container {
@@ -42,6 +44,9 @@
       position: relative;
       left: 50%;
       transform: translateX(-50%);
+      @include respondTo('msm') {
+        display: none;
+      }
     }
   }
 }

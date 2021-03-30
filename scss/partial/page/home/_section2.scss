@@ -44,6 +44,14 @@
       transition: transform 1s ease-in-out;
       transition-delay: 0.5s;
     }
+    .path175 {
+      bottom: 0;
+      transform: translate(-70px, 70px) scale(2);
+    }
+    .path119 {
+      bottom: 0;
+      transform: translate(60px, 130px);
+    }
   }
   &.active .layer {
     .path2956 {
@@ -71,8 +79,15 @@
       background-image: url(#{$zeplin}/2927@3x.jpg);
     }
   }
+  .fp-tableCell {
+    @include respondTo('msm') {
+      vertical-align: bottom;
+    }
+  }
   .container {
-    padding-bottom: 145px;
+    @include respondTo('sm') {
+      padding-bottom: 145px;
+    }
   }
   h1 {
     font-weight: 800;

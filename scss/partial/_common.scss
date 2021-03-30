@@ -38,6 +38,7 @@ img {
 
 * {
   font-family: 'NanumSquareRound', sans-serif;
+  overflow-x: hidden;
 }
 
 @mixin bootstrapContainer($padding) {
