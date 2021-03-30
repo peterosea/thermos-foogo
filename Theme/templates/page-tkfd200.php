@@ -80,7 +80,8 @@ include('product/detail.php');
       </div>
       <div class="row pink">
         <div class="col-12 col-lg-6 imgCol">
-          <img draggable="false" src="<?php echo $zeplin ?>/3042.png" srcset="<?php echo $zeplin ?>/3042@2x.png 2x, <?php echo $zeplin ?>/3042@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3042.png" srcset="<?php echo $zeplin ?>/3042@2x.png 2x, <?php echo $zeplin ?>/3042@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/233.png" srcset="<?php echo $zeplin ?>/233@2x.png 2x, <?php echo $zeplin ?>/233@3x.png 3x">
         </div>
         <div class="col-12 col-lg-6 contentCol">
           <h1>

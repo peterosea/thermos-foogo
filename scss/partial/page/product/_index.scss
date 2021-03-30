@@ -248,7 +248,7 @@ main.productLending {
       @include respondTo('mlg') {
         order: -1;
         margin-bottom: 47px;
-        --bs-gutter-x: 0;
+        --bs-gutter-x: 40px;
         img {
           margin: 0 auto;
         }

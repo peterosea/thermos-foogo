@@ -32,6 +32,9 @@
       list-style: none;
       margin: 0 auto;
       padding: 0;
+      @include respondTo('msm') {
+        justify-content: space-around;
+      }
 
       li {
         counter-increment: my-awesome-counter;
