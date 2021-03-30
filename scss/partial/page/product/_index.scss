@@ -190,6 +190,11 @@ main.productLending {
         @include respondTo('lg') {
           font-size: 40px;
         }
+        @include respondTo('xl') {
+          font-size: 50px;
+          margin-bottom: 50px;
+          font-weight: 800;
+        }
       }
       p {
         font-size: 14px;

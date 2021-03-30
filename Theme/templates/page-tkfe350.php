@@ -58,16 +58,20 @@ include('product/detail.php');
   <?php echo why($arg = array('img' => '3029')); ?>
   <div class="section section5">
     <div class="container">
-      <div class="header">
-        <h1>
-          상상력과 오감을 자극하는<br />
-          자연스러운 디자인
-        </h1>
-        <p>
-          지구의 자연을 연상시키는 얼씨톤의 컬러를<br class="d-block d-lg-none" /> 포인트로 사용하고 마개와 버튼 모양을 변경하여 <br />
-          아이들이 직접 손으로 만지며 창의력을 높일 수 있는<br class="d-block d-lg-none" /> NEW 디자인으로 만들었어요.<br />
-          꽃, 과일, 구름 등 자연을 닮은 그래픽에 표정을 넣어<br class="d-block d-lg-none" /> 아이와 눈 맞춤 하는 푸고를 만나보세요.
-        </p>
+      <div class="row">
+        <div class="col-12">
+          <div class="header">
+            <h1>
+              상상력과 오감을 자극하는<br />
+              자연스러운 디자인
+            </h1>
+            <p>
+              지구의 자연을 연상시키는 얼씨톤의 컬러를<br class="d-block d-lg-none" /> 포인트로 사용하고 마개와 버튼 모양을 변경하여 <br />
+              아이들이 직접 손으로 만지며 창의력을 높일 수 있는<br class="d-block d-lg-none" /> NEW 디자인으로 만들었어요.<br />
+              꽃, 과일, 구름 등 자연을 닮은 그래픽에 표정을 넣어<br class="d-block d-lg-none" /> 아이와 눈 맞춤 하는 푸고를 만나보세요.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="row">
         <div class="col-12 px-0">
@@ -75,10 +79,10 @@ include('product/detail.php');
         </div>
       </div>
       <div class="row pink">
-        <div class="col-12 col-lg-5 imgCol">
+        <div class="col-12 col-lg-6 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/224.png" srcset="<?php echo $zeplin ?>/224@2x.png 2x, <?php echo $zeplin ?>/224@3x.png 3x">
         </div>
-        <div class="col-12 col-lg-7 contentCol">
+        <div class="col-12 col-lg-6 contentCol">
           <h1>
             긴 외출에도<br />
             충분한 대용량 빨대컵
@@ -90,10 +94,10 @@ include('product/detail.php');
         </div>
       </div>
       <div class="row two">
-        <div class="col-12 col-lg-5 imgCol">
+        <div class="col-12 col-lg-6 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/226.png" srcset="<?php echo $zeplin ?>/226@2x.png 2x, <?php echo $zeplin ?>/226@3x.png 3x">
         </div>
-        <div class="col-12 col-lg-7 contentCol">
+        <div class="col-12 col-lg-6 contentCol">
           <h1>
             확 달라진 빨대 구조
           </h1>
