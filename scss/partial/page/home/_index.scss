@@ -30,6 +30,9 @@
   .section {
     @include respondTo('mmd') {
       padding-top: 0 !important;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
     }
   }
 }
