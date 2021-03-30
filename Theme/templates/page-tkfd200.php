@@ -15,9 +15,9 @@ include('product/detail.php');
 <main class="pageTemplate productLending">
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
-    <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/tkfd-200-all03.jpg" srcset="<?php echo $zeplin ?>/tkfd-200-all03@2x.jpg 2x, <?php echo $zeplin ?>/tkfd-200-all03@3x.jpg 3x">
-    <img class="d-none d-sm-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2464.jpg" srcset="<?php echo $zeplin ?>/2464@2x.jpg 2x, <?php echo $zeplin ?>/2464@3x.jpg 3x">
-    <img class="d-block d-sm-none w-100" draggable="false" src="<?php echo $zeplin ?>/17422.jpg" srcset="<?php echo $zeplin ?>/17422@2x.jpg 2x, <?php echo $zeplin ?>/17422@3x.jpg 3x">
+    <img class="d-none d-xl-block" draggable="false" src="<?php echo $zeplin ?>/tkfd-200-all03.jpg" srcset="<?php echo $zeplin ?>/tkfd-200-all03@2x.jpg 2x, <?php echo $zeplin ?>/tkfd-200-all03@3x.jpg 3x">
+    <img class="d-none d-md-block d-xl-none" draggable="false" src="<?php echo $zeplin ?>/2462.jpg" srcset="<?php echo $zeplin ?>/2462@2x.jpg 2x, <?php echo $zeplin ?>/2462@3x.jpg 3x">
+    <img class="d-block d-md-none w-100" draggable="false" src="<?php echo $zeplin ?>/17422.jpg" srcset="<?php echo $zeplin ?>/17422@2x.jpg 2x, <?php echo $zeplin ?>/17422@3x.jpg 3x">
     <div class="container">
       <div class="imgWrap">
         <img draggable="false" src="<?php echo $zeplin ?>/2724.png" srcset="<?php echo $zeplin ?>/2724@2x.png 2x, <?php echo $zeplin ?>/2724@3x.png 3x">

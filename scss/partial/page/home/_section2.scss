@@ -75,8 +75,11 @@
     padding-bottom: 145px;
   }
   h1 {
-    margin-bottom: 50px;
     font-weight: 800;
+    margin-bottom: 25px;
+    @include respondTo('lg') {
+      margin-bottom: 50px;
+    }
   }
   h2 {
     margin-bottom: 26px;

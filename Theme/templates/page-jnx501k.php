@@ -14,8 +14,9 @@ include('product/detail.php');
 <main class="pageTemplate productLending">
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
-    <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/139.jpg" srcset="<?php echo $zeplin ?>/139@2x.jpg 2x, <?php echo $zeplin ?>/139@3x.jpg 3x">
-    <img class="d-block d-lg-none w-100" draggable="false" src="<?php echo $zeplin ?>/1746.jpg" srcset="<?php echo $zeplin ?>/1746@2x.jpg 2x, <?php echo $zeplin ?>/1746@3x.jpg 3x">
+    <img class="d-none d-xl-block" draggable="false" src="<?php echo $zeplin ?>/139.jpg" srcset="<?php echo $zeplin ?>/139@2x.jpg 2x, <?php echo $zeplin ?>/139@3x.jpg 3x">
+    <img class="d-none d-md-block d-xl-none" draggable="false" src="<?php echo $zeplin ?>/2466.jpg" srcset="<?php echo $zeplin ?>/2466@2x.jpg 2x, <?php echo $zeplin ?>/2466@3x.jpg 3x">
+    <img class="d-block d-md-none w-100" draggable="false" src="<?php echo $zeplin ?>/1746.jpg" srcset="<?php echo $zeplin ?>/1746@2x.jpg 2x, <?php echo $zeplin ?>/1746@3x.jpg 3x">
     <div class="container">
       <div class="imgWrap">
         <img draggable="false" src="<?php echo $zeplin ?>/2849.png" srcset="<?php echo $zeplin ?>/2849@2x.png 2x, <?php echo $zeplin ?>/2849@3x.png 3x">
