@@ -167,4 +167,9 @@
     color: $black-four;
     box-shadow: inset 0px -0.8em 0px 0px $cloudy-blue;
   }
+  .fp-tableCell {
+    @include respondTo('msm') {
+      vertical-align: top;
+    }
+  }
 }

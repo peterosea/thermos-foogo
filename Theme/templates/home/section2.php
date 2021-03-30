@@ -5,7 +5,7 @@
       <div class="position-absolute group41">
         <img class="position-absolute path41" src="<?php echo $zeplin ?>/41.png" srcset="<?php echo $zeplin ?>/41@2x.png 2x, <?php echo $zeplin ?>/41@3x.png 3x">
         <img class="position-absolute path105" src="<?php echo $zeplin ?>/105.png" srcset="<?php echo $zeplin ?>/105@2x.png 2x, <?php echo $zeplin ?>/105@3x.png 3x">
-        <img class="position-absolute path2956" src="<?php echo $zeplin ?>/2956.png" srcset="<?php echo $zeplin ?>/2956@2x.png 2x, <?php echo $zeplin ?>/2950@3x.png 3x">
+        <img class="position-absolute path2956" src="<?php echo $zeplin ?>/2956.png" srcset="<?php echo $zeplin ?>/2956@2x.png 2x, <?php echo $zeplin ?>/2956@3x.png 3x">
       </div>
     </div>
 
