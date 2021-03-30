@@ -21,8 +21,8 @@ main.productLending {
     position: relative;
 
     @include respondTo('lg') {
-      // height: 1280px;
-      // overflow: hidden;
+      height: 1280px;
+      overflow: hidden;
       .mainSectionImgWrap {
         padding-top: calc(1280 / 1920 * 100%);
         max-height: 1280px;
@@ -114,6 +114,9 @@ main.productLending {
     @include respondTo('lg') {
       padding-top: 120px;
       padding-bottom: 50px;
+    }
+    img {
+      width: 100%;
     }
   }
   .section5 {

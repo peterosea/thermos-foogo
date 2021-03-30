@@ -1,5 +1,7 @@
 header.productHeader {
   border-bottom: 2px solid $white-six;
+  max-width: 1920px;
+  margin: 0 auto;
   .col-12 {
     @include respondTo('mlg') {
       --bs-gutter-x: 60px;
