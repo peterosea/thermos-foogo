@@ -50,7 +50,7 @@
     }
     .path119 {
       bottom: 0;
-      transform: translate(60px, 130px);
+      transform: translate(20%, 0%);
     }
   }
   &.active .layer {
@@ -85,6 +85,7 @@
     }
   }
   .container {
+    padding-bottom: 60px;
     @include respondTo('sm') {
       padding-bottom: 145px;
     }

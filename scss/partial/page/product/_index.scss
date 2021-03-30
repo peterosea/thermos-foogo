@@ -360,6 +360,9 @@ main.productLending {
     img {
       width: 100%;
     }
+    .row:nth-of-type(2) > * {
+      --bs-gutter-x: 68px;
+    }
     .container {
       padding-top: 65px;
       padding-bottom: 60px;

@@ -112,11 +112,6 @@
             <span class="pointBg">아이의 성장단계</span>에 맞추어<br />
             <span class="pointBg">소모품을 자유롭게 변경</span>할 수 있어요.
           </p>
-          <p>
-            각 단계별 마개와 손잡이/링은<br />
-            같은 시리즈 내에서<br />
-            서로 바꾸어 사용할 수 있어요.
-          </p>
         </div>
       </div>
       <div class="row mb-5">

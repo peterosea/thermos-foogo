@@ -165,7 +165,7 @@ include('product/detail.php');
   </div>
   <div class="section section7">
     <div class="container-fluid px-0">
-      <div class="row mx-0">
+      <div class="row">
         <div class="col-12 col-lg-6 px-0">
           <img draggable="false" src="<?php echo $zeplin ?>/884.jpg" srcset="<?php echo $zeplin ?>/884@2x.jpg 2x, <?php echo $zeplin ?>/884@3x.jpg 3x">
         </div>
@@ -175,7 +175,7 @@ include('product/detail.php');
       </div>
     </div>
     <div class="container">
-      <div class="row m-0">
+      <div class="row">
         <div class="col-12">
           <div class="header">
             <h2>

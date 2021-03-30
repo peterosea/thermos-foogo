@@ -75,9 +75,13 @@ body .listStyle {
   }
 }
 .fp-slidesNav.fp-thermos-foogo {
-  bottom: 5%;
   display: flex;
   justify-content: center;
+
+  bottom: 33px;
+  @include respondTo('sm') {
+    bottom: 5%;
+  }
   ul li a span {
     background-color: #555455;
     display: none;
@@ -101,6 +105,7 @@ body .listStyle {
       font-weight: 800;
       border: 3px solid #555455;
       opacity: 0.5;
+      line-height: 1;
       transition: opacity 0.3s;
     }
   }

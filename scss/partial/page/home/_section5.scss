@@ -70,7 +70,8 @@
       max-width: 900px;
     }
     @include respondTo('mmd') {
-      padding-top: 60px;
+      padding-top: 120px;
+      padding-bottom: 120px;
     }
   }
   // .fp-slide,
@@ -138,6 +139,7 @@
   .contentRow {
     z-index: 2;
     position: relative;
+    min-height: 200px;
   }
   .imgRow {
     img {

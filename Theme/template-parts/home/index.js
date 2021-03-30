@@ -12,7 +12,7 @@ new fullpage('#fullpage', {
   menu: '#myMenu',
   slidesNavigation: true,
   controlArrows: false,
-  responsiveHeight: 1048,
+  responsiveHeight: 786,
   responsiveWidth: 768,
 
   licenseKey: '',
