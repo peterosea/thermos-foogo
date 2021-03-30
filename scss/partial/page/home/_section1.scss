@@ -71,9 +71,7 @@
   }
   .container {
     position: relative;
-    @include respondTo('mmd') {
-      padding-bottom: 60px;
-    }
+    padding-bottom: 60px;
     @include respondTo('xl') {
       padding-bottom: 200px;
     }

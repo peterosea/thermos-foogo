@@ -160,8 +160,11 @@ main.introduction {
       top: 0;
       text-align: left;
       @include respondTo('xl') {
-        top: 300px;
         text-align: right;
+        top: 800px;
+      }
+      @include respondTo('xxl') {
+        top: 300px;
       }
     }
   }

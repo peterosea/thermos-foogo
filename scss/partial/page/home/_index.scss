@@ -3,6 +3,9 @@
     @include respondTo('msm') {
       font-size: 28px;
     }
+    @include respondTo('xl') {
+      font-size: 45px;
+    }
   }
   h2 {
     @include respondTo('msm') {

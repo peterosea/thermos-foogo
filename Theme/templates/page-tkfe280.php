@@ -159,8 +159,8 @@ include('product/detail.php');
       </div>
       <div class="row">
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29722.png" srcset="<?php echo $zeplin ?>/29722@2x.png 2x, <?php echo $zeplin ?>/29722@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29721.png" srcset="<?php echo $zeplin ?>/29721@2x.png 2x, <?php echo $zeplin ?>/29721@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29721.png" srcset="<?php echo $zeplin ?>/29721@2x.png 2x, <?php echo $zeplin ?>/29721@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29722.png" srcset="<?php echo $zeplin ?>/29722@2x.png 2x, <?php echo $zeplin ?>/29722@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">

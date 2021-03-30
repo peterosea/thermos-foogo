@@ -81,6 +81,8 @@
     color: $dark-taupe;
   }
   .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
     @include respondTo('lg') {
       max-width: 900px;
     }
