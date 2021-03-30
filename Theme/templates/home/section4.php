@@ -152,7 +152,8 @@
       </div>
       <div class="row mb-5">
         <div class="col-12 px-4 px-md-3 d-flex justify-content-center">
-          <img class="main" draggable="false" src="<?php echo $zeplin ?>/1844.png" srcset="<?php echo $zeplin ?>/1844@2x.png 2x, <?php echo $zeplin ?>/1844@3x.png 3x">
+          <img class="main d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/1844.png" srcset="<?php echo $zeplin ?>/1844@2x.png 2x, <?php echo $zeplin ?>/1844@3x.png 3x">
+          <img class="main d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/1861.png" srcset="<?php echo $zeplin ?>/1861@2x.png 2x, <?php echo $zeplin ?>/1861@3x.png 3x">
         </div>
       </div>
     </div>
