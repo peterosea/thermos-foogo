@@ -21,8 +21,8 @@ main.productLending {
     position: relative;
 
     @include respondTo('lg') {
-      height: 1280px;
-      overflow: hidden;
+      // height: 1280px;
+      // overflow: hidden;
       .mainSectionImgWrap {
         padding-top: calc(1280 / 1920 * 100%);
         max-height: 1280px;
@@ -52,6 +52,9 @@ main.productLending {
       padding-top: 60px;
       @include respondTo('lg') {
         margin-top: 80px;
+        padding-top: 90px;
+      }
+      @include respondTo('xl') {
         padding-top: 100px;
       }
     }
@@ -70,6 +73,9 @@ main.productLending {
       h1 {
         margin-bottom: 15px;
         @include respondTo('lg') {
+          margin-bottom: 20px;
+        }
+        @include respondTo('xl') {
           margin-bottom: 30px;
         }
       }
