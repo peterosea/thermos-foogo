@@ -65,16 +65,17 @@
       transition: transform 1s ease-in-out;
     }
   }
-  @include respondTo('mmd') {
-    .fp-tableCell {
-      vertical-align: bottom;
-    }
-  }
 
+  .fp-tableCell {
+    vertical-align: bottom;
+  }
   .container {
     position: relative;
     @include respondTo('mmd') {
       padding-bottom: 60px;
+    }
+    @include respondTo('xl') {
+      padding-bottom: 200px;
     }
   }
   .fp-bg {
