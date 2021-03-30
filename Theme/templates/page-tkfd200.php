@@ -41,8 +41,9 @@ include('product/detail.php');
       <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29202.png" srcset="<?php echo $zeplin ?>/29202@2x.png 2x, <?php echo $zeplin ?>/29202@3x.png 3x">
       <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/176.png" srcset="<?php echo $zeplin ?>/176@2x.png 2x, <?php echo $zeplin ?>/176@3x.png 3x">
       <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2924.png" srcset="<?php echo $zeplin ?>/2924@2x.png 2x, <?php echo $zeplin ?>/2924@3x.png 3x">
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/1752.png" srcset="<?php echo $zeplin ?>/1752@2x.png 2x, <?php echo $zeplin ?>/1752@3x.png 3x">
       <!-- 공통 -->
-      <img draggable="false" src="<?php echo $zeplin ?>/188.png" srcset="<?php echo $zeplin ?>/188@2x.png 2x, <?php echo $zeplin ?>/188@3x.png 3x">
+      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/188.png" srcset="<?php echo $zeplin ?>/188@2x.png 2x, <?php echo $zeplin ?>/188@3x.png 3x">
     </div>
   </div>
   <?php echo sectionHero(); ?>
