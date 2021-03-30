@@ -212,7 +212,6 @@ nav.GNB {
     transform: translateX(-50%);
   }
   .item {
-    padding: 35px 23px;
     background-color: $white;
     border-radius: 6px;
     font-size: 16px;
@@ -225,6 +224,10 @@ nav.GNB {
     text-decoration: none;
     position: relative;
     z-index: 2;
+    padding: 35px 10px;
+    @include respondTo('xl') {
+      padding: 35px 23px;
+    }
 
     transition: all 0.3s ease-in-out;
     &:not(:last-child) {
