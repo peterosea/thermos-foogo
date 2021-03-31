@@ -1,0 +1,145 @@
+main.support {
+  background-image: url(#{$zeplin}/2955@3x.jpg);
+  background-size: cover;
+  background-position: center;
+  .container {
+    padding-bottom: 100px;
+    padding-top: calc(80px + 60px);
+    @include respondTo('lg') {
+      padding-top: calc(80px + 250px);
+    }
+  }
+  .row:not(:last-child) {
+    margin-bottom: 16px;
+    @include respondTo('lg') {
+      margin-bottom: 80px;
+    }
+  }
+  .row > * {
+    --bs-gutter-x: 40px;
+  }
+  h2 {
+    @include respondTo('mlg') {
+      font-size: 22px;
+    }
+    font-weight: 800;
+  }
+  .card {
+    border-radius: 0;
+    text-align: center;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    @include respondTo('lg') {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    img {
+      width: 100px;
+      margin: 40px auto;
+      @include respondTo('lg') {
+        margin: 70px auto;
+      }
+    }
+    .point {
+      @include respondTo('mlg') {
+        font-size: 38px;
+      }
+      color: $coral;
+      font-size: 60px;
+      text-decoration: none;
+      font-weight: 800;
+      &.mail {
+        @include respondTo('mlg') {
+          font-size: 32px;
+        }
+        font-size: 45px;
+      }
+    }
+    .comment {
+      line-height: 1.7;
+      color: $pinkish-grey-four;
+      font-size: 16px;
+      @include respondTo('lg') {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .instruction {
+    .card {
+      padding: 60px 30px;
+      @include respondTo('lg') {
+        padding: 70px;
+      }
+    }
+    .header {
+      @include respondTo('mlg') {
+        justify-content: center;
+        text-align: center;
+      }
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      h2 {
+        margin-right: 30px;
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+    .body {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      img {
+        margin: 0 auto;
+        margin-bottom: 13px;
+      }
+      .item {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        color: $white;
+        margin-bottom: 15px;
+        @include respondTo('lg') {
+          font-size: 21px;
+          color: $black-four;
+        }
+        .imgWrap {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 13px;
+        }
+      }
+      .title {
+        display: flex;
+        align-items: center;
+        @include respondTo('mlg') {
+          background-color: $warm-grey-three;
+          padding: 10px 10px 10px 13px;
+          justify-content: center;
+          border-radius: 5px;
+        }
+        &:after {
+          content: '';
+          display: block;
+          background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' version='1.1' width='512' height='512' x='0' y='0' viewBox='0 0 24 24' style='enable-background:new 0 0 512 512' xml:space='preserve' class=''%3E%3Cg%3E%3Cpath xmlns='http://www.w3.org/2000/svg' d='m22 16a1 1 0 0 0 -2 0v3a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1-1v-3a1 1 0 0 0 -2 0v3a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3z' fill='%23ffffff' data-original='%23000000' style='' class=''/%3E%3Cpath xmlns='http://www.w3.org/2000/svg' d='m11 3v11.6l-1.289-1.3a1 1 0 0 0 -1.422 1.4l3 3.03a1 1 0 0 0 1.422 0l3-3.03a1 1 0 0 0 -1.422-1.4l-1.289 1.3v-11.6a1 1 0 0 0 -2 0z' fill='%23ffffff' data-original='%23000000' style='' class=''/%3E%3C/g%3E%3C/svg%3E%0A");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: 18px;
+          height: 18px;
+          margin-left: 8px;
+          @include respondTo('lg') {
+            margin-left: 11px;
+            width: 23px;
+            height: 23px;
+            background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' height='512' viewBox='0 0 24 24' width='512' xmlns='http://www.w3.org/2000/svg' data-name='Layer 1'%3E%3Cpath d='m22 16a1 1 0 0 0 -2 0v3a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1-1v-3a1 1 0 0 0 -2 0v3a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3z'/%3E%3Cpath d='m11 3v11.6l-1.289-1.3a1 1 0 0 0 -1.422 1.4l3 3.03a1 1 0 0 0 1.422 0l3-3.03a1 1 0 0 0 -1.422-1.4l-1.289 1.3v-11.6a1 1 0 0 0 -2 0z'/%3E%3C/svg%3E");
+          }
+        }
+      }
+    }
+  }
+}

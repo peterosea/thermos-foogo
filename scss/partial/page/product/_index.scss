@@ -1,0 +1,423 @@
+main.productLending {
+  .MobilesubMegaMenu.headroom--pinned:not(.headroom--top) + .main,
+  .MobilesubMegaMenu.headroom--unpinned + .main {
+    .container {
+      @include respondTo('mlg') {
+        margin-top: 80px;
+      }
+    }
+  }
+
+  h1 {
+    font-weight: 700;
+  }
+
+  .row > * {
+    @include respondTo('msm') {
+      --bs-gutter-x: 80px;
+    }
+  }
+  .main {
+    position: relative;
+
+    @include respondTo('lg') {
+      height: 1280px;
+      overflow: hidden;
+      .mainSectionImgWrap {
+        padding-top: calc(1280 / 1920 * 100%);
+        max-height: 1280px;
+        overflow: hidden;
+        img {
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 1280px;
+          max-width: 1920px;
+          left: 50%;
+          object-fit: cover;
+          transform: translateX(-50%);
+        }
+      }
+    }
+
+    .container {
+      // Layout
+      top: 0;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      left: 50%;
+      transform: translateX(-50%);
+      padding-top: 60px;
+      @include respondTo('lg') {
+        margin-top: 80px;
+        padding-top: 90px;
+      }
+      @include respondTo('xl') {
+        padding-top: 100px;
+      }
+    }
+    img {
+      width: 100%;
+    }
+    .imgWrap {
+      margin-bottom: 30px;
+      @include respondTo('lg') {
+        margin-bottom: 50px;
+      }
+    }
+    .body {
+      text-align: center;
+      color: $milk-chocolate;
+      h1 {
+        margin-bottom: 15px;
+        @include respondTo('lg') {
+          margin-bottom: 20px;
+        }
+        @include respondTo('xl') {
+          margin-bottom: 30px;
+        }
+      }
+      strong {
+        font-weight: 800;
+        margin-bottom: 9px;
+        font-size: 18px;
+        display: block;
+        @include respondTo('lg') {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .section1 {
+    text-align: center;
+    padding-top: 56px;
+    @include respondTo('lg') {
+      padding-top: 120px;
+    }
+    .header {
+      margin-bottom: 50px;
+    }
+    img {
+      margin: 0 auto;
+      &:not(:last-child) {
+        @include respondTo('mlg') {
+          margin: 0 auto 50px;
+        }
+      }
+    }
+  }
+  .section3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    @include respondTo('lg') {
+      padding-top: 120px;
+      padding-bottom: 50px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .section5 {
+    padding-top: 61px;
+    @include respondTo('lg') {
+      padding-top: 120px;
+    }
+    .container .row:nth-of-type(2) {
+      .imgCol {
+        @include respondTo('msm') {
+          margin-bottom: 0;
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+      color: $black-four;
+      @include respondTo('lg') {
+        margin-bottom: 80px;
+      }
+      h1 {
+        margin-bottom: 30px;
+        @include respondTo('lg') {
+          margin-bottom: 50px;
+        }
+      }
+      p {
+        line-height: 2;
+        font-size: 14px;
+        @include respondTo('md') {
+          font-size: 20px;
+        }
+      }
+    }
+    .contentCol {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .comment {
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: -0.64px;
+        font-weight: 400;
+      }
+    }
+    .row {
+      color: $white;
+      margin-bottom: 10px;
+
+      @include respondTo('lg') {
+        margin-bottom: 30px;
+      }
+      .imgCol {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include respondTo('mlg') {
+          margin-bottom: 50px;
+          --bs-gutter-x: 0;
+        }
+      }
+      h1 {
+        margin-bottom: 19px;
+        font-size: 25px;
+        word-break: keep-all;
+        @include respondTo('lg') {
+          font-size: 40px;
+        }
+        @include respondTo('xl') {
+          font-size: 50px;
+          margin-bottom: 50px;
+          font-weight: 800;
+        }
+      }
+      p {
+        font-size: 14px;
+        @include respondTo('lg') {
+          font-size: 18px;
+        }
+      }
+      &.pink,
+      &.two,
+      &.three,
+      &.light-blue-grey {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      &.pink {
+        background-color: $blush;
+      }
+      &.two {
+        background-color: $bluegrey-three;
+      }
+      &.three {
+        background-color: $light-grey;
+      }
+      &.light-blue-grey {
+        background-color: $light-blue-grey;
+        @include respondTo('mlg') {
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
+      }
+    }
+  }
+  .section6 {
+    padding-top: 54px;
+    padding-bottom: 54px;
+
+    @include respondTo('lg') {
+      padding-top: 130px;
+      padding-bottom: 130px;
+    }
+    p {
+      font-size: 14px;
+      @include respondTo('lg') {
+        font-size: 16px;
+      }
+    }
+    .row:not(:last-child) {
+      margin-bottom: 75px;
+      @include respondTo('lg') {
+        margin-bottom: -20px;
+      }
+      .title + p {
+        @include respondTo('mlg') {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .imgCol {
+      @include respondTo('mlg') {
+        order: -1;
+        margin-bottom: 47px;
+        --bs-gutter-x: 40px;
+        img {
+          margin: 0 auto;
+        }
+      }
+    }
+    .contentCol {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .title {
+        font-weight: 800;
+        margin-bottom: 20px;
+        font-size: 20px;
+        text-align: left;
+        @include respondTo('sm') {
+          text-align: center;
+        }
+        @include respondTo('lg') {
+          text-align: left;
+          font-size: 25px;
+        }
+      }
+    }
+    .list {
+      list-style: none;
+      padding: 0;
+      li {
+        display: flex;
+        counter-increment: my-awesome-counter;
+        align-items: center;
+        line-height: 1.63;
+        font-size: 14px;
+        @include respondTo('mlg') {
+          flex-direction: column;
+          text-align: left;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+        @include respondTo('lg') {
+          font-size: 16px;
+        }
+        &:not(:last-child) {
+          margin-bottom: 16px;
+          @include respondTo('mlg') {
+            margin-bottom: 30px;
+          }
+        }
+        &:after {
+          order: -1;
+          color: $white;
+          display: inline-block;
+          padding: 3px 14px;
+          border-radius: 9999px;
+          background-color: $warm-grey-three;
+          margin-right: 10px;
+          @include respondTo('mlg') {
+            order: -1;
+            margin-left: 0;
+            margin-bottom: 20px;
+          }
+        }
+      }
+      &.end li {
+        text-align: right;
+        justify-content: flex-end;
+        @include respondTo('mlg') {
+          flex-direction: column;
+          text-align: left;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+        &:after {
+          margin-left: 10px;
+          order: 2;
+          @include respondTo('mlg') {
+            order: -1;
+            margin-left: 0;
+            margin-bottom: 20px;
+          }
+        }
+      }
+      li:nth-of-type(1):after {
+        content: '0' counter(my-awesome-counter) ' 바디링';
+      }
+      li:nth-of-type(2):after {
+        content: '0' counter(my-awesome-counter) ' 손잡이';
+      }
+      &.tkfd200 {
+        li:nth-of-type(1):after {
+          content: '0' counter(my-awesome-counter) ' 시피컵';
+        }
+        li:nth-of-type(2):after {
+          content: '0' counter(my-awesome-counter) ' 빨대컵';
+        }
+      }
+    }
+  }
+  .section7 {
+    background-color: $white-five;
+    img {
+      width: 100%;
+    }
+    .row:nth-of-type(2) > * {
+      --bs-gutter-x: 68px;
+    }
+    .container {
+      padding-top: 65px;
+      padding-bottom: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      .header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        @include respondTo('lg') {
+          margin-bottom: 50px;
+          flex-direction: row;
+        }
+        h2 {
+          font-weight: 800;
+          @include respondTo('mlg') {
+            margin-bottom: 20px;
+          }
+          @include respondTo('lg') {
+            margin-right: 70px;
+          }
+        }
+        p {
+          font-size: 14px;
+          line-height: 1.71;
+          color: $black-four;
+        }
+      }
+      .body {
+        display: flex;
+        flex-wrap: wrap;
+        .item {
+          margin: 6px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          background-color: $white;
+          background-position: center;
+          background-size: cover;
+          padding: 20px;
+          width: 135px;
+          height: 135px;
+          @include respondTo('lg') {
+            width: 170px;
+            height: 170px;
+          }
+          span {
+            color: $grey-brown;
+            font-size: 14px;
+            @include respondTo('lg') {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

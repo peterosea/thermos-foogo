@@ -1,0 +1,75 @@
+main.place {
+  color: $black-four;
+  .header {
+    width: 100%;
+  }
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @include respondTo('lg') {
+      padding-top: 117px;
+      padding-bottom: 150px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 800;
+      font-size: 30px;
+      @include respondTo('lg') {
+        font-size: 40px;
+      }
+    }
+    h1 {
+      @include respondTo('mlg') {
+        font-size: 30px;
+      }
+      margin-bottom: 30px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 100px;
+      p {
+        margin-bottom: 0;
+      }
+    }
+    .card {
+      @include respondTo('mlg') {
+        text-align: center;
+      }
+      padding-top: 70px;
+      padding-bottom: 70px;
+      max-width: 850px;
+      margin: 0 auto;
+      background-color: $beige-seven;
+      border: none;
+      font-size: 26px;
+      .imgCol {
+        @include respondTo('mlg') {
+          margin-bottom: 30px;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      p {
+        font-size: 18px;
+      }
+      img {
+        @include respondTo('mlg') {
+          max-height: 70px;
+        }
+        height: 100%;
+        max-height: 100px;
+      }
+      .btn {
+        background-color: $warm-grey-three;
+        color: $white;
+        font-size: 20px;
+        padding: 12px 20px;
+      }
+    }
+    .pointBg {
+      box-shadow: inset 0px -0.8em 0px 0px $light-grey-three;
+    }
+  }
+}

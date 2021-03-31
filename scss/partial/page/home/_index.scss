@@ -1,0 +1,41 @@
+.homepage {
+  h1 {
+    @include respondTo('msm') {
+      font-size: 28px;
+    }
+    @include respondTo('xl') {
+      font-size: 45px;
+    }
+  }
+  h2 {
+    @include respondTo('msm') {
+      font-size: 16px;
+    }
+  }
+  .section {
+    overflow-x: hidden;
+  }
+  .section:after {
+    position: absolute;
+    width: 296px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
+    @include respondTo('md') {
+      content: '';
+    }
+  }
+  .section {
+    @include respondTo('mmd') {
+      padding-top: 0 !important;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

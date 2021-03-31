@@ -1,0 +1,107 @@
+.homepage .section2 {
+  color: $white;
+  position: relative;
+
+  .fp-tableCell {
+    vertical-align: bottom;
+  }
+  .layer {
+    .group41 {
+      width: 100%;
+      height: 700px;
+      position: relative;
+      bottom: 0;
+    }
+    .path105 {
+      bottom: 0;
+      transform: translateX(0);
+      transition: transform 2s ease-in-out;
+      transition-delay: 0.3s;
+    }
+    .path41 {
+      bottom: 0;
+      transform: translateX(0);
+      transition: transform 1.5s ease-in-out;
+      transition-delay: 0.8s;
+    }
+    .path2616 {
+      right: 150px;
+      top: 0;
+      transform: translateX(10%) translateY(10%);
+      transition: transform 1s ease-in-out;
+      transition-delay: 0.3s;
+    }
+    .path2955 {
+      left: 50%;
+      bottom: -50px;
+      transform: translateX(-50%) translateY(100px);
+      transition: transform 1s ease-in-out;
+    }
+    .path2956 {
+      left: 589px;
+      top: 0;
+      transform: translateY(-50%) scale(0.9);
+      transition: transform 1s ease-in-out;
+      transition-delay: 0.5s;
+    }
+    .path175 {
+      bottom: 0;
+      transform: translate(-70px, 70px) scale(2);
+    }
+    .path119 {
+      bottom: 0;
+      transform: translate(20%, 0%);
+    }
+  }
+  &.active .layer {
+    .path2956 {
+      transform: translateY(-50%) scale(1);
+    }
+    .path2955 {
+      transform: translateX(-50%) translateY(0);
+    }
+    .path2616 {
+      transform: translateX(0) translateY(0);
+    }
+    .path105 {
+      transform: translateX(-100px);
+    }
+    .path41 {
+      transform: translateX(100px);
+    }
+  }
+  .fp-bg {
+    background-size: cover;
+    background-image: url(#{$zeplin}/52@3x.jpg);
+    background-position: 32% center;
+    @include respondTo('md') {
+      background-position: center;
+      background-image: url(#{$zeplin}/2927@3x.jpg);
+    }
+  }
+  .fp-tableCell {
+    @include respondTo('msm') {
+      vertical-align: bottom;
+    }
+  }
+  .container {
+    padding-bottom: 60px;
+    @include respondTo('sm') {
+      padding-bottom: 145px;
+    }
+  }
+  h1 {
+    font-weight: 800;
+    margin-bottom: 25px;
+    @include respondTo('lg') {
+      margin-bottom: 50px;
+    }
+  }
+  h2 {
+    margin-bottom: 26px;
+  }
+  .pointBg {
+    box-shadow: inset 0px -0.8em 0px 0px $denim;
+    color: $parchment;
+  }
+}

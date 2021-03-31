@@ -1,0 +1,103 @@
+.section.inspection {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    @include respondTo('lg') {
+      margin-bottom: 50px;
+      flex-direction: row;
+    }
+    h2 {
+      font-weight: 800;
+      @include respondTo('mlg') {
+        margin-bottom: 20px;
+      }
+      @include respondTo('lg') {
+        margin-right: 70px;
+      }
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.71;
+      color: $black-four;
+    }
+  }
+  .body {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      @include respondTo('msm') {
+        justify-content: space-around;
+      }
+
+      li {
+        counter-increment: my-awesome-counter;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: -0.24px;
+        color: $black-four;
+        display: flex;
+        flex-direction: column;
+        background-color: $white-seven;
+        width: 90px;
+        height: 90px;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 9999px;
+        position: relative;
+        padding: 20px 0;
+        @include respondTo('mlg') {
+          margin-bottom: 15px;
+        }
+
+        span {
+          display: block;
+          height: 100%;
+        }
+
+        &:not(:first-child) {
+          margin-left: 21px;
+        }
+        &:first-child:after {
+          content: none;
+        }
+        &.active {
+          background-color: $blush;
+          color: $white;
+        }
+        &:after {
+          content: '\f054';
+          text-rendering: auto;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%) translateX(-163%);
+          /* 아래가 핵심 */
+          font-family: 'Font Awesome 5 Free';
+          font-weight: 900;
+          color: $pinkish-grey-two;
+          @include respondTo('lg') {
+            color: $black-four;
+          }
+        }
+        &:before {
+          content: '0' counter(my-awesome-counter);
+          font-size: 18px;
+          letter-spacing: -0.36px;
+          text-align: center;
+          font-weight: 800;
+        }
+        &:nth-of-type(n + 10):before {
+          content: counter(my-awesome-counter);
+        }
+      }
+    }
+  }
+}

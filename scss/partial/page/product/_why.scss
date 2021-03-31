@@ -1,0 +1,147 @@
+.section.why {
+  .container {
+    background-color: $beige-three;
+    color: $military-green;
+    text-align: center;
+    padding-top: 83px;
+    padding-bottom: 63px;
+  }
+  .body {
+    margin-bottom: 49px;
+    @include respondTo('lg') {
+      margin-bottom: 79px;
+    }
+    .icon {
+      margin-bottom: 32px;
+    }
+  }
+  h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    @include respondTo('lg') {
+      margin-bottom: 30px;
+      font-size: 36px;
+    }
+  }
+  h2 {
+    font-weight: 800;
+    margin-bottom: 31px;
+    @include respondTo('mmd') {
+      font-size: 18px;
+      margin-bottom: 21px;
+    }
+  }
+  .mainImgWrap {
+    position: relative;
+    margin-bottom: 33px;
+    .minImg {
+      max-width: 80vw;
+    }
+    .label {
+      color: $beige-four;
+      font-size: 16px;
+      @include respondTo('lg') {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(50%) translateY(260%);
+        font-size: 30px;
+      }
+    }
+  }
+  .table {
+    max-width: 900px;
+    margin: 0 auto;
+    @include respondTo('mlg') {
+      display: flex;
+      justify-content: center;
+      .row {
+        margin: -0.5px;
+      }
+    }
+    .head {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $military-green;
+      @include respondTo('mlg') {
+        height: 100px;
+      }
+    }
+    .row > * {
+      border: 1px solid $light-grey-green;
+      margin: -0.5px;
+      --bs-gutter-x: 1.5rem;
+    }
+  }
+  .labelImgWrap {
+    .imgWrap {
+      position: relative;
+      @include respondTo('mlg') {
+        width: 100%;
+      }
+      &:after {
+        content: '';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        transform: translateY(50%) translateX(-50%);
+        width: 100px;
+        height: 30px;
+        background-color: $military-green;
+        color: $white;
+        @include respondTo('mlg') {
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%)
+            translateX(calc(var(--bs-gutter-x) / 2 + 50%));
+        }
+        @include respondTo('lg') {
+          bottom: 0;
+          left: 50%;
+          transform: translateY(50%) translateX(-50%);
+        }
+      }
+      &:nth-child(1):after {
+        content: '균 첨가 직후';
+      }
+      &:nth-child(2):after {
+        content: '4시간 후';
+      }
+      &:nth-child(3):after {
+        content: '6시간 후';
+      }
+      &:nth-child(4):after {
+        content: '8시간 후';
+        background-color: $tomato;
+      }
+    }
+  }
+  .imgGroupWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // height: 100%;
+    @include respondTo('lg') {
+      flex-direction: row;
+    }
+    img {
+      margin: 30px 0;
+    }
+  }
+  .src {
+    font-size: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    @include respondTo('lg') {
+      text-align: right;
+    }
+  }
+  .pointBg {
+    box-shadow: inset 0px -0.8em 0px 0px $light-khaki;
+  }
+}

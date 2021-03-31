@@ -1,0 +1,47 @@
+.homepage .banner {
+  background-color: $blush;
+  padding-top: 0 !important;
+  .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @include respondTo('md') {
+      max-width: 900px;
+    }
+    a {
+      text-decoration: none;
+      color: $white;
+      font-weight: 800;
+      font-size: 20px;
+      @include respondTo('md') {
+        font-size: 30px;
+      }
+    }
+    .pointColor {
+      color: $buff;
+    }
+  }
+}
+.homepage .section6 {
+  color: $white;
+  background-color: $light-grey-blue;
+  .layer {
+    .path44 {
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%) translateY(100px);
+      transition: transform 0.8s ease;
+    }
+  }
+  &.active .layer {
+    .path44 {
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+  .header {
+    margin-bottom: 40px;
+    @include respondTo('lg') {
+      text-align: center;
+    }
+  }
+}

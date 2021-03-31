@@ -1,37 +1,45 @@
 // Responsive Web Design
 $breakpoints: (
   // min default
-  "sm": (
-    min-width: 576px,
-  ),
-  "md": (
+  'sm':
+    (
+      min-width: 576px,
+    ),
+  'md': (
     min-width: 768px,
   ),
-  "lg": (
+  'lg': (
     min-width: 992px,
   ),
-  "xl": (
+  'xl': (
     min-width: 1200px,
   ),
-  "hg": (
-    min-width: 1439px,
+  'xxl': (
+    min-width: 1400px,
+  ),
+  'hg': (
+    min-width: 1440px,
   ),
   // max
-  "xs": (
-    max-width: 576px,
+  'msm':
+    (
+      max-width: 576px,
+    ),
+  'mmd': (
+    max-width: 768px,
   ),
-  "xm": (
-    min-width: 768px,
+  'mlg': (
+    max-width: 992px,
   ),
-  "xl": (
-    min-width: 992px,
+  'mxl': (
+    max-width: 1200px,
   ),
-  "xx": (
-    min-width: 1200px,
+  'mxxl': (
+    max-width: 1400px,
   ),
-  "xh": (
-    min-width: 1439px,
-  ),
+  'mhg': (
+    max-width: 1440px,
+  )
 );
 /// Responsive breakpoint manager
 /// @access public
@@ -42,7 +50,7 @@ $breakpoints: (
 
   @if $raw-query {
     $query: if(
-      type-of($raw-query) == "string",
+      type-of($raw-query) == 'string',
       unquote($raw-query),
       inspect($raw-query)
     );
