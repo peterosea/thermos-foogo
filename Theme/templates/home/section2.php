@@ -9,8 +9,8 @@
       </div>
     </div>
 
-    <img class="d-block d-md-none position-absolute path119" src="<?php echo $zeplin ?>/119.png" srcset="<?php echo $zeplin ?>/119@2x.png 2x, <?php echo $zeplin ?>/175@3x.png 3x">
-    <img class="d-block d-md-none position-absolute path175" src="<?php echo $zeplin ?>/175.png" srcset="<?php echo $zeplin ?>/175@2x.png 2x, <?php echo $zeplin ?>/119@3x.png 3x">
+    <img class="d-block d-md-none position-absolute path119" src="<?php echo $zeplin ?>/119.png">
+    <img class="d-block d-md-none position-absolute path175" src="<?php echo $zeplin ?>/175.png">
     <img class="d-none d-md-block position-absolute path2955" src="<?php echo $zeplin ?>/2955.png" srcset="<?php echo $zeplin ?>/2955@2x.png 2x, <?php echo $zeplin ?>/2955@3x.png 3x">
     <img class="d-none d-md-block position-absolute path2616" src="<?php echo $zeplin ?>/2616.png" srcset="<?php echo $zeplin ?>/2616@2x.png 2x, <?php echo $zeplin ?>/2616@3x.png 3x">
   </div>

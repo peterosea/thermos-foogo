@@ -27,7 +27,7 @@ HTML;
 HTML;
   return <<<HTML
   <div class="section hero">
-    <img draggable="false" src="$zeplin/all.jpg" srcset="$zeplin/all@2x.jpg 2x, $zeplin/all@3x.jpg 3x">
+    <img class="d-none d-md-block" draggable="false" src="$zeplin/all.jpg" srcset="$zeplin/all@2x.jpg 2x, $zeplin/all@3x.jpg 3x">
     <div class="container position-absolute">
       <div class="row">
         <div class="col text-center text-xxl-start">

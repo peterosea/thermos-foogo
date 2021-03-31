@@ -7,21 +7,24 @@ function why($arg)
   return <<<HTML
   <div class="section why">
     <div class="container">
-      <h1>
+      <h1 class="d-none d-md-block">
         아이의 빨대컵은 왜<br />
         <span class="pointBg">진공단열 스테인리스 빨대컵</span>이어야 할까?
       </h1>
-      <div class="mainImgWrap">
+      <div class="mainImgWrap d-none d-md-block">
         <img class="minImg" draggable="false" src="$zeplin/$img.png" srcset="$zeplin/$img@2x.png 2x, $zeplin/$img@3x.png 3x">
         <div class="label">
           내 아이의 건강을 위해,<br />
           오늘부터 푸고 하세요!
         </div>
       </div>
+      <div class="mainImgWrap d-block d-md-none">
+        <img draggable="false" src="$zeplin/tkfd200-sec01-03.png" srcset="$zeplin/tkfd200-sec01-03@2x.png 2x, $zeplin/tkfd200-sec01-03@3x.png 3x">
+      </div>
       <div class="body">
         <h2>대장균 증식을 억제하는 건강한 보틀, 푸고</h2>
         <p>
-          내 아이를 물 건강을 위해서<br />
+          내 아이의 물 건강을 위해서<br />
           물컵 속 대장균 관리가 무엇보다 중요합니다.<br />
           최적의 온도 유지로 대장균 증식을 억제하는<br />
           진공단열 스테인리스 보틀, 푸고<br />
@@ -39,7 +42,7 @@ function why($arg)
           여름철 대장균 증식을 억제하는<br class="d-block d-lg-none" /> 유아용 스테인리스 보틀입니다.
         </p>
       </div>
-      <div class="table">
+      <div class="table d-none d-lg-block">
         <div class="row">
           <div class="col-12 col-lg-2 head px-0">
             써모스 진공단열<br />
@@ -78,7 +81,13 @@ function why($arg)
           </div>
         </div>
       </div>
-      <div class="src">출처: 써모스 자체 조사</div>
+      <div class="src d-none d-lg-block">출처: 써모스 자체 조사</div>
+      <div class="d-none d-md-block d-lg-none">
+        <img class="tkfd200-sec01-04" draggable="false" src="$zeplin/tkfd200-sec01-04-t.jpg">
+      </div>
+      <div class="d-block d-md-none">
+        <img class="tkfd200-sec01-04" draggable="false" src="$zeplin/tkfd200-sec01-04.png" srcset="$zeplin/tkfd200-sec01-04@2x.png 2x, $zeplin/tkfd200-sec01-04@3x.png 3x">
+      </div>
     </div>
   </div>
 HTML;

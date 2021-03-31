@@ -12,7 +12,7 @@ include('product/why.php');
 include('product/inspection.php');
 include('product/detail.php');
 ?>
-<main class="pageTemplate productLending">
+<main class="pageTemplate productLending tkfd200">
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
     <div class="mainSectionImgWrap">
@@ -32,7 +32,7 @@ include('product/detail.php');
     </div>
   </div>
   <?php get_template_part('template-parts/header/product') ?>
-  <div class="section section1 mb-5">
+  <div class="section section1 mb-5 d-none d-md-block">
     <div class="container">
       <div class="header">
         <h1>COLOR · SIZE</h1>
@@ -46,6 +46,12 @@ include('product/detail.php');
       <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/1752.png" srcset="<?php echo $zeplin ?>/1752@2x.png 2x, <?php echo $zeplin ?>/1752@3x.png 3x">
       <!-- 공통 -->
       <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/188.png" srcset="<?php echo $zeplin ?>/188@2x.png 2x, <?php echo $zeplin ?>/188@3x.png 3x">
+    </div>
+  </div>
+  <div class="section section1 d-block d-md-none">
+    <div class="container">
+      <img class="tkfd200-sec01-01" draggable="false" src="<?php echo $zeplin ?>/tkfd200-sec01-01.png" >
+      <img class="tkfd200-sec01-02" draggable="false" src="<?php echo $zeplin ?>/tkfd200-sec01-02.png" >
     </div>
   </div>
   <?php echo sectionHero(); ?>
@@ -84,7 +90,7 @@ include('product/detail.php');
           <img draggable="false" src="<?php echo $zeplin ?>/545.jpg" srcset="<?php echo $zeplin ?>/545@2x.jpg 2x, <?php echo $zeplin ?>/545@3x.jpg 3x">
         </div>
       </div>
-      <div class="row pink">
+      <div class="row pink d-none d-md-flex">
         <div class="col-12 col-lg-6 imgCol">
           <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3042.png" srcset="<?php echo $zeplin ?>/3042@2x.png 2x, <?php echo $zeplin ?>/3042@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/233.png" srcset="<?php echo $zeplin ?>/233@2x.png 2x, <?php echo $zeplin ?>/233@3x.png 3x">
@@ -100,7 +106,10 @@ include('product/detail.php');
           </p>
         </div>
       </div>
-      <div class="row two pb-lg-0">
+      <div class="row pink d-flex d-md-none">
+        <img draggable="false" src="<?php echo $zeplin ?>/tkfd200-sec05-01.png" srcset="<?php echo $zeplin ?>/tkfd200-sec05-01@2x.png 2x, <?php echo $zeplin ?>/tkfd200-sec05-01@3x.png 3x">
+      </div>
+      <div class="row two pb-lg-0 d-none d-md-flex">
         <div class="col-12 col-lg-6 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/226.png" srcset="<?php echo $zeplin ?>/226@2x.png 2x, <?php echo $zeplin ?>/226@3x.png 3x">
         </div>
@@ -116,7 +125,9 @@ include('product/detail.php');
           </p>
         </div>
       </div>
-
+      <div class="row two pb-lg-0 d-flex d-md-none">
+        <img draggable="false" src="<?php echo $zeplin ?>/tkfd200-sec05-02.png" srcset="<?php echo $zeplin ?>/tkfd200-sec05-02@2x.png 2x, <?php echo $zeplin ?>/tkfd200-sec05-02@3x.png 3x">
+      </div>
       <?php echo detail($arg = 'three') ?>
     </div>
   </div>
@@ -125,7 +136,7 @@ include('product/detail.php');
 
       <div class="row">
         <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
-          <div class="title">
+          <div class="title align_right">
             시피컵, 빨대컵 두 가지 타입으로<br class="d-block d-lg-none" /> 변신하는<br class="d-none d-lg-block" />
             2WAY BABY BOTTLE
           </div>
@@ -213,12 +224,10 @@ include('product/detail.php');
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">
-            탈부착 가능한 손잡이
+          진공단열 스테인리스 이중구조
           </div>
           <p>
-            손잡이가 돌아가지 않아 아이가 쉽게 마실 수 있어요.<br />
-            바디링으로 바꿔 끼우면 부피를 줄일 수 있답니다.<br />
-            (바디링 별매)
+          진공단열 보온병 구조로 내용물을 신선하게 보관할 수 있어요.
           </p>
         </div>
       </div>
@@ -279,7 +288,7 @@ include('product/detail.php');
             <div class="item" style="background-image: url(<?php echo $zeplin ?>/194@3x.png)">
               <span>마개</span>
             </div>
-            <div class="item" style="background-image: url(<?php echo $zeplin ?>/184@3x.png)">
+            <div class="item" style="background-image: url(<?php echo $zeplin ?>/193@3x.png)">
               <span>빨대세트</span>
             </div>
             <div class="item" style="background-image: url(<?php echo $zeplin ?>/192@3x.png)">

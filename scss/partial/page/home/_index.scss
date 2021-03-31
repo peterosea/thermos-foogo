@@ -1,5 +1,6 @@
 .homepage {
   h1 {
+    letter-spacing:-0.03em;
     @include respondTo('msm') {
       font-size: 28px;
     }
@@ -33,9 +34,9 @@
   .section {
     @include respondTo('mmd') {
       padding-top: 0 !important;
-      &:not(:last-child) {
-        margin-bottom: 10px;
-      }
+      // &:not(:last-child) {
+      //   margin-bottom: 10px;
+      // }
     }
   }
 }

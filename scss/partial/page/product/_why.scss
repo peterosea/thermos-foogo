@@ -5,6 +5,10 @@
     text-align: center;
     padding-top: 83px;
     padding-bottom: 63px;
+    @include respondTo('mmd') {
+      padding-top: 10px;
+      padding-bottom: 0px;
+    }
   }
   .body {
     margin-bottom: 49px;
@@ -21,6 +25,12 @@
     @include respondTo('lg') {
       margin-bottom: 30px;
       font-size: 36px;
+    }
+    @include respondTo('msm') {
+      max-width: 300px;
+      margin-right: auto;
+      margin-left: auto;
+      word-break: normal;
     }
   }
   h2 {

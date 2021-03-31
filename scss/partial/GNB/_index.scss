@@ -2,9 +2,12 @@ body.admin-bar {
   nav.GNB {
     top: 32px;
   }
-  .menu-gnb-container:hover + .subMegaMenu {
-    transform: translateX(-50%) translateY(0);
-  }
+  // .menu-gnb-container:hover + .subMegaMenu {
+  //   transform: translateX(-50%) translateY(0);
+  // }
+  .subMegaMenu._active {
+      transform: translateX(-50%) translateY(0);
+    }
   nav.GNB.mobile.shrink {
     top: 0;
     @media screen and (min-width: 600px) {
@@ -13,6 +16,9 @@ body.admin-bar {
     @media screen and (min-width: 783px) {
       top: 32px;
     }
+  }
+  .subMegaMenu._fixed {
+    margin-top: 112px;
   }
   .GNB.mobile {
     top: 46px;
@@ -165,8 +171,11 @@ nav.GNB {
   }
 }
 
-.menu-gnb-container:hover + .subMegaMenu,
-.subMegaMenu:hover {
+// .menu-gnb-container #menu-item-120:hover + .subMegaMenu,
+// .subMegaMenu:hover {
+//   transform: translateX(-50%) translateY(0);
+// }
+.subMegaMenu._active {
   transform: translateX(-50%) translateY(0);
 }
 
@@ -224,13 +233,21 @@ nav.GNB {
     position: relative;
     z-index: 2;
     padding: 35px 10px;
+    width: 20%;
     @include respondTo('xl') {
-      padding: 35px 23px;
+      padding: 20px 20px 30px;
     }
 
     transition: all 0.3s ease-in-out;
     &:not(:last-child) {
       margin-right: 20px;
+    }
+    .body {
+      font-size: 16px;
+      letter-spacing: -0.02em;
+      strong {
+        display: block;
+      }
     }
     .imgWrap {
       border-radius: 9999px;
@@ -253,6 +270,41 @@ nav.GNB {
     &:hover {
       background-color: $pinkish-brown;
       color: $white;
+    }
+  }
+  &._fixed {
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+    margin-top: 80px;
+    left: 0;
+    transform: none;
+    display: none;
+    width: 100%;
+    max-width: none;
+    > .container {
+      max-width: 1224px;
+      margin:0 auto;
+      width: 95%;
+      display: flex;
+    }
+    &:after {
+      height: calc(100% + 20px);
+    }
+    &._display {
+      display: flex;
+    }
+    &.headroom--pinned {
+      transform: translateY(0%);
+    }
+    &.headroom--unpinned {
+      transform: translateY(-150%);
+    }
+    @include respondTo('mlg') {
+      display:none;
+      &._display {
+        display: none;
+      }
     }
   }
 }

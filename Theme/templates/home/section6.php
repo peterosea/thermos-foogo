@@ -1,7 +1,8 @@
 <div class="section section6">
   <div class="layer">
     <div class="innerLayer">
-      <img class="path44 position-absolute" draggable="false" src="<?php echo $zeplin ?>/44.png" srcset="<?php echo $zeplin ?>/44@2x.png 2x, <?php echo $zeplin ?>/44@3x.png 3x">
+      <img class="path44 position-absolute d-none d-md-block" draggable="false" src="<?php echo $zeplin ?>/44.png" srcset="<?php echo $zeplin ?>/44@2x.png 2x, <?php echo $zeplin ?>/44@3x.png 3x">
+      <img class="path29 position-absolute d-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/29.png" srcset="<?php echo $zeplin ?>/29@2x.png 2x, <?php echo $zeplin ?>/29@3x.png 3x">
     </div>
   </div>
   <div class="container">

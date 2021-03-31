@@ -26,11 +26,29 @@
   color: $white;
   background-color: $light-grey-blue;
   .layer {
+    .innerLayer {
+      @include respondTo('msm') {
+        width: 100%;
+        display: block;
+      }
+    }
     .path44 {
       left: 50%;
       bottom: 0;
       transform: translateX(-50%) translateY(100px);
       transition: transform 0.8s ease;
+    }
+    .path29 {
+      @include respondTo('msm') {
+        width: 100%;
+        bottom: 0;
+      }
+    }
+  }
+  .container {
+    @include respondTo('mmd') {
+      padding-top: 60px;
+      padding-bottom: 80px;
     }
   }
   &.active .layer {

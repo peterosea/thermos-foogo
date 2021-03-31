@@ -1,0 +1,9 @@
+main.tkfd200 {
+    .section6 {
+        .title.align_right {
+            @include respondTo('mmd') {
+                text-align: left !important;
+            }
+        }
+    }
+}
