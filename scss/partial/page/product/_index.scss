@@ -1,4 +1,7 @@
 main.productLending {
+  @include respondTo('lg') {
+    padding-top: 408px;
+  }
   .MobilesubMegaMenu.headroom--pinned:not(.headroom--top) + .main,
   .MobilesubMegaMenu.headroom--unpinned + .main {
     .container {
@@ -17,6 +20,17 @@ main.productLending {
       --bs-gutter-x: 80px;
     }
   }
+  .contentCol .title {
+    &.align_right {
+      text-align: right !important;
+    }
+    &.align_center {
+      text-align: center !important;
+    }
+    &.align_left {
+      text-align: left !important;
+    }
+  }
   .main {
     position: relative;
 
@@ -32,7 +46,7 @@ main.productLending {
           top: 0;
           width: 100%;
           height: 1280px;
-          max-width: 1920px;
+          // max-width: 1920px;
           left: 50%;
           object-fit: cover;
           transform: translateX(-50%);
@@ -72,11 +86,20 @@ main.productLending {
       color: $milk-chocolate;
       h1 {
         margin-bottom: 15px;
+        font-weight: 800;
         @include respondTo('lg') {
           margin-bottom: 20px;
         }
         @include respondTo('xl') {
           margin-bottom: 30px;
+        }
+        @include respondTo('msm') {
+          font-size: 36px;
+          max-width: 300px;
+          margin-right: auto;
+          margin-left: auto;
+          letter-spacing: -0.03em;
+          line-height: 1.2;
         }
       }
       strong {
@@ -88,6 +111,12 @@ main.productLending {
           font-size: 22px;
         }
       }
+      p {
+        font-size: 18px;
+        @include respondTo('lg') {
+          font-size: 20px;
+        }
+      }
     }
   }
   .section1 {
@@ -96,8 +125,16 @@ main.productLending {
     @include respondTo('lg') {
       padding-top: 120px;
     }
+    @include respondTo('mmd') {
+      padding-top: 0;
+    }
     .header {
       margin-bottom: 50px;
+    }
+    .container {
+      @include respondTo('mmd') {
+        padding:0;
+      }
     }
     img {
       margin: 0 auto;
@@ -105,6 +142,9 @@ main.productLending {
         @include respondTo('mlg') {
           margin: 0 auto 50px;
         }
+      }
+      @include respondTo('mmd') {
+        width: 100%;
       }
     }
   }
@@ -114,6 +154,10 @@ main.productLending {
     @include respondTo('lg') {
       padding-top: 120px;
       padding-bottom: 50px;
+    }
+    @include respondTo('msm') {
+      padding-top: 0;
+      padding-bottom: 0;
     }
     img {
       width: 100%;
@@ -159,7 +203,14 @@ main.productLending {
       display: flex;
       flex-direction: column;
       justify-content: center;
-
+      @include respondTo('mlg') {
+        text-align: center;
+        p {
+          max-width: 380px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
       .comment {
         font-size: 16px;
         line-height: 1.63;
@@ -170,7 +221,12 @@ main.productLending {
     .row {
       color: $white;
       margin-bottom: 10px;
-
+      @include respondTo('mmd') {
+        margin-bottom: 0;
+        > img {
+          padding:0;
+        }
+      }
       @include respondTo('lg') {
         margin-bottom: 30px;
       }
@@ -202,12 +258,28 @@ main.productLending {
           font-size: 18px;
         }
       }
+      &:first-child p {
+        max-width: 290px;
+        margin-left: auto;
+        margin-right: auto;
+      }
       &.pink,
       &.two,
       &.three,
       &.light-blue-grey {
         padding-top: 50px;
         padding-bottom: 50px;
+        &.jnx {
+          padding-top: 30px;
+          padding-bottom: 0;
+          @include respondTo('mmd') {
+            padding-top: 0;
+          }
+        }
+        @include respondTo('mmd') {
+          padding-top: 0;
+          padding-bottom: 0;
+        }
       }
       &.pink {
         background-color: $blush;
@@ -224,13 +296,17 @@ main.productLending {
           padding-top: 50px;
           padding-bottom: 50px;
         }
+        @include respondTo('mmd') {
+          padding-top: 0;
+          padding-bottom: 0;
+        }
       }
     }
   }
   .section6 {
     padding-top: 54px;
     padding-bottom: 54px;
-
+    
     @include respondTo('lg') {
       padding-top: 130px;
       padding-bottom: 130px;

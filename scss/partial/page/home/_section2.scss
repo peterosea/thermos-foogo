@@ -6,6 +6,11 @@
     vertical-align: bottom;
   }
   .layer {
+    .innerLayer {
+      @include respondTo('mmd') {
+        display: none;
+      }
+    }
     .group41 {
       width: 100%;
       height: 700px;
@@ -30,6 +35,10 @@
       transform: translateX(10%) translateY(10%);
       transition: transform 1s ease-in-out;
       transition-delay: 0.3s;
+      @include respondTo('mxl') {
+        right: 50px;
+        width: 300px;
+      }
     }
     .path2955 {
       left: 50%;
@@ -46,11 +55,29 @@
     }
     .path175 {
       bottom: 0;
-      transform: translate(-70px, 70px) scale(2);
+      @include respondTo('md') {
+        transform: translate(-70px, 70px) scale(2);
+      }
+      @include respondTo('mmd') {
+        width: 100%;
+      }
+      &.d-md-none {
+        right: 0;
+        z-index: 0;
+      }
     }
     .path119 {
       bottom: 0;
-      transform: translate(20%, 0%);
+      @include respondTo('md') {
+        transform: translate(20%, 0%);
+      }
+      @include respondTo('mmd') {
+        width: 100%;
+      }
+      &.d-md-none {
+        z-index: 1;
+        left: 0;
+      }
     }
   }
   &.active .layer {
@@ -85,9 +112,21 @@
     }
   }
   .container {
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+    z-index: 9;
+    @include respondTo('md') {
+      padding-bottom: 60px;
+    }
     @include respondTo('sm') {
       padding-bottom: 145px;
+    }
+    @include respondTo('mmd') {
+      padding-top: 920px;
+      padding-bottom: 90px;
+    }
+    @include respondTo('msm') {
+      padding-top: 540px;
+      padding-bottom: 40px;
     }
   }
   h1 {

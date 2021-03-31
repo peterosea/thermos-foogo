@@ -9,6 +9,12 @@
     margin-bottom: 0;
   }
   .header {
+    p {
+      @include respondTo('msm') {
+        max-width: 250px;
+        margin: 0 auto;
+      }
+    }
   }
 
   .container {
@@ -26,6 +32,12 @@
       z-index: 1;
       height: 100vh;
       overflow: hidden;
+      @include respondTo('mmd') {
+        height: 700px;
+      }
+      @include respondTo('msm') {
+        height: 620px;
+      }
 
       &:before {
         content: '';
@@ -77,6 +89,9 @@
     user-select: none;
     grid-column: span 2;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    @include respondTo('mmd') {
+      width: 320px;
+    }
   }
 
   .item:nth-of-type(even) {
@@ -94,6 +109,9 @@
     height: auto;
     min-height: 500px;
     margin: 0 auto;
+    @include respondTo('mmd') {
+      min-height: 400px;
+    }
   }
 
   .item__clippath,

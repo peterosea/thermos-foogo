@@ -8,13 +8,17 @@
   }
   p {
     font-size: 16px;
+    @include respondTo('msm') {
+      font-size: 14px;
+      letter-spacing: -0.03em;
+    }
   }
   @include respondTo('xl') {
     color: $black-four;
   }
   img {
     width: 100%;
-    max-width: 1920px;
+    // max-width: 1920px;
     margin: 0 auto;
   }
   .logo {
@@ -24,6 +28,9 @@
   }
   .divider {
     margin-bottom: 70px;
+    @include respondTo('mmd') {
+      margin-bottom: 50px;
+    }
   }
   .body {
     text-align: right;
@@ -41,6 +48,11 @@
     @include respondTo('xxl') {
       padding-top: 140px;
       padding-bottom: 140px;
+    }
+    &.position-absolute {
+      @include respondTo('mmd') {
+        display: none;
+      }
     }
   }
   .container.position-absolute {

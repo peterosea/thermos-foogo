@@ -32,7 +32,7 @@ include('product/detail.php');
     </div>
   </div>
   <?php get_template_part('template-parts/header/product') ?>
-  <div class="section section1">
+  <div class="section section1 d-none d-md-block">
     <div class="container">
       <div class="header">
         <h1>COLOR · SIZE</h1>
@@ -46,6 +46,13 @@ include('product/detail.php');
       <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/221.png" srcset="<?php echo $zeplin ?>/221@2x.png 2x, <?php echo $zeplin ?>/221@3x.png 3x">
       <!-- 공통 -->
       <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29311.png" srcset="<?php echo $zeplin ?>/29311@2x.png 2x, <?php echo $zeplin ?>/29311@3x.png 3x">
+    </div>
+  </div>
+  <div class="section section1 d-block d-md-none">
+    <div class="container">
+      <img class="tkfe350-sec01-01" draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec01-01.png" srcset="<?php echo $zeplin ?>/tkfe350-sec01-01@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec01-01@3x.png 3x">
+      <img class="tkfe350-sec01-02" draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec01-02.png" srcset="<?php echo $zeplin ?>/tkfe350-sec01-02@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec01-02@3x.png 3x">
+      <img class="tkfe350-sec01-03" draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec01-03.png" srcset="<?php echo $zeplin ?>/tkfe350-sec01-03@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec01-03@3x.png 3x">
     </div>
   </div>
   <?php echo sectionHero(); ?>
@@ -78,7 +85,7 @@ include('product/detail.php');
           <img draggable="false" src="<?php echo $zeplin ?>/54.jpg" srcset="<?php echo $zeplin ?>/54@2x.jpg 2x, <?php echo $zeplin ?>/54@3x.jpg 3x">
         </div>
       </div>
-      <div class="row pink">
+      <div class="row pink d-none d-md-flex">
         <div class="col-12 col-lg-6 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/224.png" srcset="<?php echo $zeplin ?>/224@2x.png 2x, <?php echo $zeplin ?>/224@3x.png 3x">
         </div>
@@ -93,7 +100,10 @@ include('product/detail.php');
           </p>
         </div>
       </div>
-      <div class="row two">
+      <div class="row pink d-flex d-md-none">
+        <img draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec05-01.png" srcset="<?php echo $zeplin ?>/tkfe350-sec05-01@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec05-01@3x.png 3x">
+      </div>
+      <div class="row two d-none d-md-flex">
         <div class="col-12 col-lg-6 imgCol">
           <img draggable="false" src="<?php echo $zeplin ?>/226.png" srcset="<?php echo $zeplin ?>/226@2x.png 2x, <?php echo $zeplin ?>/226@3x.png 3x">
         </div>
@@ -108,6 +118,9 @@ include('product/detail.php');
             또한 마개는 식기세척기에 사용할 수 있어요.
           </p>
         </div>
+      </div>
+      <div class="row two d-flex d-md-none">
+        <img draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec05-02.png" srcset="<?php echo $zeplin ?>/tkfe350-sec05-02@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec05-02@3x.png 3x">
       </div>
       <?php echo detail($arg = 'three') ?>
     </div>
@@ -130,7 +143,7 @@ include('product/detail.php');
       </div>
       <div class="row">
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3018.png" srcset="<?php echo $zeplin ?>/3018@2x.png 2x, <?php echo $zeplin ?>/3018@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3035.png" srcset="<?php echo $zeplin ?>/3035@2x.png 2x, <?php echo $zeplin ?>/3035@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2970.png" srcset="<?php echo $zeplin ?>/2970@2x.png 2x, <?php echo $zeplin ?>/2970@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
@@ -197,8 +210,8 @@ include('product/detail.php');
       <div class="row">
         <div class="col-12 col-lg-5 imgCol">
 
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/2973.png" srcset="<?php echo $zeplin ?>/2973@2x.png 2x, <?php echo $zeplin ?>/2973@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29731.png" srcset="<?php echo $zeplin ?>/29731@2x.png 2x, <?php echo $zeplin ?>/29731@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3039.png" srcset="<?php echo $zeplin ?>/3039@2x.png 2x, <?php echo $zeplin ?>/3039@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30391.png" srcset="<?php echo $zeplin ?>/30391@2x.png 2x, <?php echo $zeplin ?>/30391@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">빨대컵을 보호하는 실리콘 바닥 커버</div>

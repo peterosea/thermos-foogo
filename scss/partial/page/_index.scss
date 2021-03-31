@@ -20,6 +20,7 @@
   }
   p {
     font-size: 14px;
+    letter-spacing: -0.02em;
     @include respondTo('lg') {
       font-size: 20px;
     }

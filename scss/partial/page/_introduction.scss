@@ -66,6 +66,9 @@ main.introduction {
         top: 233px;
         text-align: right;
       }
+      p {
+        font-weight: 200;
+      }
     }
   }
   .section2 {
@@ -164,7 +167,7 @@ main.introduction {
         top: 800px;
       }
       @include respondTo('xxl') {
-        top: 300px;
+        top: 400px;
       }
     }
   }

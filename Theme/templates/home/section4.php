@@ -1,7 +1,7 @@
 <div class="section section4">
   <div class="layer">
     <div class="innerLayer">
-      <svg class="position-absolute path43" xmlns="http://www.w3.org/2000/svg" width="3000" height="1080" viewBox="0 0 3000 1080">
+      <svg class="position-absolute path43 d-none d-md-block" xmlns="http://www.w3.org/2000/svg" width="3000" height="1080" viewBox="0 0 3000 1080">
         <defs>
           <clipPath id="clip-path">
             <path id="사각형_149" fill="#f5edd7" d="M0 0H3000V1080H0z" transform="translate(-540 3242)" />
@@ -92,6 +92,7 @@
           </g>
         </g>
       </svg>
+      <img draggable="false" class="position-absolute d-block d-md-none path188" src="<?php echo $zeplin ?>/1888.png">
 
       <img draggable="false" class="position-absolute path2626" src="<?php echo $zeplin ?>/2626.png" srcset="<?php echo $zeplin ?>/2626@2x.png 2x, <?php echo $zeplin ?>/2626@3x.png 3x">
       <img draggable="false" class="position-absolute path2882" src="<?php echo $zeplin ?>/2882.png" srcset="<?php echo $zeplin ?>/2882@2x.png 2x, <?php echo $zeplin ?>/2882@3x.png 3x">
@@ -111,6 +112,11 @@
             푸고 프리미엄 뉴트럴 시리즈 제품은 <br />
             <span class="pointBg">아이의 성장단계</span>에 맞추어<br />
             <span class="pointBg">소모품을 자유롭게 변경</span>할 수 있어요.
+          </p>
+          <p>
+          각 단계별 마개와 손잡이/링은<br>
+          같은 시리즈 내에서<br>
+          서로 바꾸어 사용할 수 있어요.
           </p>
         </div>
       </div>
@@ -137,11 +143,6 @@
             물컵 속 대장균 관리가 무엇보다 중요합니다.<br />
             <span class="pointBg">최적의 온도 유지로 대장균 증식을 억제하는 <br />
               진공단열 스테인리스 보틀</span>, 푸고를 만나보세요.
-          </p>
-          <p>
-            각 단계별 마개와 손잡이/링은<br />
-            같은 시리즈 내에서<br />
-            서로 바꾸어 사용할 수 있어요.
           </p>
         </div>
       </div>

@@ -75,6 +75,30 @@ HTML;
   </div>
 </nav>
 
+<!-- 제품페이지용 서브메가메뉴 -->
+<div class="subMegaMenu container _fixed">
+  <div class="container">
+  <?php
+  foreach (wp_get_nav_menu_items('Product') as $mi) {
+    $content = get_field('content', $mi->ID);
+    $content2 = get_field('strong', $mi->ID);
+    $img = get_field('img', $mi->ID);
+    echo <<<HTML
+      <a href="$mi->url" class="item">
+        <div class="imgWrap">
+          <img src="$img" alt="">
+        </div>
+        <div class="body">
+          <div class="title">$mi->title</div>
+          $content
+          <strong>$content2</strong>
+        </div>
+      </a>
+HTML;
+  }
+  ?>
+  </div>
+</div>
 
 <nav class="GNB mobile d-flex d-lg-none">
   <a href="/" class="logo">

@@ -74,11 +74,18 @@ body .listStyle {
     }
   }
 }
+.fp-section,
+.fp-slide,
+.fp-tableCell{
+  @include respondTo('mmd') {
+    height: auto !important;
+  }
+}
 .fp-slidesNav.fp-thermos-foogo {
   display: flex;
   justify-content: center;
 
-  bottom: 33px;
+  bottom: 40px;
   @include respondTo('sm') {
     bottom: 5%;
   }

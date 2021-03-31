@@ -2,6 +2,7 @@
 
 function inspection()
 {
+  $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
   return <<<HTML
   <div class="section inspection">
     <div class="container">
@@ -20,7 +21,7 @@ function inspection()
           </div>
         </div>
       </div>
-      <div class="body">
+      <div class="body d-none d-md-block">
         <ul>
           <li>
             <span>
@@ -87,6 +88,9 @@ function inspection()
           </li>
         </ul>
       </div>
+      <div class="body d-flex d-md-none">
+        <img draggable="false" src="$zeplin/product-process-t.png">
+      </div> 
     </div>
   </div>
 HTML;

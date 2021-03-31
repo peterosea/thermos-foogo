@@ -53,6 +53,15 @@
     }
   }
   .layer {
+    .innerLayer {
+      @include respondTo('msm') {
+        display:block;
+        width: 100%;
+      }
+    }
+    .path188 {
+      bottom:0;
+    }
     .path2882,
     .path2626 {
       opacity: 0;
@@ -80,11 +89,27 @@
   h1 {
     color: $dark-taupe;
   }
+  .contentRow {
+    h1 {
+      @include respondTo('msm') {
+        font-weight: normal;
+      }
+    }
+  }
   .container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    @include respondTo('md') {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
     @include respondTo('lg') {
       max-width: 900px;
+    }
+    .row.mb-5 {
+      @include respondTo('mmd') {
+        margin-top: 60px;
+      }
     }
   }
   .pointBg {

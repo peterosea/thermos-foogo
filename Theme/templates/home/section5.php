@@ -16,7 +16,7 @@
             변신
           </h1>
         </div>
-        <div class="col-12 col-md-6 px-4 px-md-5">
+        <div class="col-12 col-md-6 px-4">
           <p>
             시피컵과 빨대컵, 두 가지로 사용할 수 있어요.<br />
             <span class="pointBg">마개만 바꾸면 아이의 성장 단계에 맞게</span><br />
@@ -40,7 +40,7 @@
             확 달라진 빨대 구조
           </h1>
         </div>
-        <div class="col-12 col-md-6 px-4 px-md-5">
+        <div class="col-12 col-md-6 px-4 px-md-3">
           <p>
             세척이 쉽도록 빨대컵 구조를 개선했어요.<br />
             <span class="pointBg">빨대 부품 가짓수를 줄여 구조를 단순하게</span> 바꿨답니다.<br />
@@ -114,7 +114,7 @@
             데일리 텀블러까지
           </h1>
         </div>
-        <div class="col-12 col-md-6 px-4 px-md-5">
+        <div class="col-12 col-md-6 px-4 px-md-2">
           <p>
             WHO 및 식품의약품안전처에서 권장하는<br />
             <span class="pointBg">분유 타는 물의 온도를 70도 이상으로</span> 권장하고 있어요.<br />

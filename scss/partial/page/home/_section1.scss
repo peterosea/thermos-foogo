@@ -44,7 +44,7 @@
     .path280 {
       transition: transform 1.5s ease-in-out;
       transition-delay: 0.5s;
-      transform: translate(-20px, 0);
+      right: 0;
       @include respondTo('md') {
         transform: translate(100px, 0);
       }
@@ -75,13 +75,17 @@
     @include respondTo('xl') {
       padding-bottom: 200px;
     }
+    @include respondTo('mmd') {
+      padding-bottom: 30px;
+      padding-top: 480px;
+    }
   }
   .fp-bg {
     background-size: cover;
     background-position: center;
     background-image: url(#{$zeplin}/tkfe-280-p-1@3x.jpg);
     @include respondTo('md') {
-      background-image: url(#{$zeplin}/36@3x.jpg);
+      background-image: url(#{$zeplin}/main-sec1-bg.jpg);
     }
   }
   h1 {
