@@ -21,6 +21,10 @@ $breakpoints: (
     min-width: 1440px,
   ),
   // max
+  'mxs':
+    (
+      max-width: 375px,
+    ),
   'msm':
     (
       max-width: 576px,

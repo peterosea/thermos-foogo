@@ -6,10 +6,10 @@
       var headroom = new Headroom(myElement, options);
       headroom.init();
 
-      var myElement2 = document.querySelector('.MobilesubMegaMenu');
-      var options = {};
-      var headroom2 = new Headroom(myElement2, options);
-      headroom2.init();
+      // var myElement2 = document.querySelector('.MobilesubMegaMenu');
+      // var options = {};
+      // var headroom2 = new Headroom(myElement2, options);
+      // headroom2.init();
 
       var myElement3 = document.querySelector('.subMegaMenu._fixed');
       var options = {};
@@ -41,10 +41,15 @@
   $(window).scroll(function () {
     var scroll = getCurrentScroll();
     if (scroll >= shrinkHeader) {
-      $('nav.GNB, .MobilesubMegaMenu').addClass('shrink');
+      $('nav.GNB').addClass('shrink');
     } else {
-      $('nav.GNB, .MobilesubMegaMenu').removeClass('shrink');
+      $('nav.GNB').removeClass('shrink');
     }
+    // if (scroll >= shrinkHeader) {
+    //   $('nav.GNB, .MobilesubMegaMenu').addClass('shrink');
+    // } else {
+    //   $('nav.GNB, .MobilesubMegaMenu').removeClass('shrink');
+    // }
   });
   function getCurrentScroll() {
     return window.pageYOffset || document.documentElement.scrollTop;

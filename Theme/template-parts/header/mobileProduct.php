@@ -1,4 +1,4 @@
-<div class="d-block d-lg-none MobilesubMegaMenu container px-0">
+<div class="d-flex d-lg-none MobilesubMegaMenu container px-0">
   <ul>
     <?php
     global $post;

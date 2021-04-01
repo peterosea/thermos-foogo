@@ -9,7 +9,8 @@ function sectionHero($isBaby = true)
     </h1>
     <p>
       소중한 우리 아이들에게<br />
-      <span class="pointBg">Earthy Neutrals</span>의 자연을 보여주고 싶은 마음을 담았습니다.<br />
+      <span class="pointBg">Earthy Neutrals</span>의 자연을 보여주고 싶은<br />
+      마음을 담았습니다.<br />
       자연을 담은 푸고 프리미엄 뉴트럴 시리즈를 만나보세요.
     </p>
 HTML;
@@ -22,7 +23,8 @@ HTML;
     <p>
       순수함, 포근함, 달콤함, 부드러움의
       <span class="pointBg">Soft touch</span>가 모티브가 되어<br />
-      아이들이 작은 손으로 직접 느낄 수 있는 푸고 프리미엄 뉴트럴 시리즈를 만들었습니다.
+      아이들이 작은 손으로 직접 느낄 수 있는<br />
+      푸고 프리미엄 뉴트럴 시리즈를 만들었습니다.
     </p>
 HTML;
   return <<<HTML

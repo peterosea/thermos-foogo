@@ -1,4 +1,9 @@
-main.tkfd200 {
+main.productLending.tkfd200 {
+    @include respondTo('msm') {
+        .mainSectionImgWrap {
+            max-height: 840px;
+        }
+    }
     .section6 {
         .title.align_right {
             @include respondTo('mmd') {

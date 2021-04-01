@@ -18,35 +18,19 @@ body.admin-bar {
 }
 
 .pageTemplate div.container.MobilesubMegaMenu {
-  max-width: none;
-  position: fixed;
-  margin-top: 80px;
+  margin-top: 60px;
   z-index: 7000;
   background-color: $white;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  transform: translateY(-150%);
   transition: all 0.3s ease-in-out;
-  &:not(.headroom--pinned):not(.headroom--unpinned),
-  &.headroom--pinned.headroom--top {
-    position: static;
-    transform: none;
-    top: 0;
-  }
-  &.headroom--pinned {
-    transform: translateY(0);
-  }
-  &.headroom--unpinned + .section.main {
-    padding-top:80px;
-  }
+  justify-content: center;
+  max-width: unset;
 
   ul {
     padding: 0;
     margin-bottom: 0;
     display: flex;
-    width: 100%;
     list-style: none;
     overflow-x: scroll;
-    justify-content: center;
     &::-webkit-scrollbar {
       background-color: transparent;
       width: 4px;

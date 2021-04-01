@@ -53,7 +53,25 @@ main.productLending {
         }
       }
     }
-
+    @include respondTo('mmd') {
+      .mainSectionImgWrap {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      .pdimg_mobile {
+        max-width: 768px;
+        width: 100% !important;
+        align-self: flex-end;
+        object-fit: cover;
+        min-height: 630px;
+      }
+    }
+    @include respondTo('msm') {
+      .pdimg_mobile {
+        max-width: 576px;
+      }
+    }
     .container {
       // Layout
       top: 0;
@@ -71,6 +89,9 @@ main.productLending {
       @include respondTo('xl') {
         padding-top: 100px;
       }
+      @include respondTo('mxs') {
+        padding-top: 40px;
+      }
     }
     img {
       width: 100%;
@@ -84,6 +105,9 @@ main.productLending {
     .body {
       text-align: center;
       color: $milk-chocolate;
+      @include respondTo('mxs') {
+        line-height: 1.5em;
+      }
       h1 {
         margin-bottom: 15px;
         font-weight: 800;
@@ -94,7 +118,7 @@ main.productLending {
           margin-bottom: 30px;
         }
         @include respondTo('msm') {
-          font-size: 36px;
+          font-size: 34px;
           max-width: 300px;
           margin-right: auto;
           margin-left: auto;
