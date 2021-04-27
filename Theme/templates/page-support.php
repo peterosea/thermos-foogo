@@ -15,7 +15,8 @@ include('product/hero.php');
       <div class="col-12 col-lg-6 mb-3 mb-lg-0">
         <div class="card">
           <h2>고객상담실(A/S 문의)</h2>
-          <img draggable="false" src="<?php echo $zeplin; ?>/2930.png" srcset="<?php echo $zeplin; ?>/2930@2x.png 2x, <?php echo $zeplin; ?>/2930@3x.png 3x">
+          <img draggable="false" src="<?php echo $zeplin; ?>/2930.png"
+            srcset="<?php echo $zeplin; ?>/2930@2x.png 2x, <?php echo $zeplin; ?>/2930@3x.png 3x">
           <a href="tel:1577-8396" class="point">1577-8396</a>
           <div class="comment">
             운영시간 : 월~금 (공휴일 제외)<br />
@@ -26,7 +27,8 @@ include('product/hero.php');
       <div class="col-12 col-lg-6">
         <div class="card">
           <h2>영업관련 문의</h2>
-          <img draggable="false" src="<?php echo $zeplin; ?>/29322.png" srcset="<?php echo $zeplin; ?>/29322@2x.png 2x, <?php echo $zeplin; ?>/29322@3x.png 3x">
+          <img draggable="false" src="<?php echo $zeplin; ?>/29322.png"
+            srcset="<?php echo $zeplin; ?>/29322@2x.png 2x, <?php echo $zeplin; ?>/29322@3x.png 3x">
           <a style="line-height: 2.6" href="mailto:sale@thermos.kr" class="point mail">sale@thermos.kr</a>
         </div>
       </div>

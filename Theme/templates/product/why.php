@@ -4,6 +4,7 @@ function why($arg)
 {
   $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
   $img = $arg['img'];
+  $mimg = isset($arg['m_img']) ? $arg['m_img'] : 'tkfd200-sec01-03';
   return <<<HTML
   <div class="section why">
     <div class="container">
@@ -19,7 +20,7 @@ function why($arg)
         </div>
       </div>
       <div class="mainImgWrap d-block d-md-none">
-        <img draggable="false" src="$zeplin/tkfd200-sec01-03.png" srcset="$zeplin/tkfd200-sec01-03@2x.png 2x, $zeplin/tkfd200-sec01-03@3x.png 3x">
+        <img draggable="false" src="$zeplin/$mimg.png" srcset="$zeplin/$mimg@2x.png 2x, $zeplin/$mimg@3x.png 3x">
       </div>
       <div class="body">
         <h2>대장균 증식을 억제하는 건강한 보틀, 푸고</h2>

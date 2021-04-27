@@ -55,12 +55,17 @@
   .layer {
     .innerLayer {
       @include respondTo('msm') {
-        display:block;
+        display: block;
         width: 100%;
       }
     }
+    [id='그룹_2966'] {
+      @include respondTo('mmd') {
+        transform: translate(-350px, 50px);
+      }
+    }
     .path188 {
-      bottom:0;
+      bottom: 0;
     }
     .path2882,
     .path2626 {
@@ -73,7 +78,10 @@
     }
     .path43 {
       bottom: 0;
-      transform: translateX(200px);
+      transform: translateX(0);
+      @include respondTo('lg') {
+        transform: translateX(200px);
+      }
       path {
         transition: all 0.6s ease-in-out;
       }

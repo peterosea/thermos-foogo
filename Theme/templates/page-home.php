@@ -23,28 +23,40 @@ get_header();
   </div>
   <ul id="myMenu" class="listStyle">
     <li data-menuanchor="first" class="active">
-      <div class="label"></div>
-      <a href="#first">자연을 닮은 푸고</a>
+      <a href="#first">
+        <div class="label"></div>
+        <span>자연을 닮은 푸고</span>
+      </a>
     </li>
     <li data-menuanchor="second">
-      <div class="label"></div>
-      <a href="#second">우리 아이들을 위한 제품</a>
+      <a href="#second">
+        <div class="label"></div>
+        <span>우리 아이들을 위한 제품</span>
+      </a>
     </li>
     <li data-menuanchor="third">
-      <div class="label"></div>
-      <a href="#third">영상으로 만나는 푸고</a>
+      <a href="#third">
+        <div class="label"></div>
+        <span>영상으로 만나는 푸고</span>
+      </a>
     </li>
     <li data-menuanchor="fourth">
-      <div class="label"></div>
-      <a href="#fourth">푸고의 특장점</a>
+      <a href="#fourth">
+        <div class="label"></div>
+        <span>푸고의 특장점</span>
+      </a>
     </li>
     <li data-menuanchor="five">
-      <div class="label"></div>
-      <a href="#five">푸고 프리미엄 뉴트럴 시리즈</a>
+      <a href="#five">
+        <div class="label"></div>
+        <span>푸고 프리미엄 뉴트럴 시리즈</span>
+      </a>
     </li>
     <li data-menuanchor="six">
-      <div class="label"></div>
-      <a href="#six">푸고 공식 인스타그램</a>
+      <a href="#six">
+        <div class="label"></div>
+        <span>푸고 공식 인스타그램</span>
+      </a>
     </li>
   </ul>
 </main>

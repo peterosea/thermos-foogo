@@ -16,7 +16,10 @@ main.support {
     }
   }
   .row > * {
-    --bs-gutter-x: 40px;
+    --bs-gutter-x: 60px;
+    @include respondTo('lg') {
+      --bs-gutter-x: 40px;
+    }
   }
   h2 {
     @include respondTo('mlg') {
@@ -82,7 +85,9 @@ main.support {
       align-items: center;
       flex-wrap: wrap;
       h2 {
-        margin-right: 30px;
+        @include respondTo('lg') {
+          margin-right: 30px;
+        }
       }
       p {
         margin-bottom: 0;

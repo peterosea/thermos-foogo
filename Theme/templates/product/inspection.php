@@ -89,7 +89,8 @@ function inspection()
         </ul>
       </div>
       <div class="body d-flex d-md-none">
-        <img draggable="false" src="$zeplin/product-process-t.png">
+        <img draggable="false" src="$zeplin/product-process-t.png"
+          srcset="$zeplin/product-process-t@2x.png 2x, $zeplin/product-process-t@3x.png 3x">
       </div> 
     </div>
   </div>

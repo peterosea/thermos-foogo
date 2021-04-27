@@ -10,14 +10,17 @@ get_header();
 include('product/hero.php');
 ?>
 <main class="pageTemplate place">
-  <img draggable="false" class="header d-none d-lg-block" src="<?php echo $zeplin ?>/place.jpg" srcset="<?php echo $zeplin ?>/place@2x.jpg 2x, <?php echo $zeplin ?>/place@3x.jpg 3x">
-  <img draggable="false" class="header d-block d-lg-none" src="<?php echo $zeplin ?>/all4.jpg" srcset="<?php echo $zeplin ?>/all4@2x.jpg 2x, <?php echo $zeplin ?>/all4@3x.jpg 3x">
+  <img draggable="false" class="header d-none d-lg-block" src="<?php echo $zeplin ?>/place.jpg"
+    srcset="<?php echo $zeplin ?>/place@2x.jpg 2x, <?php echo $zeplin ?>/place@3x.jpg 3x">
+  <img draggable="false" class="header d-block d-lg-none" src="<?php echo $zeplin ?>/all4.jpg"
+    srcset="<?php echo $zeplin ?>/all4@2x.jpg 2x, <?php echo $zeplin ?>/all4@3x.jpg 3x">
   <div class="section">
     <div class="container">
       <div class="header">
         <h1>판매처</h1>
         <p>
-          전국 <span class="pointBg">오프라인 유아용품 전문점</span>과<br class="d-block d-lg-none" /> 써모스 온라인 공식몰(thermosshop.kr) 및<br />
+          전국 <span class="pointBg">오프라인 유아용품 전문점</span>과<br class="d-block d-lg-none" /> 써모스 온라인 공식몰(thermosshop.kr)
+          및<br />
           <span class="pointBg">오픈마켓/종합몰</span>에서<br class="d-block d-lg-none" /> 푸고 프리미엄 뉴트럴 시리즈를 만나보세요.
         </p>
       </div>
@@ -25,7 +28,8 @@ include('product/hero.php');
       <div class="card">
         <div class="row">
           <div class="col-12 col-lg-5 imgCol">
-            <img src="<?php echo $zeplin ?>/2920.png" srcset="<?php echo $zeplin ?>/2920@2x.png 2x, <?php echo $zeplin ?>/2920@3x.png 3x">
+            <img src="<?php echo $zeplin ?>/2920.png"
+              srcset="<?php echo $zeplin ?>/2920@2x.png 2x, <?php echo $zeplin ?>/2920@3x.png 3x">
           </div>
           <div class="col-12 col-lg-7">
             <p>

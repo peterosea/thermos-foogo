@@ -15,13 +15,17 @@ include('product/detail.php');
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
     <div class="mainSectionImgWrap">
-      <img class="d-none d-xl-block" draggable="false" src="<?php echo $zeplin ?>/139.jpg" srcset="<?php echo $zeplin ?>/139@2x.jpg 2x, <?php echo $zeplin ?>/139@3x.jpg 3x">
-      <img class="d-none d-md-block d-xl-none" draggable="false" src="<?php echo $zeplin ?>/2466.jpg" srcset="<?php echo $zeplin ?>/2466@2x.jpg 2x, <?php echo $zeplin ?>/2466@3x.jpg 3x">
-      <img class="d-block d-md-none w-100" draggable="false" src="<?php echo $zeplin ?>/1746.jpg" srcset="<?php echo $zeplin ?>/1746@2x.jpg 2x, <?php echo $zeplin ?>/1746@3x.jpg 3x">
+      <img class="d-none d-xl-block" draggable="false" src="<?php echo $zeplin ?>/139.jpg"
+        srcset="<?php echo $zeplin ?>/139@2x.jpg 2x, <?php echo $zeplin ?>/139@3x.jpg 3x">
+      <img class="d-none d-md-block d-xl-none" draggable="false" src="<?php echo $zeplin ?>/2466.jpg"
+        srcset="<?php echo $zeplin ?>/2466@2x.jpg 2x, <?php echo $zeplin ?>/2466@3x.jpg 3x">
+      <img class="d-block d-md-none w-100" draggable="false" src="<?php echo $zeplin ?>/1746.jpg"
+        srcset="<?php echo $zeplin ?>/1746@2x.jpg 2x, <?php echo $zeplin ?>/1746@3x.jpg 3x">
     </div>
     <div class="container">
       <div class="imgWrap">
-        <img draggable="false" src="<?php echo $zeplin ?>/2849.png" srcset="<?php echo $zeplin ?>/2849@2x.png 2x, <?php echo $zeplin ?>/2849@3x.png 3x">
+        <img draggable="false" src="<?php echo $zeplin ?>/2849.png"
+          srcset="<?php echo $zeplin ?>/2849@2x.png 2x, <?php echo $zeplin ?>/2849@3x.png 3x">
       </div>
       <div class="body">
         <h1>아이를 위한 분유 조제부터 데일리 텀블러까지</h1>
@@ -37,17 +41,23 @@ include('product/detail.php');
         <h1>COLOR · SIZE</h1>
         <p>색상 및 용량</p>
       </div>
-      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3028.png" srcset="<?php echo $zeplin ?>/3028@2x.png 2x, <?php echo $zeplin ?>/3028@3x.png 3x">
+      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3028.png"
+        srcset="<?php echo $zeplin ?>/3028@2x.png 2x, <?php echo $zeplin ?>/3028@3x.png 3x">
       <!-- mobile -->
-      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30146.png" srcset="<?php echo $zeplin ?>/30146@2x.png 2x, <?php echo $zeplin ?>/30146@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2226.png" srcset="<?php echo $zeplin ?>/2226@2x.png 2x, <?php echo $zeplin ?>/2226@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29246.png" srcset="<?php echo $zeplin ?>/29246@2x.png 2x, <?php echo $zeplin ?>/29246@3x.png 3x">
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30146.png"
+        srcset="<?php echo $zeplin ?>/30146@2x.png 2x, <?php echo $zeplin ?>/30146@3x.png 3x">
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2226.png"
+        srcset="<?php echo $zeplin ?>/2226@2x.png 2x, <?php echo $zeplin ?>/2226@3x.png 3x">
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29246.png"
+        srcset="<?php echo $zeplin ?>/29246@2x.png 2x, <?php echo $zeplin ?>/29246@3x.png 3x">
     </div>
   </div>
   <div class="section section1 d-block d-md-none">
     <div class="container">
-      <img class="jnx501k-sec01-01" draggable="false" src="<?php echo $zeplin ?>/jnx501k-sec01-01.png" srcset="<?php echo $zeplin ?>/jnx501k-sec01-01@2x.png 2x, <?php echo $zeplin ?>/jnx501k-sec01-01@3x.png 3x">
-      <img class="jnx501k-sec01-02" draggable="false" src="<?php echo $zeplin ?>/jnx501k-sec01-02.png" srcset="<?php echo $zeplin ?>/jnx501k-sec01-02@2x.png 2x, <?php echo $zeplin ?>/jnx501k-sec01-02@3x.png 3x">
+      <img class="jnx501k-sec01-01" draggable="false" src="<?php echo $zeplin ?>/jnx501k-sec01-01.png"
+        srcset="<?php echo $zeplin ?>/jnx501k-sec01-01@2x.png 2x, <?php echo $zeplin ?>/jnx501k-sec01-01@3x.png 3x">
+      <img class="jnx501k-sec01-02" draggable="false" src="<?php echo $zeplin ?>/jnx501k-sec01-02.png"
+        srcset="<?php echo $zeplin ?>/jnx501k-sec01-02@2x.png 2x, <?php echo $zeplin ?>/jnx501k-sec01-02@3x.png 3x">
     </div>
   </div>
   <?php
@@ -57,10 +67,12 @@ include('product/detail.php');
     <div class="container">
       <div class="row">
         <div class="col-6 px-0">
-          <img draggable="false" src="<?php echo $zeplin ?>/144.jpg" srcset="<?php echo $zeplin ?>/144@2x.jpg 2x, <?php echo $zeplin ?>/144@3x.jpg 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/144.jpg"
+            srcset="<?php echo $zeplin ?>/144@2x.jpg 2x, <?php echo $zeplin ?>/144@3x.jpg 3x">
         </div>
         <div class="col-6 px-0">
-          <img draggable="false" src="<?php echo $zeplin ?>/1242.jpg" srcset="<?php echo $zeplin ?>/1242@2x.jpg 2x, <?php echo $zeplin ?>/1242@3x.jpg 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/1242.jpg"
+            srcset="<?php echo $zeplin ?>/1242@2x.jpg 2x, <?php echo $zeplin ?>/1242@3x.jpg 3x">
         </div>
       </div>
     </div>
@@ -84,13 +96,16 @@ include('product/detail.php');
       </div>
       <div class="row">
         <div class="col-12 imgCol px-lg-0">
-          <img draggable="false" src="<?php echo $zeplin ?>/546.jpg" srcset="<?php echo $zeplin ?>/546@2x.jpg 2x, <?php echo $zeplin ?>/546@3x.jpg 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/546.jpg"
+            srcset="<?php echo $zeplin ?>/546@2x.jpg 2x, <?php echo $zeplin ?>/546@3x.jpg 3x">
         </div>
       </div>
       <div class="row light-blue-grey d-none d-md-flex">
         <div class="col-12 col-lg-6 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/217.png" srcset="<?php echo $zeplin ?>/217@2x.png 2x, <?php echo $zeplin ?>/217@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/244.png" srcset="<?php echo $zeplin ?>/244@2x.png 2x, <?php echo $zeplin ?>/244@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/217.png"
+            srcset="<?php echo $zeplin ?>/217@2x.png 2x, <?php echo $zeplin ?>/217@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/244.png"
+            srcset="<?php echo $zeplin ?>/244@2x.png 2x, <?php echo $zeplin ?>/244@3x.png 3x">
         </div>
         <div class="col-12 col-lg-6 contentCol">
           <h1>
@@ -105,7 +120,8 @@ include('product/detail.php');
         </div>
       </div>
       <div class="row light-blue-grey d-flex d-md-none">
-        <img draggable="false" src="<?php echo $zeplin ?>/jnx501k-sec05-01.png" srcset="<?php echo $zeplin ?>/jnx501k-sec05-01@2x.png 2x, <?php echo $zeplin ?>/jnx501k-sec05-01@3x.png 3x">
+        <img draggable="false" src="<?php echo $zeplin ?>/jnx501k-sec05-01.png"
+          srcset="<?php echo $zeplin ?>/jnx501k-sec05-01@2x.png 2x, <?php echo $zeplin ?>/jnx501k-sec05-01@3x.png 3x">
       </div>
       <?php echo detail($arg = 'threejnx') ?>
     </div>
@@ -114,8 +130,10 @@ include('product/detail.php');
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3018.png" srcset="<?php echo $zeplin ?>/3018@2x.png 2x, <?php echo $zeplin ?>/3018@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2970.png" srcset="<?php echo $zeplin ?>/2970@2x.png 2x, <?php echo $zeplin ?>/2970@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3018.png"
+            srcset="<?php echo $zeplin ?>/3018@2x.png 2x, <?php echo $zeplin ?>/3018@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2970.png"
+            srcset="<?php echo $zeplin ?>/2970@2x.png 2x, <?php echo $zeplin ?>/2970@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">
@@ -136,15 +154,19 @@ include('product/detail.php');
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3019.png" srcset="<?php echo $zeplin ?>/3019@2x.png 2x, <?php echo $zeplin ?>/3019@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30191.png" srcset="<?php echo $zeplin ?>/30191@2x.png 2x, <?php echo $zeplin ?>/30191@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3019.png"
+            srcset="<?php echo $zeplin ?>/3019@2x.png 2x, <?php echo $zeplin ?>/3019@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30191.png"
+            srcset="<?php echo $zeplin ?>/30191@2x.png 2x, <?php echo $zeplin ?>/30191@3x.png 3x">
         </div>
       </div>
 
       <div class="row">
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3020.png" srcset="<?php echo $zeplin ?>/3020@2x.png 2x, <?php echo $zeplin ?>/3020@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30201.png" srcset="<?php echo $zeplin ?>/30201@2x.png 2x, <?php echo $zeplin ?>/30201@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3020.png"
+            srcset="<?php echo $zeplin ?>/3020@2x.png 2x, <?php echo $zeplin ?>/3020@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30201.png"
+            srcset="<?php echo $zeplin ?>/30201@2x.png 2x, <?php echo $zeplin ?>/30201@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">
@@ -165,8 +187,10 @@ include('product/detail.php');
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3022.png" srcset="<?php echo $zeplin ?>/3022@2x.png 2x, <?php echo $zeplin ?>/3022@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30226.png" srcset="<?php echo $zeplin ?>/30226@2x.png 2x, <?php echo $zeplin ?>/30226@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3022.png"
+            srcset="<?php echo $zeplin ?>/3022@2x.png 2x, <?php echo $zeplin ?>/3022@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30226.png"
+            srcset="<?php echo $zeplin ?>/30226@2x.png 2x, <?php echo $zeplin ?>/30226@3x.png 3x">
         </div>
       </div>
 
@@ -176,10 +200,12 @@ include('product/detail.php');
     <div class="container-fluid px-0">
       <div class="row">
         <div class="col-12 col-lg-6 px-0">
-          <img draggable="false" src="<?php echo $zeplin ?>/884.jpg" srcset="<?php echo $zeplin ?>/884@2x.jpg 2x, <?php echo $zeplin ?>/884@3x.jpg 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/884.jpg"
+            srcset="<?php echo $zeplin ?>/884@2x.jpg 2x, <?php echo $zeplin ?>/884@3x.jpg 3x">
         </div>
         <div class="col-12 col-lg-6 px-0">
-          <img draggable="false" src="<?php echo $zeplin ?>/894.jpg" srcset="<?php echo $zeplin ?>/894@2x.jpg 2x, <?php echo $zeplin ?>/894@3x.jpg 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/894.jpg"
+            srcset="<?php echo $zeplin ?>/894@2x.jpg 2x, <?php echo $zeplin ?>/894@3x.jpg 3x">
         </div>
       </div>
     </div>
@@ -193,14 +219,14 @@ include('product/detail.php');
             </h2>
             <p>
               푸고 소모품은 별도 구매가 가능합니다.<br />
-              구성품을 잃어버렸거나, 소모품 사용 주기가 끝났다면,<br />
+              구성품을 잃어버렸거나,<br class="d-block d-lg-none" /> 소모품 사용 주기가 끝났다면,<br />
               소모품만 교체하여 푸고 사용 주기를 늘려보세요.
             </p>
           </div>
         </div>
       </div>
       <div class="row m-0">
-        <div class="col-12">
+        <div class="col-12 px-0">
           <div class="body">
             <div class="item" style="background-image: url(<?php echo $zeplin ?>/220@3x.png)">
               <span>음용구</span>
