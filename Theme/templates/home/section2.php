@@ -3,16 +3,21 @@
   <div class="layer">
     <div class="innerLayer">
       <div class="position-absolute group41">
-        <img class="position-absolute path41" src="<?php echo $zeplin ?>/41.png" srcset="<?php echo $zeplin ?>/41@2x.png 2x, <?php echo $zeplin ?>/41@3x.png 3x">
-        <img class="position-absolute path105" src="<?php echo $zeplin ?>/105.png" srcset="<?php echo $zeplin ?>/105@2x.png 2x, <?php echo $zeplin ?>/105@3x.png 3x">
-        <img class="position-absolute path2956" src="<?php echo $zeplin ?>/2956.png" srcset="<?php echo $zeplin ?>/2956@2x.png 2x, <?php echo $zeplin ?>/2956@3x.png 3x">
+        <img class="position-absolute path41" src="<?php echo $zeplin ?>/41.png"
+          srcset="<?php echo $zeplin ?>/41@2x.png 2x, <?php echo $zeplin ?>/41@3x.png 3x">
+        <img class="position-absolute path105" src="<?php echo $zeplin ?>/105.png"
+          srcset="<?php echo $zeplin ?>/105@2x.png 2x, <?php echo $zeplin ?>/105@3x.png 3x">
+        <img class="position-absolute path2956" src="<?php echo $zeplin ?>/2956.png"
+          srcset="<?php echo $zeplin ?>/2956@2x.png 2x, <?php echo $zeplin ?>/2956@3x.png 3x">
       </div>
     </div>
 
     <img class="d-block d-md-none position-absolute path119" src="<?php echo $zeplin ?>/119.png">
     <img class="d-block d-md-none position-absolute path175" src="<?php echo $zeplin ?>/175.png">
-    <img class="d-none d-md-block position-absolute path2955" src="<?php echo $zeplin ?>/2955.png" srcset="<?php echo $zeplin ?>/2955@2x.png 2x, <?php echo $zeplin ?>/2955@3x.png 3x">
-    <img class="d-none d-md-block position-absolute path2616" src="<?php echo $zeplin ?>/2616.png" srcset="<?php echo $zeplin ?>/2616@2x.png 2x, <?php echo $zeplin ?>/2616@3x.png 3x">
+    <img class="d-none d-md-block position-absolute path2955" src="<?php echo $zeplin ?>/2955.png"
+      srcset="<?php echo $zeplin ?>/2955@2x.png 2x, <?php echo $zeplin ?>/2955@3x.png 3x">
+    <img class="d-none d-md-block position-absolute path2616" src="<?php echo $zeplin ?>/2616.png"
+      srcset="<?php echo $zeplin ?>/2616@2x.png 2x, <?php echo $zeplin ?>/2616@3x.png 3x">
   </div>
   <div class="container">
     <div class="row">

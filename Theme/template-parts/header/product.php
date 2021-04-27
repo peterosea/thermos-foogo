@@ -6,10 +6,11 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
     <div class="row">
       <div class="col-12 col-lg">
         <a target="_blank" class="linkWrap" href="<?php echo get_field('file') ?>">
-          <img class="d-none d-lg-block" src="<?php echo $zeplin ?>/2707.png" srcset="<?php echo $zeplin ?>/2707@2x.png 2x, <?php echo $zeplin ?>/2707@3x.png 3x">
+          <img class="d-none d-lg-block" src="<?php echo $zeplin ?>/2707.png"
+            srcset="<?php echo $zeplin ?>/2707@2x.png 2x, <?php echo $zeplin ?>/2707@3x.png 3x">
           <div class="group">
             <div class="title">취급설명서</div>
-            <span>사용하기 전 일어두면 더욱 좋은 취급설명서!</span>
+            <span>사용하기 전 읽어두면 더욱 좋은 취급설명서!</span>
           </div>
           <i class="fas fa-chevron-right"></i>
         </a>

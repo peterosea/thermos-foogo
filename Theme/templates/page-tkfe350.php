@@ -16,17 +16,21 @@ include('product/detail.php');
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
     <div class="mainSectionImgWrap">
-      <img class="d-none d-xl-block" draggable="false" src="<?php echo $zeplin ?>/tkfe-350-all.jpg" srcset="<?php echo $zeplin ?>/tkfe-350-all@2x.jpg 2x, <?php echo $zeplin ?>/tkfe-350-all@3x.jpg 3x">
-      <img class="d-none d-md-block d-xl-none" draggable="false" src="<?php echo $zeplin ?>/246.jpg" srcset="<?php echo $zeplin ?>/246@2x.jpg 2x, <?php echo $zeplin ?>/246@3x.jpg 3x">
-      <img class="d-block d-md-none w-100" draggable="false" src="<?php echo $zeplin ?>/1742.jpg" srcset="<?php echo $zeplin ?>/1742@2x.jpg 2x, <?php echo $zeplin ?>/1742@3x.jpg 3x">
+      <img class="d-none d-xl-block" draggable="false" src="<?php echo $zeplin ?>/tkfe-350-all.jpg"
+        srcset="<?php echo $zeplin ?>/tkfe-350-all@2x.jpg 2x, <?php echo $zeplin ?>/tkfe-350-all@3x.jpg 3x">
+      <img class="d-none d-md-block d-xl-none" draggable="false" src="<?php echo $zeplin ?>/246.jpg"
+        srcset="<?php echo $zeplin ?>/246@2x.jpg 2x, <?php echo $zeplin ?>/246@3x.jpg 3x">
+      <img class="d-block d-md-none w-100" draggable="false" src="<?php echo $zeplin ?>/1742.jpg"
+        srcset="<?php echo $zeplin ?>/1742@2x.jpg 2x, <?php echo $zeplin ?>/1742@3x.jpg 3x">
     </div>
     <div class="container">
       <div class="imgWrap">
-        <img draggable="false" src="<?php echo $zeplin ?>/2818.png" srcset="<?php echo $zeplin ?>/2818@2x.png 2x, <?php echo $zeplin ?>/2818@3x.png 3x">
+        <img draggable="false" src="<?php echo $zeplin ?>/2818.png"
+          srcset="<?php echo $zeplin ?>/2818@2x.png 2x, <?php echo $zeplin ?>/2818@3x.png 3x">
       </div>
       <div class="body">
-        <h1>긴 외출에도 걱정 없는 대용량</h1>
-        <strong>푸고 프리미엄 뉴트럴 시리즈 유아용 빨대컵 350ml</strong>
+        <h1>긴 외출에도<br class="d-block d-lg-none" /> 걱정 없는 대용량</h1>
+        <strong>푸고 프리미엄 뉴트럴 시리즈<br class="d-block d-lg-none" /> 유아용 빨대컵 350ml</strong>
         <p><?php echo get_the_title() ?></p>
       </div>
     </div>
@@ -38,28 +42,39 @@ include('product/detail.php');
         <h1>COLOR · SIZE</h1>
         <p>색상 및 용량</p>
       </div>
-      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3026.png" srcset="<?php echo $zeplin ?>/3026@2x.png 2x, <?php echo $zeplin ?>/3026@3x.png 3x">
+      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3026.png"
+        srcset="<?php echo $zeplin ?>/3026@2x.png 2x, <?php echo $zeplin ?>/3026@3x.png 3x">
       <!-- mobile -->
-      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/3014.png" srcset="<?php echo $zeplin ?>/3014@2x.png 2x, <?php echo $zeplin ?>/3014@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/1763.png" srcset="<?php echo $zeplin ?>/1763@2x.png 2x, <?php echo $zeplin ?>/1763@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29243.png" srcset="<?php echo $zeplin ?>/29243@2x.png 2x, <?php echo $zeplin ?>/29243@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/221.png" srcset="<?php echo $zeplin ?>/221@2x.png 2x, <?php echo $zeplin ?>/221@3x.png 3x">
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/3014.png"
+        srcset="<?php echo $zeplin ?>/3014@2x.png 2x, <?php echo $zeplin ?>/3014@3x.png 3x">
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/1763.png"
+        srcset="<?php echo $zeplin ?>/1763@2x.png 2x, <?php echo $zeplin ?>/1763@3x.png 3x">
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/29243.png"
+        srcset="<?php echo $zeplin ?>/29243@2x.png 2x, <?php echo $zeplin ?>/29243@3x.png 3x">
+      <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/221.png"
+        srcset="<?php echo $zeplin ?>/221@2x.png 2x, <?php echo $zeplin ?>/221@3x.png 3x">
       <!-- 공통 -->
-      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29311.png" srcset="<?php echo $zeplin ?>/29311@2x.png 2x, <?php echo $zeplin ?>/29311@3x.png 3x">
+      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29311.png"
+        srcset="<?php echo $zeplin ?>/29311@2x.png 2x, <?php echo $zeplin ?>/29311@3x.png 3x">
     </div>
   </div>
   <div class="section section1 d-block d-md-none">
     <div class="container">
-      <img class="tkfe350-sec01-01" draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec01-01.png" srcset="<?php echo $zeplin ?>/tkfe350-sec01-01@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec01-01@3x.png 3x">
-      <img class="tkfe350-sec01-02" draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec01-02.png" srcset="<?php echo $zeplin ?>/tkfe350-sec01-02@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec01-02@3x.png 3x">
-      <img class="tkfe350-sec01-03" draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec01-03.png" srcset="<?php echo $zeplin ?>/tkfe350-sec01-03@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec01-03@3x.png 3x">
+      <img class="tkfe350-sec01-01" draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec01-01.png"
+        srcset="<?php echo $zeplin ?>/tkfe350-sec01-01@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec01-01@3x.png 3x">
+      <img class="tkfe350-sec01-02" draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec01-02.png"
+        srcset="<?php echo $zeplin ?>/tkfe350-sec01-02@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec01-02@3x.png 3x">
+      <img class="tkfe350-sec01-03" draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec01-03.png"
+        srcset="<?php echo $zeplin ?>/tkfe350-sec01-03@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec01-03@3x.png 3x">
     </div>
   </div>
   <?php echo sectionHero(); ?>
   <div class="section section3">
     <div class="container px-0">
-      <img draggable="false" src="<?php echo $zeplin ?>/96.jpg" srcset="<?php echo $zeplin ?>/96@2x.jpg 2x, <?php echo $zeplin ?>/96@3x.jpg 3x">
-      <img draggable="false" src="<?php echo $zeplin ?>/tkfe-350-all-2.jpg" srcset="<?php echo $zeplin ?>/tkfe-350-all-2@2x.jpg 2x, <?php echo $zeplin ?>/tkfe-350-all-2@3x.jpg 3x">
+      <img draggable="false" src="<?php echo $zeplin ?>/96.jpg"
+        srcset="<?php echo $zeplin ?>/96@2x.jpg 2x, <?php echo $zeplin ?>/96@3x.jpg 3x">
+      <img draggable="false" src="<?php echo $zeplin ?>/tkfe-350-all-2.jpg"
+        srcset="<?php echo $zeplin ?>/tkfe-350-all-2@2x.jpg 2x, <?php echo $zeplin ?>/tkfe-350-all-2@3x.jpg 3x">
     </div>
   </div>
   <?php echo why($arg = array('img' => '3029')); ?>
@@ -73,21 +88,23 @@ include('product/detail.php');
               자연스러운 디자인
             </h1>
             <p>
-              지구의 자연을 연상시키는 얼씨톤의 컬러를<br class="d-block d-lg-none" /> 포인트로 사용하고 마개와 버튼 모양을 변경하여 <br />
-              아이들이 직접 손으로 만지며 창의력을 높일 수 있는<br class="d-block d-lg-none" /> NEW 디자인으로 만들었어요.<br />
-              꽃, 과일, 구름 등 자연을 닮은 그래픽에 표정을 넣어<br class="d-block d-lg-none" /> 아이와 눈 맞춤 하는 푸고를 만나보세요.
+              지구의 자연을 연상시키는 얼씨톤의 컬러를<br class="d-block" /> 포인트로 사용하고 마개와 버튼 모양을 변경하여 <br />
+              아이들이 직접 손으로 만지며 창의력을 높일 수 있는<br class="d-block" /> NEW 디자인으로 만들었어요.<br />
+              꽃, 과일, 구름 등 자연을 닮은 그래픽에 표정을 넣어<br class="d-block" /> 아이와 눈 맞춤 하는 푸고를 만나보세요.
             </p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-12 px-0">
-          <img draggable="false" src="<?php echo $zeplin ?>/54.jpg" srcset="<?php echo $zeplin ?>/54@2x.jpg 2x, <?php echo $zeplin ?>/54@3x.jpg 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/54.jpg"
+            srcset="<?php echo $zeplin ?>/54@2x.jpg 2x, <?php echo $zeplin ?>/54@3x.jpg 3x">
         </div>
       </div>
       <div class="row pink d-none d-md-flex">
         <div class="col-12 col-lg-6 imgCol">
-          <img draggable="false" src="<?php echo $zeplin ?>/224.png" srcset="<?php echo $zeplin ?>/224@2x.png 2x, <?php echo $zeplin ?>/224@3x.png 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/224.png"
+            srcset="<?php echo $zeplin ?>/224@2x.png 2x, <?php echo $zeplin ?>/224@3x.png 3x">
         </div>
         <div class="col-12 col-lg-6 contentCol">
           <h1>
@@ -101,11 +118,13 @@ include('product/detail.php');
         </div>
       </div>
       <div class="row pink d-flex d-md-none">
-        <img draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec05-01.png" srcset="<?php echo $zeplin ?>/tkfe350-sec05-01@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec05-01@3x.png 3x">
+        <img draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec05-01.png"
+          srcset="<?php echo $zeplin ?>/tkfe350-sec05-01@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec05-01@3x.png 3x">
       </div>
       <div class="row two d-none d-md-flex">
         <div class="col-12 col-lg-6 imgCol">
-          <img draggable="false" src="<?php echo $zeplin ?>/226.png" srcset="<?php echo $zeplin ?>/226@2x.png 2x, <?php echo $zeplin ?>/226@3x.png 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/226.png"
+            srcset="<?php echo $zeplin ?>/226@2x.png 2x, <?php echo $zeplin ?>/226@3x.png 3x">
         </div>
         <div class="col-12 col-lg-6 contentCol">
           <h1>
@@ -120,7 +139,8 @@ include('product/detail.php');
         </div>
       </div>
       <div class="row two d-flex d-md-none">
-        <img draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec05-02.png" srcset="<?php echo $zeplin ?>/tkfe350-sec05-02@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec05-02@3x.png 3x">
+        <img draggable="false" src="<?php echo $zeplin ?>/tkfe350-sec05-02.png"
+          srcset="<?php echo $zeplin ?>/tkfe350-sec05-02@2x.png 2x, <?php echo $zeplin ?>/tkfe350-sec05-02@3x.png 3x">
       </div>
       <?php echo detail($arg = 'three') ?>
     </div>
@@ -137,21 +157,25 @@ include('product/detail.php');
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/2969.png" srcset="<?php echo $zeplin ?>/2969@2x.png 2x, <?php echo $zeplin ?>/2969@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2994.png" srcset="<?php echo $zeplin ?>/2994@2x.png 2x, <?php echo $zeplin ?>/2994@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3034.png"
+            srcset="<?php echo $zeplin ?>/3034@2x.png 2x, <?php echo $zeplin ?>/3034@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2994.png"
+            srcset="<?php echo $zeplin ?>/2994@2x.png 2x, <?php echo $zeplin ?>/2994@3x.png 3x">
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3035.png" srcset="<?php echo $zeplin ?>/3035@2x.png 2x, <?php echo $zeplin ?>/3035@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2970.png" srcset="<?php echo $zeplin ?>/2970@2x.png 2x, <?php echo $zeplin ?>/2970@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3035.png"
+            srcset="<?php echo $zeplin ?>/3035@2x.png 2x, <?php echo $zeplin ?>/3035@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2970.png"
+            srcset="<?php echo $zeplin ?>/2970@2x.png 2x, <?php echo $zeplin ?>/2970@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">
             원터치 더블액션 버튼
           </div>
           <p>
-            한 손가락으로 버튼을 누르면 열리는 쉬운 개폐 방식으로 뚜껑이 열리면서<br />
+            한 손가락으로 버튼을 누르면 열리는<br class="d-block d-lg-none" /> 쉬운 개폐 방식으로 뚜껑이 열리면서<br />
             빨대를 통해 물이 뿜어져 나오는 것도 막아줘요.
           </p>
         </div>
@@ -166,15 +190,18 @@ include('product/detail.php');
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
-
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29711.png" srcset="<?php echo $zeplin ?>/29711@2x.png 2x, <?php echo $zeplin ?>/29711@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2971.png" srcset="<?php echo $zeplin ?>/2971@2x.png 2x, <?php echo $zeplin ?>/2971@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3036.png"
+            srcset="<?php echo $zeplin ?>/3036@2x.png 2x, <?php echo $zeplin ?>/3036@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2971.png"
+            srcset="<?php echo $zeplin ?>/2971@2x.png 2x, <?php echo $zeplin ?>/2971@3x.png 3x">
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3037.png" srcset="<?php echo $zeplin ?>/3037@2x.png 2x, <?php echo $zeplin ?>/3037@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30382.png" srcset="<?php echo $zeplin ?>/30382@2x.png 2x, <?php echo $zeplin ?>/30382@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3037.png"
+            srcset="<?php echo $zeplin ?>/3037@2x.png 2x, <?php echo $zeplin ?>/3037@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30382.png"
+            srcset="<?php echo $zeplin ?>/30382@2x.png 2x, <?php echo $zeplin ?>/30382@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">안이 보이는 마개</div>
@@ -189,29 +216,34 @@ include('product/detail.php');
             취향에 맞춰 사용하는 그립
           </div>
           <p>
-            바디링, 손잡이 두 가지 그립을 취향에 따라 자유롭게 사용해보세요.
+            바디링, 손잡이 두 가지 그립을<br class="d-block d-lg-none" /> 취향에 따라 자유롭게 사용해보세요.
           </p>
           <ul class="list end">
             <li>
               링 타입으로 부피를 최소화해 휴대성이 뛰어나요.
             </li>
             <li>
-              손잡이가 돌아가지 않고 아이가 쉽게 잡을 수 있어 빨대컵을<br />
-              떨어트릴 염려 없이 편하게 사용할 수 있어요.
+              손잡이가 돌아가지 않고<br class="d-block d-lg-none" /> 아이가 쉽게 잡을 수 있어<br class="d-block d-lg-none" /> 빨대컵을<br
+                class="d-none d-lg-block" />
+              떨어트릴 염려 없이<br class="d-block d-lg-none" /> 편하게 사용할 수 있어요.
             </li>
           </ul>
         </div>
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3038.png" srcset="<?php echo $zeplin ?>/3038@2x.png 2x, <?php echo $zeplin ?>/3038@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30392.png" srcset="<?php echo $zeplin ?>/30392@2x.png 2x, <?php echo $zeplin ?>/30392@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3038.png"
+            srcset="<?php echo $zeplin ?>/3038@2x.png 2x, <?php echo $zeplin ?>/3038@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30392.png"
+            srcset="<?php echo $zeplin ?>/30392@2x.png 2x, <?php echo $zeplin ?>/30392@3x.png 3x">
         </div>
       </div>
 
       <div class="row">
         <div class="col-12 col-lg-5 imgCol">
 
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3039.png" srcset="<?php echo $zeplin ?>/3039@2x.png 2x, <?php echo $zeplin ?>/3039@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30391.png" srcset="<?php echo $zeplin ?>/30391@2x.png 2x, <?php echo $zeplin ?>/30391@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3039.png"
+            srcset="<?php echo $zeplin ?>/3039@2x.png 2x, <?php echo $zeplin ?>/3039@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30391.png"
+            srcset="<?php echo $zeplin ?>/30391@2x.png 2x, <?php echo $zeplin ?>/30391@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">빨대컵을 보호하는 실리콘 바닥 커버</div>
@@ -232,15 +264,19 @@ include('product/detail.php');
         </div>
         <div class="col-12 col-lg-5 imgCol">
 
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29741.png" srcset="<?php echo $zeplin ?>/29741@2x.png 2x, <?php echo $zeplin ?>/29741@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30201.png" srcset="<?php echo $zeplin ?>/30201@2x.png 2x, <?php echo $zeplin ?>/30201@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/29741.png"
+            srcset="<?php echo $zeplin ?>/29741@2x.png 2x, <?php echo $zeplin ?>/29741@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30201.png"
+            srcset="<?php echo $zeplin ?>/30201@2x.png 2x, <?php echo $zeplin ?>/30201@3x.png 3x">
         </div>
       </div>
 
       <div class="row">
         <div class="col-12 col-lg-5 imgCol">
-          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3041.png" srcset="<?php echo $zeplin ?>/3041@2x.png 2x, <?php echo $zeplin ?>/3041@3x.png 3x">
-          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30422.png" srcset="<?php echo $zeplin ?>/30422@2x.png 2x, <?php echo $zeplin ?>/30422@3x.png 3x">
+          <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/3041.png"
+            srcset="<?php echo $zeplin ?>/3041@2x.png 2x, <?php echo $zeplin ?>/3041@3x.png 3x">
+          <img class="d-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/30422.png"
+            srcset="<?php echo $zeplin ?>/30422@2x.png 2x, <?php echo $zeplin ?>/30422@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">안전한 소재로 안심</div>
@@ -257,10 +293,12 @@ include('product/detail.php');
     <div class="container-fluid px-0">
       <div class="row mx-0">
         <div class="col-12 col-lg-6 px-0">
-          <img draggable="false" src="<?php echo $zeplin ?>/88.jpg" srcset="<?php echo $zeplin ?>/88@2x.jpg 2x, <?php echo $zeplin ?>/88@3x.jpg 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/88.jpg"
+            srcset="<?php echo $zeplin ?>/88@2x.jpg 2x, <?php echo $zeplin ?>/88@3x.jpg 3x">
         </div>
         <div class="col-12 col-lg-6 px-0">
-          <img draggable="false" src="<?php echo $zeplin ?>/89.jpg" srcset="<?php echo $zeplin ?>/89@2x.jpg 2x, <?php echo $zeplin ?>/89@3x.jpg 3x">
+          <img draggable="false" src="<?php echo $zeplin ?>/89.jpg"
+            srcset="<?php echo $zeplin ?>/89@2x.jpg 2x, <?php echo $zeplin ?>/89@3x.jpg 3x">
         </div>
       </div>
     </div>
@@ -274,7 +312,7 @@ include('product/detail.php');
             </h2>
             <p>
               푸고 소모품은 별도 구매가 가능합니다.<br />
-              구성품을 잃어버렸거나, 소모품 사용 주기가 끝났다면,<br />
+              구성품을 잃어버렸거나,<br class="d-block d-lg-none" /> 소모품 사용 주기가 끝났다면,<br />
               소모품만 교체하여 푸고 사용 주기를 늘려보세요.
             </p>
           </div>

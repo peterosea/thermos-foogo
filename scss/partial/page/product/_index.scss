@@ -1,6 +1,10 @@
 main.productLending {
   @include respondTo('lg') {
-    padding-top: 408px;
+    padding-top: 0;
+    transition: padding-top 0.3s ease-in-out;
+    &:not(.headroom--not-top) {
+      padding-top: 408px;
+    }
   }
   .MobilesubMegaMenu.headroom--pinned:not(.headroom--top) + .main,
   .MobilesubMegaMenu.headroom--unpinned + .main {
@@ -133,7 +137,7 @@ main.productLending {
     }
     .container {
       @include respondTo('mmd') {
-        padding:0;
+        padding: 0;
       }
     }
     img {
@@ -224,7 +228,7 @@ main.productLending {
       @include respondTo('mmd') {
         margin-bottom: 0;
         > img {
-          padding:0;
+          padding: 0;
         }
       }
       @include respondTo('lg') {
@@ -306,7 +310,7 @@ main.productLending {
   .section6 {
     padding-top: 54px;
     padding-bottom: 54px;
-    
+
     @include respondTo('lg') {
       padding-top: 130px;
       padding-bottom: 130px;
