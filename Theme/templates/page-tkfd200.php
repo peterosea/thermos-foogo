@@ -16,12 +16,9 @@ include('product/detail.php');
   <?php get_template_part('template-parts/header/mobileProduct'); ?>
   <div class="section main">
     <div class="mainSectionImgWrap">
-      <img class="d-none d-xl-block" draggable="false" src="<?php echo $zeplin ?>/tkfd-200-all03.jpg"
-        srcset="<?php echo $zeplin ?>/tkfd-200-all03@2x.jpg 2x, <?php echo $zeplin ?>/tkfd-200-all03@3x.jpg 3x">
-      <img class="d-none d-md-block d-xl-none" draggable="false" src="<?php echo $zeplin ?>/2462.jpg"
-        srcset="<?php echo $zeplin ?>/2462@2x.jpg 2x, <?php echo $zeplin ?>/2462@3x.jpg 3x">
-      <img class="d-block d-md-none w-100" draggable="false" src="<?php echo $zeplin ?>/17422.jpg"
-        srcset="<?php echo $zeplin ?>/17422@2x.jpg 2x, <?php echo $zeplin ?>/17422@3x.jpg 3x">
+      <img class="d-none d-lg-block" draggable="false" src="<?php echo $zeplin ?>/tkfd-200-all03.jpg" srcset="<?php echo $zeplin ?>/tkfd-200-all03@2x.jpg 2x, <?php echo $zeplin ?>/tkfd-200-all03@3x.jpg 3x">
+      <img class="pdimg_mobile d-none d-sm-block d-lg-none" draggable="false" src="<?php echo $zeplin ?>/2462.jpg" srcset="<?php echo $zeplin ?>/2462@2x.jpg 2x, <?php echo $zeplin ?>/2462@3x.jpg 3x">
+      <img class="pdimg_mobile d-block d-sm-none" draggable="false" src="<?php echo $zeplin ?>/17422.jpg" srcset="<?php echo $zeplin ?>/17422@2x.jpg 2x, <?php echo $zeplin ?>/17422@3x.jpg 3x">
     </div>
     <div class="container">
       <div class="imgWrap">
@@ -60,9 +57,8 @@ include('product/detail.php');
   </div>
   <div class="section section1 d-block d-md-none">
     <div class="container">
-      <img class="tkfd200-sec01-01" draggable="false" src="<?php echo $zeplin ?>/tkfd200-sec01-01.png"
-        srcset="<?php echo $zeplin ?>/tkfd200-sec01-01@2x.png 2x, <?php echo $zeplin ?>/tkfd200-sec01-01@3x.png 3x">
-      <img class="tkfd200-sec01-02" draggable="false" src="<?php echo $zeplin ?>/tkfd200-sec01-02.png">
+      <img class="tkfd200-sec01-01" draggable="false" src="<?php echo $zeplin ?>/tkfd200-sec01-01.png" srcset="<?php echo $zeplin ?>/tkfd200-sec01-01@2x.png 2x, <?php echo $zeplin ?>/tkfd200-sec01-01@3x.png 3x">
+      <img class="tkfd200-sec01-02" draggable="false" src="<?php echo $zeplin ?>/tkfd200-sec01-02.png" srcset="<?php echo $zeplin ?>/tkfd200-sec01-02@2x.png 2x, <?php echo $zeplin ?>/tkfd200-sec01-02@3x.png 3x">
     </div>
   </div>
   <?php echo sectionHero(); ?>

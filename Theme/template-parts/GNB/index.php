@@ -130,7 +130,7 @@ HTML;
 
 <nav class="GNB mobile d-flex d-lg-none">
   <a href="/" class="logo">
-    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="50" viewBox="0 0 80 50">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 50">
       <g id="logo2" transform="translate(-70.549 -94.256)">
         <path id="사각형_19" fill="none" d="M0 0H80V50H0z" transform="translate(70.549 94.256)" />
         <g id="그룹_4" transform="translate(73.146 95.256)">

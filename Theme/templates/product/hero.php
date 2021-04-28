@@ -9,7 +9,8 @@ function sectionHero($isBaby = true)
     </h1>
     <p>
       소중한 우리 아이들에게<br />
-      <span class="pointBg">Earthy Neutrals</span>의 자연을 보여주고 싶은 마음을 담았습니다.<br />
+      <span class="pointBg">Earthy Neutrals</span>의 자연을 보여주고 싶은<br />
+      마음을 담았습니다.<br />
       자연을 담은 푸고 프리미엄 뉴트럴 시리즈를 만나보세요.
     </p>
 HTML;

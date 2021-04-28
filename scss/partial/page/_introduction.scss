@@ -8,7 +8,7 @@ main.introduction {
     margin-bottom: 35px;
 
     @include respondTo('mxl') {
-      font-weight: 700;
+      font-weight: 800;
     }
   }
   #{headings(1,6)},
@@ -43,6 +43,10 @@ main.introduction {
         width: 140vw;
         max-width: none;
         transform: translateX(-20vw);
+      }
+      @include respondTo('msm') {
+        width: 100%;
+        transform: none;
       }
     }
   }

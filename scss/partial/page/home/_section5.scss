@@ -146,9 +146,7 @@
     position: relative;
     min-height: 200px;
     h1 {
-      @include respondTo('msm') {
-        font-weight: normal;
-      }
+      font-weight: 800;
     }
     p {
       font-weight: 200;

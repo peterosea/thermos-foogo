@@ -11,8 +11,8 @@ get_header();
 ?>
 <main class="pageTemplate introduction">
   <div class="layer">
-    <img draggable="false" src="<?php echo $zeplin ?>/2949.jpg"
-      srcset="<?php echo $zeplin ?>/2949@2x.jpg 2x, <?php echo $zeplin ?>/2949@3x.jpg 3x">
+    <img class="d-none d-sm-block" draggable="false" src="<?php echo $zeplin ?>/2949.jpg" srcset="<?php echo $zeplin ?>/2949@2x.jpg 2x, <?php echo $zeplin ?>/2949@3x.jpg 3x">
+    <img class="d-block d-sm-none" draggable="false" src="<?php echo $zeplin ?>/intro_bg_mobile.png" srcset="<?php echo $zeplin ?>/intro_bg_mobile@2x.png 2x, <?php echo $zeplin ?>/intro_bg_mobile@3x.png 3x">
   </div>
   <div class="section section1">
     <div class="container">
