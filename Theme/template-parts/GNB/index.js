@@ -15,6 +15,11 @@
       var options = {};
       var headroom3 = new Headroom(myElement3, options);
       headroom3.init();
+
+      var myElement4 = document.querySelector('main');
+      var options = {};
+      var headroom4 = new Headroom(myElement4, options);
+      headroom4.init();
     } catch {}
   }
 
@@ -22,16 +27,32 @@
   var subMegaMenu = document.querySelector('.subMegaMenu');
   var subMegaMenuFix = document.querySelector('.subMegaMenu._fixed');
 
-  if (document.querySelector('body').classList.contains('page-template-page-tkfd200') || document.querySelector('body').classList.contains('page-template-page-tkfe280') || document.querySelector('body').classList.contains('page-template-page-tkfe350') || document.querySelector('body').classList.contains('page-template-page-tkff-280') || document.querySelector('body').classList.contains('page-template-page-jnx501k')) {
+  if (
+    document
+      .querySelector('body')
+      .classList.contains('page-template-page-tkfd200') ||
+    document
+      .querySelector('body')
+      .classList.contains('page-template-page-tkfe280') ||
+    document
+      .querySelector('body')
+      .classList.contains('page-template-page-tkfe350') ||
+    document
+      .querySelector('body')
+      .classList.contains('page-template-page-tkff-280') ||
+    document
+      .querySelector('body')
+      .classList.contains('page-template-page-jnx501k')
+  ) {
     // 제품페이지일때 서브메가메뉴 고정
     $(subMegaMenuFix).addClass('_display');
   } else {
     // 제품페이지가 아니면 서브메가메뉴 비고정
     $(subMegaMenuFix).removeClass('_display');
-    $(getMenuPD).hover(function(){
+    $(getMenuPD).hover(function () {
       $(subMegaMenu).toggleClass('_active');
     });
-    $(subMegaMenu).hover(function(){
+    $(subMegaMenu).hover(function () {
       $(this).toggleClass('_active');
     });
   }

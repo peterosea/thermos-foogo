@@ -7,7 +7,8 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
       <div class="row logoRow ">
         <div class="col-12">
           <a href="/">
-            <img draggable="false" src="<?php echo $zeplin; ?>/logo-2.png" srcset="<?php echo $zeplin; ?>/logo-2@2x.png 2x, <?php echo $zeplin; ?>/logo-2@3x.png 3x">
+            <img draggable="false" src="<?php echo $zeplin; ?>/logo-2.png"
+              srcset="<?php echo $zeplin; ?>/logo-2@2x.png 2x, <?php echo $zeplin; ?>/logo-2@3x.png 3x">
           </a>
         </div>
       </div>
@@ -19,7 +20,8 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
             <li>마케팅 문의 <a href="mailto:campaign@thermos.kr">campaign@thermos.kr</a></li>
             <li>사업자등록번호 105-87-57624</li>
             <li>대표자 MATSUMOTO NOZOMI</li>
-            <li>개인정보처리방침</li>
+            <li><a href="https://www.thermos.kr/privacy/privacy.php
+">개인정보처리방침</a></li>
           </ul>
         </div>
       </div>

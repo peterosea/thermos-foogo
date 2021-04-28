@@ -5,7 +5,6 @@
   .layer {
     .innerLayer {
       @include respondTo('msm') {
-        width: 100%;
         display: block;
       }
     }

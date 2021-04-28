@@ -69,6 +69,7 @@ body .listStyle {
     text-decoration: none;
     color: var(--color);
     transition: color 0.3s;
+    display: flex;
     &:hover {
       --color: #{$white};
     }
@@ -76,7 +77,7 @@ body .listStyle {
 }
 .fp-section,
 .fp-slide,
-.fp-tableCell{
+.fp-tableCell {
   @include respondTo('mmd') {
     height: auto !important;
   }
