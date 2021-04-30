@@ -14,7 +14,7 @@ main.introduction {
   #{headings(1,6)},
   p {
     color: rgba($black-four, 0.6);
-    @include respondTo('xl') {
+    @include respondTo('sm') {
       color: $black-four;
     }
   }
@@ -54,7 +54,7 @@ main.introduction {
     position: relative;
     padding-top: calc(669 / 375 * 100%);
     @include respondTo('md') {
-      padding-top: calc(499 / 375 * 100%);
+      padding-top: calc(499 / 375 * 70%);
     }
     @include respondTo('lg') {
       padding-top: calc(369 / 375 * 100%);
@@ -63,11 +63,9 @@ main.introduction {
       padding-top: calc(1276 / 1920 * 100%);
     }
     .container {
-      bottom: 0;
-      @include respondTo('lg') {
-      }
-      @include respondTo('xl') {
-        top: 233px;
+      top: 100px;
+      @include respondTo('sm') {
+        top: 170px;
         text-align: right;
       }
       p {

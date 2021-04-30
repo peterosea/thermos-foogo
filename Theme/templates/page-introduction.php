@@ -18,12 +18,12 @@ get_header();
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1>푸고는<br class="d-block d-xl-none" /> 생각했습니다</h1>
+          <h1>푸고는<br class="d-block d-sm-none" /> 생각했습니다</h1>
           <p>
             매일 옷을 갈아입는 하늘을, <br />
-            어제는 팔랑이던 나비구름이<br class="d-block d-xl-none" /> 오늘은 솜사탕 구름이 되고,<br />
-            푸르던 새싹이<br class="d-block d-xl-none" /> 눈송이 같은 하얀꽃이 되는,<br />
-            아이들의 상상력과 오감을 자극하는<br class="d-block d-xl-none" /> 자연을 보여주고 싶은 마음
+            어제는 팔랑이던 나비구름이<br class="d-block d-sm-none" /> 오늘은 솜사탕 구름이 되고,<br />
+            푸르던 새싹이<br class="d-block d-sm-none" /> 눈송이 같은 하얀꽃이 되는,<br />
+            아이들의 상상력과 오감을 자극하는<br class="d-block d-sm-none" /> 자연을 보여주고 싶은 마음
           </p>
           <p>
             푸고 프리미엄 뉴트럴 시리즈의 시작입니다.
