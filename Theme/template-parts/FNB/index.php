@@ -20,7 +20,7 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
             <li>마케팅 문의 <a href="mailto:campaign@thermos.kr">campaign@thermos.kr</a></li>
             <li>사업자등록번호 105-87-57624</li>
             <li>대표자 MATSUMOTO NOZOMI</li>
-            <li><a href="https://www.thermos.kr/privacy/privacy.php
+            <li><a target="_blank" href="https://www.thermos.kr/privacy/privacy.php
 ">개인정보처리방침</a></li>
           </ul>
         </div>
