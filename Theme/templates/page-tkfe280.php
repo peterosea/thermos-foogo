@@ -270,8 +270,8 @@ require 'product/detail.php';
             src="<?php echo $zeplin ?>/29741.png"
             srcset="<?php echo $zeplin ?>/29741@2x.png 2x, <?php echo $zeplin ?>/29741@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false"
-            src="<?php echo $zeplin ?>/30201.png"
-            srcset="<?php echo $zeplin ?>/30201@2x.png 2x, <?php echo $zeplin ?>/30201@3x.png 3x">
+            src="<?php echo $zeplin ?>/302011.png"
+            srcset="<?php echo $zeplin ?>/302011@2x.png 2x, <?php echo $zeplin ?>/302011@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">
@@ -288,7 +288,7 @@ require 'product/detail.php';
           <div class="title">안전한 소재로 안심</div>
           <p>
             본체 내외 병은 모두 SUS304 레벨의 스테인리스를 사용하고 있으며,<br />
-            모든 재질은 식품위생법에서 정한 유해물질 검사에서 합격한 재질로 안전하게 사용할 수 있어요.
+            모든 재질은 식품위생법에서 정한 유해물질 검사에서 합격한 <br class="d-block d-lg-none" />재질로 안전하게 사용할 수 있어요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
