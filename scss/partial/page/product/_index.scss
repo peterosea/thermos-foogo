@@ -287,9 +287,11 @@ main.productLending {
         }
       }
       &:first-child p {
-        max-width: 380px;
         margin-left: auto;
         margin-right: auto;
+        @include respondTo('mlg') {
+          max-width: 380px;
+        }
       }
       &.pink,
       &.two,
@@ -361,6 +363,7 @@ main.productLending {
         order: -1;
         margin-bottom: 47px;
         --bs-gutter-x: 40px;
+        text-align: center;
         img {
           margin: 0 auto;
         }
@@ -384,6 +387,11 @@ main.productLending {
           font-size: 25px;
         }
       }
+      p {
+        @include respondTo('mlg') {
+          text-align: center;
+        }
+      }
     }
     .list {
       list-style: none;
@@ -396,9 +404,9 @@ main.productLending {
         font-size: 14px;
         @include respondTo('mlg') {
           flex-direction: column;
-          text-align: left;
+          text-align: center;
           justify-content: flex-start;
-          align-items: flex-start;
+          align-items: center;
         }
         @include respondTo('lg') {
           font-size: 16px;

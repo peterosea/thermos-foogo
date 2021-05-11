@@ -2,10 +2,13 @@
 
 function why($arg)
 {
-  $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
-  $img = $arg['img'];
-  $mimg = isset($arg['m_img']) ? $arg['m_img'] : 'tkfd200-sec01-03';
-  return <<<HTML
+    $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
+    $img = $arg['img'];
+    $mimg = isset($arg['m_img']) ? $arg['m_img'] : 'tkfd200-sec01-03';
+    if ($arg['img'] === '2958') {
+        $mimg = 'tkfe280-sec01-03';
+    }
+    return <<<HTML
   <div class="section why">
     <div class="container">
       <h1 class="d-none d-md-block">
