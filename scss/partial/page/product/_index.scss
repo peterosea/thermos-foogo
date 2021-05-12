@@ -396,9 +396,8 @@ main.productLending {
         font-size: 14px;
         @include respondTo('mlg') {
           flex-direction: column;
-          text-align: center;
           justify-content: flex-start;
-          align-items: center;
+          align-items: flex-start;
         }
         @include respondTo('lg') {
           font-size: 16px;
