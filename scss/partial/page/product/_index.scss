@@ -379,17 +379,9 @@ main.productLending {
         margin-bottom: 20px;
         font-size: 20px;
         text-align: left;
-        @include respondTo('sm') {
-          text-align: center;
-        }
         @include respondTo('lg') {
           text-align: left;
           font-size: 25px;
-        }
-      }
-      p {
-        @include respondTo('mlg') {
-          text-align: center;
         }
       }
     }

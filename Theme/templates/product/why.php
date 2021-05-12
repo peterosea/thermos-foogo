@@ -7,6 +7,8 @@ function why($arg)
     $mimg = isset($arg['m_img']) ? $arg['m_img'] : 'tkfd200-sec01-03';
     if ($arg['img'] === '2958') {
         $mimg = 'tkfe280-sec01-03';
+    } elseif ($arg['img'] === '3029') {
+        $mimg = 'tkfe350-sec01-04';
     }
     return <<<HTML
   <div class="section why">
