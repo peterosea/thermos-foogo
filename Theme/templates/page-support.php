@@ -13,9 +13,10 @@ include('product/hero.php');
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 mb-3 mb-lg-0">
-        <div class="card">
+        <div class="card op">
           <h2>고객상담실(A/S 문의)</h2>
-          <img draggable="false" src="<?php echo $zeplin; ?>/2930.png"
+          <img draggable="false"
+            src="<?php echo $zeplin; ?>/2930.png"
             srcset="<?php echo $zeplin; ?>/2930@2x.png 2x, <?php echo $zeplin; ?>/2930@3x.png 3x">
           <a href="tel:1577-8396" class="point">1577-8396</a>
           <div class="comment">
@@ -25,9 +26,10 @@ include('product/hero.php');
         </div>
       </div>
       <div class="col-12 col-lg-6">
-        <div class="card">
+        <div class="card op">
           <h2>영업관련 문의</h2>
-          <img draggable="false" src="<?php echo $zeplin; ?>/29322.png"
+          <img draggable="false"
+            src="<?php echo $zeplin; ?>/29322.png"
             srcset="<?php echo $zeplin; ?>/29322@2x.png 2x, <?php echo $zeplin; ?>/29322@3x.png 3x">
           <a style="line-height: 2.6" href="mailto:sale@thermos.kr" class="point mail">sale@thermos.kr</a>
         </div>
@@ -43,10 +45,10 @@ include('product/hero.php');
           <div class="body">
             <?php
             foreach (get_field('product') as $p) {
-              $img = $p['img'];
-              $file = $p['file'];
-              $name = $p['name'];
-              echo <<<HTML
+                $img = $p['img'];
+                $file = $p['file'];
+                $name = $p['name'];
+                echo <<<HTML
               <a target="_blank" href="$file" class="item">
                 <div class="imgWrap">
                   <img src="$img" alt="">

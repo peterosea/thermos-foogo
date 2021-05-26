@@ -16,7 +16,10 @@ main.support {
     }
   }
   .row > * {
-    --bs-gutter-x: 60px;
+    --bs-gutter-x: 80px;
+    @include respondTo('sm') {
+      --bs-gutter-x: 60px;
+    }
     @include respondTo('lg') {
       --bs-gutter-x: 40px;
     }
@@ -36,6 +39,9 @@ main.support {
     @include respondTo('lg') {
       padding-top: 70px;
       padding-bottom: 70px;
+    }
+    &.op {
+      opacity: 0.9;
     }
     img {
       width: 100px;
@@ -96,8 +102,11 @@ main.support {
     .body {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
+      @include respondTo('msm') {
+        gap: 16px;
+      }
       img {
         margin: 0 auto;
         margin-bottom: 13px;

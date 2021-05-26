@@ -92,23 +92,9 @@ include('product/detail.php');
     </div>
   </div>
   <?php echo why($arg = array('img' => '3029')); ?>
+  <?php include_once('product/design_phrase.php'); ?>
   <div class="section section5">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="header">
-            <h1>
-              상상력과 오감을 자극하는<br />
-              자연스러운 디자인
-            </h1>
-            <p>
-              지구의 자연을 연상시키는 얼씨톤의 컬러를<br class="d-block d-lg-none" /> 포인트로 사용하고 마개와 버튼 모양을 변경하여 <br />
-              아이들이 직접 손으로 만지며 창의력을 높일 수 있는<br class="d-block d-lg-none" /> NEW 디자인으로 만들었어요.<br />
-              꽃, 과일, 구름 등 자연을 닮은 그래픽에 표정을 넣어<br class="d-block d-lg-none" /> 아이와 눈 맞춤 하는 푸고를 만나보세요.
-            </p>
-          </div>
-        </div>
-      </div>
       <div class="row">
         <div class="col-12 px-0">
           <img draggable="false" src="<?php echo $zeplin ?>/54.jpg"
@@ -169,7 +155,7 @@ include('product/detail.php');
             부드러운 소재의 빨대
           </div>
           <p>
-            고품질 실리콘 소재로 아이가 빨기에 부드럽고 씹어도 잘 끊어지지 않아요.
+            고품질 실리콘 소재로<br class="d-block d-lg-none" /> 아이가 빨기에 부드럽고<br class="d-block d-lg-none" /> 씹어도 잘 끊어지지 않아요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
@@ -177,8 +163,8 @@ include('product/detail.php');
             src="<?php echo $zeplin ?>/2969.png"
             srcset="<?php echo $zeplin ?>/2969@2x.png 2x, <?php echo $zeplin ?>/2969@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false"
-            src="<?php echo $zeplin ?>/2994.png"
-            srcset="<?php echo $zeplin ?>/2994@2x.png 2x, <?php echo $zeplin ?>/2994@3x.png 3x">
+            src="<?php echo $zeplin ?>/tkfe350-2994.png"
+            srcset="<?php echo $zeplin ?>/tkfe350-2994@2x.png 2x, <?php echo $zeplin ?>/tkfe350-2994@3x.png 3x">
         </div>
       </div>
       <div class="row">
@@ -187,15 +173,15 @@ include('product/detail.php');
             src="<?php echo $zeplin ?>/3035.png"
             srcset="<?php echo $zeplin ?>/3035@2x.png 2x, <?php echo $zeplin ?>/3035@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false"
-            src="<?php echo $zeplin ?>/308.png"
-            srcset="<?php echo $zeplin ?>/308@2x.png 2x, <?php echo $zeplin ?>/308@3x.png 3x">
+            src="<?php echo $zeplin ?>/tkfe350-308.png"
+            srcset="<?php echo $zeplin ?>/tkfe350-308@2x.png 2x, <?php echo $zeplin ?>/tkfe350-308@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">
             원터치 더블액션 버튼
           </div>
           <p>
-            한 손가락으로 버튼을 누르면 열리는 쉬운 개폐 방식으로 뚜껑이 열리면서<br />
+            한 손가락으로 버튼을 누르면 열리는<br class="d-block d-lg-none" /> 쉬운 개폐 방식으로 뚜껑이 열리면서<br />
             빨대를 통해 물이 뿜어져 나오는 것도 막아줘요.
           </p>
         </div>
@@ -206,7 +192,7 @@ include('product/detail.php');
             새지 않아 안심
           </div>
           <p>
-            뚜껑을 닫으면 내용물이 새지 않아 물샘 걱정 없이 외출할 수 있어요.
+            뚜껑을 닫으면 내용물이 새지 않아<br /> 물샘 걱정 없이 외출할 수 있어요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
@@ -215,8 +201,8 @@ include('product/detail.php');
             src="<?php echo $zeplin ?>/29711.png"
             srcset="<?php echo $zeplin ?>/29711@2x.png 2x, <?php echo $zeplin ?>/29711@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false"
-            src="<?php echo $zeplin ?>/2971.png"
-            srcset="<?php echo $zeplin ?>/2971@2x.png 2x, <?php echo $zeplin ?>/2971@3x.png 3x">
+            src="<?php echo $zeplin ?>/tkfe350-299.png"
+            srcset="<?php echo $zeplin ?>/tkfe350-299@2x.png 2x, <?php echo $zeplin ?>/tkfe350-299@3x.png 3x">
         </div>
       </div>
       <div class="row">
@@ -225,13 +211,13 @@ include('product/detail.php');
             src="<?php echo $zeplin ?>/3037.png"
             srcset="<?php echo $zeplin ?>/3037@2x.png 2x, <?php echo $zeplin ?>/3037@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false"
-            src="<?php echo $zeplin ?>/30382.png"
-            srcset="<?php echo $zeplin ?>/30382@2x.png 2x, <?php echo $zeplin ?>/30382@3x.png 3x">
+            src="<?php echo $zeplin ?>/tkfe350-293.png"
+            srcset="<?php echo $zeplin ?>/tkfe350-293@2x.png 2x, <?php echo $zeplin ?>/tkfe350-293@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">안이 보이는 마개</div>
           <p>
-            뚜껑만 열어도 투명한 창으로 음료의 남은 양을 확인할 수 있어요.
+            뚜껑만 열어도 투명한 창으로<br class="d-block d-lg-none" /> 음료의 남은 양을 확인할 수 있어요.
           </p>
         </div>
       </div>
@@ -259,8 +245,8 @@ include('product/detail.php');
             src="<?php echo $zeplin ?>/3038.png"
             srcset="<?php echo $zeplin ?>/3038@2x.png 2x, <?php echo $zeplin ?>/3038@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false"
-            src="<?php echo $zeplin ?>/30392.png"
-            srcset="<?php echo $zeplin ?>/30392@2x.png 2x, <?php echo $zeplin ?>/30392@3x.png 3x">
+            src="<?php echo $zeplin ?>/tkfe350-294.png"
+            srcset="<?php echo $zeplin ?>/tkfe350-294@2x.png 2x, <?php echo $zeplin ?>/tkfe350-294@3x.png 3x">
         </div>
       </div>
 
@@ -277,7 +263,7 @@ include('product/detail.php');
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">빨대컵을 보호하는 실리콘 바닥 커버</div>
           <p>
-            제품이 미끄러지지 않게 막아주고, 가벼운 충격으로부터 제품을 보호해 줘요.
+            제품이 미끄러지지 않게 막아주고,<br class="d-block d-lg-none" /> 가벼운 충격으로부터 제품을 보호해 줘요.
           </p>
         </div>
       </div>
@@ -308,13 +294,13 @@ include('product/detail.php');
             src="<?php echo $zeplin ?>/3041.png"
             srcset="<?php echo $zeplin ?>/3041@2x.png 2x, <?php echo $zeplin ?>/3041@3x.png 3x">
           <img class="d-block d-lg-none" draggable="false"
-            src="<?php echo $zeplin ?>/30422.png"
-            srcset="<?php echo $zeplin ?>/30422@2x.png 2x, <?php echo $zeplin ?>/30422@3x.png 3x">
+            src="<?php echo $zeplin ?>/tkfe350-288.png"
+            srcset="<?php echo $zeplin ?>/tkfe350-288@2x.png 2x, <?php echo $zeplin ?>/tkfe350-288@3x.png 3x">
         </div>
         <div class="col-12 col-lg-7 contentCol">
           <div class="title">안전한 소재로 안심</div>
           <p>
-            본체 내외 병은 모두 SUS304 레벨의 스테인리스를 사용하고 있으며,<br />
+            본체 내외 병은 모두 SUS304 레벨의 스테인리스를 사용하고 있으며,<br class="d-none d-lg-block" />
             모든 재질은 식품위생법에서 정한 유해물질 검사에서 합격한 재질로 안전하게 사용할 수 있어요.
           </p>
         </div>

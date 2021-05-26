@@ -155,7 +155,7 @@ include('product/detail.php');
             사용하기 편한 원터치 오픈 타입
           </div>
           <p>
-            한 손으로도 충분히 오픈할 수 있도록 원터치 오픈 방식으로 열 수 있어요.
+            한 손으로도 충분히 오픈할 수 있도록<br class="d-block d-lg-none" /> 원터치 오픈 방식으로 열 수 있어요.
           </p>
         </div>
       </div>
@@ -165,7 +165,7 @@ include('product/detail.php');
             간편한 분리세척
           </div>
           <p>
-            음용구와 패킹을 손쉽게 분리하여 깨끗하게 세척이 가능해요.
+            음용구와 패킹을 손쉽게 분리하여<br class="d-block d-lg-none" /> 깨끗하게 세척이 가능해요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
@@ -201,7 +201,7 @@ include('product/detail.php');
         <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
           <div class="title">안전한 소재로 안심</div>
           <p>
-            본체 내외 병은 모두 SUS304 레벨의 스테인리스를 사용하고 있으며,<br />
+            본체 내외 병은 모두 SUS304 레벨의 스테인리스를 사용하고 있으며,<br class="d-none d-lg-block" />
             모든 재질은 식품위생법에서 정한 유해물질 검사에서 합격한 재질로 안전하게 사용할 수 있어요.
           </p>
         </div>

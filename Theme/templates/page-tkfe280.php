@@ -89,23 +89,9 @@ require 'product/detail.php';
     </div>
   </div>
   <?php echo why($arg = array('img' => '2958')); ?>
-  <div class="section section5">
+  <?php include_once('product/design_phrase.php'); ?>
+  <div class="section section5 pt-0">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="header">
-            <h1>
-              상상력과 오감을 자극하는<br />
-              자연스러운 디자인
-            </h1>
-            <p>
-              지구의 자연을 연상시키는 얼씨톤의 컬러를<br class="d-block" /> 포인트로 사용하고 마개와 버튼 모양을 변경하여 <br />
-              아이들이 직접 손으로 만지며 창의력을 높일 수 있는<br class="d-block" /> NEW 디자인으로 만들었어요.<br />
-              꽃, 과일, 구름 등 자연을 닮은 그래픽에 표정을 넣어<br class="d-block" /> 아이와 눈 맞춤 하는 푸고를 만나보세요.
-            </p>
-          </div>
-        </div>
-      </div>
       <div class="row">
         <div class="col-12 px-0">
           <img draggable="false" src="<?php echo $zeplin ?>/542.jpg"
@@ -158,8 +144,8 @@ require 'product/detail.php';
       </div>
       <div class="row pink d-flex d-md-none">
         <img draggable="false"
-          src="<?php echo $zeplin ?>/tkfe280-sec05-02.png"
-          srcset="<?php echo $zeplin ?>/tkfe280-sec05-02@2x.png 2x, <?php echo $zeplin ?>/tkfe280-sec05-02@3x.png 3x">
+          src="<?php echo $zeplin ?>/tkfe280-3140.png"
+          srcset="<?php echo $zeplin ?>/tkfe280-3140@2x.png 2x, <?php echo $zeplin ?>/tkfe280-3140@3x.png 3x">
       </div>
       <?php echo detail($arg = 'three') ?>
     </div>
@@ -172,7 +158,7 @@ require 'product/detail.php';
             부드러운 소재의 빨대
           </div>
           <p>
-            고품질 실리콘 소재로 아이가 빨기에 부드럽고 씹어도 잘 끊어지지 않아요.
+            고품질 실리콘 소재로<br class="d-block d-lg-none" /> 아이가 빨기에 부드럽고<br class="d-block d-lg-none" /> 씹어도 잘 끊어지지 않아요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
@@ -209,7 +195,7 @@ require 'product/detail.php';
             새지 않아 안심
           </div>
           <p>
-            뚜껑을 닫으면 내용물이 새지 않아 물샘 걱정 없이 외출할 수 있어요.
+            뚜껑을 닫으면 내용물이 새지 않아<br /> 물샘 걱정 없이 외출할 수 있어요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
@@ -242,7 +228,8 @@ require 'product/detail.php';
               링 타입으로 부피를 최소화해 휴대성이 뛰어나요.
             </li>
             <li>
-              손잡이가 돌아가지 않고<br class="d-block d-lg-none" /> 아이가 쉽게 잡을 수 있어 빨대컵을<br />
+              손잡이가 돌아가지 않고<br class="d-block d-lg-none" /> 아이가 쉽게 잡을 수 있어<br class="d-block d-lg-none" /> 빨대컵을<br
+                class="d-none d-lg-block" />
               떨어트릴 염려 없이<br class="d-block d-lg-none" /> 편하게 사용할 수 있어요.
             </li>
           </ul>
@@ -252,7 +239,7 @@ require 'product/detail.php';
         <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
           <div class="title">빨대컵을 보호하는 실리콘 바닥 커버</div>
           <p>
-            제품이 미끄러지지 않게 막아주고, 가벼운 충격으로부터 제품을 보호해 줘요.
+            제품이 미끄러지지 않게 막아주고,<br class="d-block d-lg-none" /> 가벼운 충격으로부터 제품을 보호해 줘요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
@@ -287,7 +274,7 @@ require 'product/detail.php';
         <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
           <div class="title">안전한 소재로 안심</div>
           <p>
-            본체 내외 병은 모두 SUS304 레벨의 스테인리스를 사용하고 있으며,<br />
+            본체 내외 병은 모두 SUS304 레벨의 스테인리스를 사용하고 있으며,<br class="d-none d-lg-block" />
             모든 재질은 식품위생법에서 정한 유해물질 검사에서 합격한 재질로 안전하게 사용할 수 있어요.
           </p>
         </div>
