@@ -238,7 +238,7 @@ include('product/detail.php');
             베이비보틀을 보호하는<br class="d-block d-lg-none" /> 실리콘 바닥 커버
           </div>
           <p>
-            제품이 미끄러지지 않게 막아주고,<br class="d-block d-lg-none" /> 가벼운 충격으로부터 제품을 보호해 줘요.
+            제품이 미끄러지지 않게 막아주고,<br class="d-block d-lg-none" /> 가벼운 충격으로부터 제품을 보호해줘요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">

@@ -205,7 +205,7 @@ class="d-block d-lg-none" /> 물샘 걱정 없이 외출할 수 있어요.
         <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
           <div class="title">텀블러를 보호하는 실리콘 바닥 커버</div>
           <p>
-            제품이 미끄러지지 않게 막아주고,<br class="d-block d-lg-none" /> 가벼운 충격으로부터 제품을 보호해 줘요.
+            제품이 미끄러지지 않게 막아주고,<br class="d-block d-lg-none" /> 가벼운 충격으로부터 제품을 보호해줘요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
