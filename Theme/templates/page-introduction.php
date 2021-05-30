@@ -11,8 +11,12 @@ get_header();
 ?>
 <main class="pageTemplate introduction">
   <div class="layer">
-    <img class="d-none d-sm-block" draggable="false" src="<?php echo $zeplin ?>/2949.jpg" srcset="<?php echo $zeplin ?>/2949@2x.jpg 2x, <?php echo $zeplin ?>/2949@3x.jpg 3x">
-    <img class="d-block d-sm-none" draggable="false" src="<?php echo $zeplin ?>/intro_bg_mobile.png" srcset="<?php echo $zeplin ?>/intro_bg_mobile@2x.png 2x, <?php echo $zeplin ?>/intro_bg_mobile@3x.png 3x">
+    <img class="d-none d-sm-block" draggable="false"
+      src="<?php echo $zeplin ?>/2949.jpg"
+      srcset="<?php echo $zeplin ?>/2949@2x.jpg 2x, <?php echo $zeplin ?>/2949@3x.jpg 3x">
+    <img class="d-block d-sm-none" draggable="false"
+      src="<?php echo $zeplin ?>/intro_bg_mobile.png"
+      srcset="<?php echo $zeplin ?>/intro_bg_mobile@2x.png 2x, <?php echo $zeplin ?>/intro_bg_mobile@3x.png 3x">
   </div>
   <div class="section section1">
     <div class="container">
@@ -34,9 +38,11 @@ get_header();
   </div>
   <div class="section section2">
     <div class="text-end">
-      <img class="desktop d-none d-md-inline-block" draggable="false" src="<?php echo $zeplin ?>/2943.png"
+      <img class="desktop d-none d-md-inline-block" draggable="false"
+        src="<?php echo $zeplin ?>/2943.png"
         srcset="<?php echo $zeplin ?>/2943@2x.png 2x, <?php echo $zeplin ?>/2943@3x.png 3x">
-      <img class="mobile d-inline-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/011.png"
+      <img class="mobile d-inline-block d-md-none" draggable="false"
+        src="<?php echo $zeplin ?>/011.png"
         srcset="<?php echo $zeplin ?>/011@2x.png 2x, <?php echo $zeplin ?>/011@3x.png 3x">
     </div>
     <div class="container">
@@ -53,9 +59,11 @@ get_header();
     </div>
   </div>
   <div class="section section3">
-    <img class="desktop d-none d-md-inline-block" draggable="false" src="<?php echo $zeplin ?>/2944.png"
+    <img class="desktop d-none d-md-inline-block" draggable="false"
+      src="<?php echo $zeplin ?>/2944.png"
       srcset="<?php echo $zeplin ?>/2944@2x.png 2x, <?php echo $zeplin ?>/2944@3x.png 3x">
-    <img class="desktop d-inline-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/260.png"
+    <img class="desktop d-inline-block d-md-none" draggable="false"
+      src="<?php echo $zeplin ?>/260.png"
       srcset="<?php echo $zeplin ?>/260@2x.png 2x, <?php echo $zeplin ?>/260@3x.png 3x">
     <div class="container">
       <div class="row">
@@ -73,9 +81,11 @@ get_header();
   </div>
   <div class="section section4">
     <div class="text-end">
-      <img class="desktop d-none d-md-inline-block" draggable="false" src="<?php echo $zeplin ?>/2945.png"
+      <img class="desktop d-none d-md-inline-block" draggable="false"
+        src="<?php echo $zeplin ?>/2945.png"
         srcset="<?php echo $zeplin ?>/2945@2x.png 2x, <?php echo $zeplin ?>/2945@3x.png 3x">
-      <img class="mobile d-inline-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/2542.png"
+      <img class="mobile d-inline-block d-md-none" draggable="false"
+        src="<?php echo $zeplin ?>/2542.png"
         srcset="<?php echo $zeplin ?>/2542@2x.png 2x, <?php echo $zeplin ?>/2542@3x.png 3x">
     </div>
     <div class="container">
@@ -93,11 +103,14 @@ get_header();
   </div>
   <div class="section section5">
     <div class="group">
-      <img class="desktop d-none d-md-inline-block path2946" draggable="false" src="<?php echo $zeplin ?>/2946.png"
+      <img class="desktop d-none d-md-inline-block path2946" draggable="false"
+        src="<?php echo $zeplin ?>/2946.png"
         srcset="<?php echo $zeplin ?>/2946@2x.png 2x, <?php echo $zeplin ?>/2946@3x.png 3x">
-      <img class="mobile d-inline-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/2552.png"
+      <img class="mobile d-inline-block d-md-none" draggable="false"
+        src="<?php echo $zeplin ?>/2552.png"
         srcset="<?php echo $zeplin ?>/2552@2x.png 2x, <?php echo $zeplin ?>/2552@3x.png 3x">
-      <img class="desktop path252" draggable="false" src="<?php echo $zeplin ?>/252.png"
+      <img class="desktop path252" draggable="false"
+        src="<?php echo $zeplin ?>/252.png"
         srcset="<?php echo $zeplin ?>/252@2x.png 2x, <?php echo $zeplin ?>/252@3x.png 3x">
     </div>
     <div class="container">
@@ -106,8 +119,8 @@ get_header();
           <h1>건강을 생각한 푸고</h1>
           <p>
             본체 내외 병은 모두 SUS304 레벨의 스테인리스를<br />
-            사용하고 있으며, 모든 재질은<br class="d-block d-xl-none" /> 식품위생법에서 정한<br class="d-none d-xl-block" />
-            유해물질 검사에서<br class="d-block d-xl-none" /> 합격한 재질로 안전하게 사용할 수 있어요.
+            사용하고 있으며, 모든 재질은 식품위생법에서 정한<br />
+            유해물질 검사에서 합격한 재질로 안전하게<br class="d-block d-xl-none" /> 사용할 수 있어요.
           </p>
         </div>
       </div>
@@ -115,9 +128,11 @@ get_header();
   </div>
   <div class="section section6">
     <div class="text-end">
-      <img class="desktop d-none d-md-inline-block" draggable="false" src="<?php echo $zeplin ?>/2947.png"
+      <img class="desktop d-none d-md-inline-block" draggable="false"
+        src="<?php echo $zeplin ?>/2947.png"
         srcset="<?php echo $zeplin ?>/2947@2x.png 2x, <?php echo $zeplin ?>/2947@3x.png 3x">
-      <img class="mobile d-inline-block d-md-none" draggable="false" src="<?php echo $zeplin ?>/2562.png"
+      <img class="mobile d-inline-block d-md-none" draggable="false"
+        src="<?php echo $zeplin ?>/2562.png"
         srcset="<?php echo $zeplin ?>/2562@2x.png 2x, <?php echo $zeplin ?>/2562@3x.png 3x">
     </div>
     <div class="container">
