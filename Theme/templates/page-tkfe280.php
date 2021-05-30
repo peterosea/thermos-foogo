@@ -195,7 +195,7 @@ require 'product/detail.php';
             새지 않아 안심
           </div>
           <p>
-            뚜껑을 닫으면 내용물이 새지 않아<br /> 물샘 걱정 없이 외출할 수 있어요.
+            뚜껑을 닫으면 내용물이 새지 않아<br class="d-block d-lg-none" /> 물샘 걱정 없이 외출할 수 있어요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
@@ -239,7 +239,7 @@ require 'product/detail.php';
         <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
           <div class="title">빨대컵을 보호하는 실리콘 바닥 커버</div>
           <p>
-            제품이 미끄러지지 않게 막아주고,<br class="d-block d-lg-none" /> 가벼운 충격으로부터 제품을 보호해 줘요.
+            제품이 미끄러지지 않게 막아주고,<br class="d-block d-lg-none" /> 가벼운 충격으로부터 제품을 보호해줘요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
@@ -265,7 +265,7 @@ require 'product/detail.php';
             진공단열 스테인리스 이중구조
           </div>
           <p>
-            스테인리스 이중구조로 음료를 안전하고 신선하게 보관이 가능해요.
+            스테인리스 이중구조로<br class="d-block d-lg-none" /> 음료를 안전하고 신선하게 보관이 가능해요.
           </p>
         </div>
       </div>
@@ -274,8 +274,9 @@ require 'product/detail.php';
         <div class="col-12 col-lg-7 contentCol align-items-lg-end text-lg-end">
           <div class="title">안전한 소재로 안심</div>
           <p>
-            본체 내외 병은 모두 SUS304 레벨의 스테인리스를 사용하고 있으며,<br class="d-none d-lg-block" />
-            모든 재질은 식품위생법에서 정한 유해물질 검사에서 합격한 재질로 안전하게 사용할 수 있어요.
+
+            본체 내외 병은 모두 SUS304 레벨의 스테인리스를<br class="d-block d-lg-none" /> 사용하고 있으며,<br class="d-none d-lg-block" />
+            모든 재질은 식품위생법에서 정한<br class="d-block d-lg-none" /> 유해물질 검사에서 합격한 재질로 안전하게<br class="d-block d-lg-none" /> 사용할 수 있어요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
