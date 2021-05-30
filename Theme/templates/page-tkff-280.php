@@ -186,7 +186,7 @@ include('product/detail.php');
             취향에 맞춰 사용하는 그립
           </div>
           <p>
-            바디링, 손잡이 두 가지 그립을<br class="d-block d-lg-none" /> 취향에 따라 자유롭게 사용해보세요.
+            바디링, 손잡이 두 가지 그립을<br /> 취향에 따라 자유롭게 사용해보세요.
           </p>
           <ul class="list">
             <li>
