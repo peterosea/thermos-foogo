@@ -1,13 +1,15 @@
 body.admin-bar {
   .MobilesubMegaMenu {
-    top: 46px;
+    top: 0;
+    @media screen and (min-width: 600px) {
+      top: 46px;
+    }
     @media screen and (min-width: 783px) {
       top: 32px;
     }
   }
   .MobilesubMegaMenu.shrink {
     top: 0;
-
     @media screen and (min-width: 600px) {
       top: 46px;
     }
