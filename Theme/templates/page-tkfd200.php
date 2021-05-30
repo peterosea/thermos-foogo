@@ -194,7 +194,7 @@ include('product/detail.php');
             새지 않아 안심
           </div>
           <p>
-            뚜껑을 닫으면 내용물이 새지 않아<br /> 물샘 걱정 없이 외출할 수 있어요.
+            뚜껑을 닫으면 내용물이 새지 않아<br class="d-block d-lg-none" /> 물샘 걱정 없이 외출할 수 있어요.
           </p>
         </div>
       </div>
