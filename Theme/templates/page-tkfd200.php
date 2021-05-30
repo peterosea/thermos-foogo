@@ -268,8 +268,7 @@ include('product/detail.php');
           <p>
 
             본체 내외 병은 모두 SUS304 레벨의 스테인리스를<br class="d-block d-lg-none" /> 사용하고 있으며,<br class="d-none d-lg-block" />
-            모든 재질은 식품위생법에서 정한<br class="d-block d-lg-none" /> 유해물질 검사에서 합격한 재질로 안전하게<br class="d-block d-lg-none" /><br
-              class="d-block d-lg-none" /> 사용할 수 있어요.
+            모든 재질은 식품위생법에서 정한<br class="d-block d-lg-none" /> 유해물질 검사에서 합격한 재질로 안전하게<br class="d-block d-lg-none" /> 사용할 수 있어요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
