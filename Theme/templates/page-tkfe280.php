@@ -265,7 +265,7 @@ require 'product/detail.php';
             진공단열 스테인리스 이중구조
           </div>
           <p>
-            스테인리스 이중구조로 음료를 안전하고 신선하게 보관이 가능해요.
+            스테인리스 이중구조로<br class="d-block d-lg-none" /><br class="d-block d-lg-none" /> 음료를 안전하고 신선하게 보관이 가능해요.
           </p>
         </div>
       </div>
