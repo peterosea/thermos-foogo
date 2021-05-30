@@ -196,7 +196,7 @@ main.productLending {
     @include respondTo('lg') {
       padding-top: 120px;
     }
-    img {
+    .container > .row:nth-child(1) img {
       width: 100%;
     }
     .container .row:nth-of-type(2) {
@@ -204,9 +204,6 @@ main.productLending {
         @include respondTo('msm') {
           margin-bottom: 0;
         }
-      }
-      img {
-        width: 100%;
       }
     }
     .header {
