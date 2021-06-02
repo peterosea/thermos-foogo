@@ -202,7 +202,8 @@ include('product/detail.php');
           <div class="title">안전한 소재로 안심</div>
           <p>
             본체 내외 병은 모두 SUS304 레벨의 스테인리스를<br class="d-block d-lg-none" /> 사용하고 있으며,<br class="d-none d-lg-block" />
-            모든 재질은 식품위생법에서 정한<br class="d-block d-lg-none" /> 유해물질 검사에서 합격한 재질로 안전하게<br class="d-block d-lg-none" /> 사용할 수 있어요.
+            모든 재질은 식품위생법에서 정한<br class="d-block d-lg-none" /> 유해물질 검사에서 합격한 재질로 안전하게<br class="d-block d-lg-none" /> 사용할
+            수 있어요.
           </p>
         </div>
         <div class="col-12 col-lg-5 imgCol">
@@ -246,8 +247,8 @@ include('product/detail.php');
           </div>
         </div>
       </div>
-      <div class="row m-0">
-        <div class="col-12 px-0">
+      <div class="row">
+        <div class="col-12">
           <div class="body">
             <div class="item"
               style="background-image: url(<?php echo $zeplin ?>/220@3x.png)">
