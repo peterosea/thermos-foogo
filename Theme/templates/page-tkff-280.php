@@ -186,16 +186,17 @@ include('product/detail.php');
             취향에 맞춰 사용하는 그립
           </div>
           <p>
-            <br class="d-block d-lg-none" /> 취향에 따라 자유롭게 사용해보세요.
+            바디링, 손잡이 두 가지 그립을 <br class="d-block d-lg-none" />취향에 따라 자유롭게 사용해보세요.
           </p>
           <ul class="list">
             <li>
-              링 타입으로 부피를 최소화해 휴대성이 뛰어나요.
+              링 타입으로 부피를 최고화해 휴대성이 뛰어나요.
             </li>
             <li>
-              손잡이가 돌아가지 않고<br class="d-block d-lg-none" /> 아이가 쉽게 잡을 수 있어<br class="d-block d-lg-none" /> 텀블러을<br
-                class="d-none d-lg-block" />
-              떨어트릴 염려 없이<br class="d-block d-lg-none" /> 편하게 사용할 수 있어요.
+              손잡이가 돌아가지 않고 <br class="d-block d-lg-none" />
+              아이가 쉽게 잡을 수 있어 <br class="d-block d-lg-none" />
+              빨대컵을 <br class="d-none d-lg-block" />떨어트릴 염려 없이 <br class="d-block d-lg-none" />
+              편하게 사용할 수 있어요.
             </li>
           </ul>
         </div>
@@ -256,7 +257,8 @@ include('product/detail.php');
           <p>
 
             본체 내외 병은 모두 SUS304 레벨의 스테인리스를<br class="d-block d-lg-none" /> 사용하고 있으며,<br class="d-none d-lg-block" />
-            모든 재질은 식품위생법에서 정한<br class="d-block d-lg-none" /> 유해물질 검사에서 합격한 재질로 안전하게<br class="d-block d-lg-none" /> 사용할 수 있어요.
+            모든 재질은 식품위생법에서 정한<br class="d-block d-lg-none" /> 유해물질 검사에서 합격한 재질로 안전하게<br class="d-block d-lg-none" /> 사용할
+            수 있어요.
           </p>
         </div>
       </div>
