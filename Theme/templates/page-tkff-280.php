@@ -190,7 +190,7 @@ include('product/detail.php');
           </p>
           <ul class="list">
             <li>
-              링 타입으로 부피를 최고화해 휴대성이 뛰어나요.
+              링 타입으로 부피를 최소화해 휴대성이 뛰어나요.
             </li>
             <li>
               손잡이가 돌아가지 않고 <br class="d-block d-lg-none" />
