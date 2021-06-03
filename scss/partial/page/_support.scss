@@ -77,7 +77,7 @@ main.support {
 
   .instruction {
     .card {
-      padding: 60px 30px;
+      padding: 60px 0;
       @include respondTo('lg') {
         padding: 70px;
       }
@@ -86,6 +86,7 @@ main.support {
       @include respondTo('mlg') {
         justify-content: center;
         text-align: center;
+        padding: 0 30px;
       }
       display: flex;
       align-items: center;
@@ -104,6 +105,9 @@ main.support {
       align-items: center;
       justify-content: space-around;
       flex-wrap: wrap;
+      @include respondTo('mlg') {
+        padding: 0 10px;
+      }
       @include respondTo('msm') {
         gap: 16px;
       }

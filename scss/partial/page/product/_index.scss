@@ -197,7 +197,7 @@ main.productLending {
       padding-top: 120px;
     }
     + .section5 {
-      padding-top: 0;
+      padding-top: 0 !important;
     }
     .container > .row:nth-child(1) img {
       width: 100%;
@@ -322,6 +322,12 @@ main.productLending {
       }
       &.three {
         background-color: $light-grey;
+        @include respondTo('md') {
+          img {
+            max-width: 400px;
+            align-self: auto;
+          }
+        }
       }
       &.light-blue-grey {
         background-color: $light-blue-grey;
