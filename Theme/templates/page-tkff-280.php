@@ -8,7 +8,7 @@
 $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
 get_header();
 include('product/hero.php');
-include('product/why.php');
+include('product/why-tkff280.php');
 include('product/inspection.php');
 include('product/detail.php');
 ?>
