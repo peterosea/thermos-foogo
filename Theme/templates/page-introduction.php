@@ -93,9 +93,10 @@ get_header();
         <div class="col-12">
           <h1>아이와<br class="d-block d-xl-none" /> 눈맞춤 하는 푸고</h1>
           <p>
-            꽃, 과일, 구름 등 자연을 닮은 그래픽에<br class="d-block d-xl-none" /> 귀여운 표정을<br class="d-none d-xl-block" />
-            넣은 푸고 캐릭터는<br class="d-block d-xl-none" /> 아이가 물을 마실 때 캐릭터와 <br />
-            눈을 마주치며 인사할 수 있도록<br class="d-block d-xl-none" /> 섬세하게 디자인되었어요.
+          꽃, 과일, 구름 등 자연을 닮은 그래픽에<br />
+          귀여운 표정을 넣은 푸고 캐릭터는<br />
+          아이가 물을 마실 때 눈을 마주치며<br />
+          인사할 수 있도록 섬세하게 디자인되었어요.
           </p>
         </div>
       </div>
