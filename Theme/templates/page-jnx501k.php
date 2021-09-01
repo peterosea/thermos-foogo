@@ -45,19 +45,13 @@ include('product/detail.php');
         <h1>COLOR · SIZE</h1>
         <p>색상 및 용량</p>
       </div>
-      <img class="d-none d-lg-block" draggable="false"
+      <img class="d-none d-md-block" draggable="false"
         src="<?php echo $zeplin ?>/3028.png"
         srcset="<?php echo $zeplin ?>/3028@2x.png 2x, <?php echo $zeplin ?>/3028@3x.png 3x">
       <!-- mobile -->
-      <img class="d-block d-lg-none" draggable="false"
+      <img class="d-block d-md-none" draggable="false"
         src="<?php echo $zeplin ?>/30146.png"
         srcset="<?php echo $zeplin ?>/30146@2x.png 2x, <?php echo $zeplin ?>/30146@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false"
-        src="<?php echo $zeplin ?>/2226.png"
-        srcset="<?php echo $zeplin ?>/2226@2x.png 2x, <?php echo $zeplin ?>/2226@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false"
-        src="<?php echo $zeplin ?>/29246.png"
-        srcset="<?php echo $zeplin ?>/29246@2x.png 2x, <?php echo $zeplin ?>/29246@3x.png 3x">
     </div>
   </div>
   <div class="section section1 d-block d-md-none">

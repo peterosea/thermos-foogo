@@ -16,6 +16,8 @@ new fullpage('#fullpage', {
   responsiveWidth: 768,
 
   licenseKey: '61EC015D-9EF241A1-BBAFC675-200C9E36',
+  scrollHorizontallyKey: 'Zm9vZ28ua3JfWUk3YzJOeWIyeHNTRzl5YVhwdmJuUmhiR3g1cktJ',
+  parallaxKey: 'Zm9vZ28ua3JfckliY0dGeVlXeHNZWGc9OXJi',
   parallax: true,
   parallaxOptions: {
     type: 'reveal',

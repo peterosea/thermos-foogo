@@ -46,24 +46,18 @@ include('product/detail.php');
         <h1>COLOR · SIZE</h1>
         <p>색상 및 용량</p>
       </div>
-      <img class="d-none d-lg-block" draggable="false"
+      <img class="d-none d-md-block" draggable="false"
         src="<?php echo $zeplin ?>/3027.png"
         srcset="<?php echo $zeplin ?>/3027@2x.png 2x, <?php echo $zeplin ?>/3027@3x.png 3x">
       <!-- mobile -->
-      <img class="d-block d-lg-none" draggable="false"
+      <img class="d-block d-md-none" draggable="false"
         src="<?php echo $zeplin ?>/30145.png"
         srcset="<?php echo $zeplin ?>/30145@2x.png 2x, <?php echo $zeplin ?>/30145@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false"
-        src="<?php echo $zeplin ?>/2222.png"
-        srcset="<?php echo $zeplin ?>/2222@2x.png 2x, <?php echo $zeplin ?>/2222@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false"
-        src="<?php echo $zeplin ?>/29245.png"
-        srcset="<?php echo $zeplin ?>/29245@2x.png 2x, <?php echo $zeplin ?>/2924@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false"
+      <img class="d-block d-md-none" draggable="false"
         src="<?php echo $zeplin ?>/223.png"
         srcset="<?php echo $zeplin ?>/223@2x.png 2x, <?php echo $zeplin ?>/223@3x.png 3x">
       <!-- 공통 -->
-      <img class="d-none d-lg-block" draggable="false"
+      <img class="d-none d-md-block" draggable="false"
         src="<?php echo $zeplin ?>/209.png"
         srcset="<?php echo $zeplin ?>/209@2x.png 2x, <?php echo $zeplin ?>/209@3x.png 3x">
     </div>

@@ -10,6 +10,8 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
 get_template_part('template-parts/head/slickslide');
 get_template_part('template-parts/home/index');
 get_header();
+
+$post_id = get_the_ID();
 ?>
 <main class="pageTemplate homepage">
   <div id="fullpage">
