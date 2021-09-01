@@ -46,24 +46,18 @@ include('product/detail.php');
         <h1>COLOR · SIZE</h1>
         <p>색상 및 용량</p>
       </div>
-      <img class="d-none d-lg-block" draggable="false"
-        src="<?php echo $zeplin ?>/3024.png"
-        srcset="<?php echo $zeplin ?>/3024@2x.png 2x, <?php echo $zeplin ?>/3024@3x.png 3x">
+      <img class="d-none d-md-block" draggable="false"
+        src="<?php echo $zeplin ?>/TKFD-200-section1-img.png"
+        srcset="<?php echo $zeplin ?>/TKFD-200-section1-img@2x.png 2x">
       <!-- mobile -->
-      <img class="d-block d-lg-none" draggable="false"
+      <img class="d-block d-md-none" draggable="false"
         src="<?php echo $zeplin ?>/29202.png"
         srcset="<?php echo $zeplin ?>/29202@2x.png 2x, <?php echo $zeplin ?>/29202@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false"
-        src="<?php echo $zeplin ?>/176.png"
-        srcset="<?php echo $zeplin ?>/176@2x.png 2x, <?php echo $zeplin ?>/176@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false"
-        src="<?php echo $zeplin ?>/2924.png"
-        srcset="<?php echo $zeplin ?>/2924@2x.png 2x, <?php echo $zeplin ?>/2924@3x.png 3x">
-      <img class="d-block d-lg-none" draggable="false"
+      <img class="d-block d-md-none" draggable="false"
         src="<?php echo $zeplin ?>/1752.png"
         srcset="<?php echo $zeplin ?>/1752@2x.png 2x, <?php echo $zeplin ?>/1752@3x.png 3x">
       <!-- 공통 -->
-      <img class="d-none d-lg-block" draggable="false"
+      <img class="d-none d-md-block" draggable="false"
         src="<?php echo $zeplin ?>/188.png"
         srcset="<?php echo $zeplin ?>/188@2x.png 2x, <?php echo $zeplin ?>/188@3x.png 3x">
     </div>
@@ -71,8 +65,8 @@ include('product/detail.php');
   <div class="section section1 d-block d-md-none">
     <div class="container">
       <img class="tkfd200-sec01-01" draggable="false"
-        src="<?php echo $zeplin ?>/tkfd200-sec01-01.png"
-        srcset="<?php echo $zeplin ?>/tkfd200-sec01-01@2x.png 2x, <?php echo $zeplin ?>/tkfd200-sec01-01@3x.png 3x">
+        src="<?php echo $zeplin ?>/TKFD-200-section1-img-m.png"
+        srcset="<?php echo $zeplin ?>/TKFD-200-section1-img-m@2x.png 2x">
       <img class="tkfd200-sec01-02" draggable="false"
         src="<?php echo $zeplin ?>/tkfd200-sec01-02.png"
         srcset="<?php echo $zeplin ?>/tkfd200-sec01-02@2x.png 2x, <?php echo $zeplin ?>/tkfd200-sec01-02@3x.png 3x">

@@ -21,11 +21,16 @@
     </div>
   </div>
 </div>
+<?php
+  $bn_active = get_field( 'chk_activate_bn', $post_id );
+  $bn_url = get_field( 'url_home_bn', $post_id );
+  if( $bn_active == 'active' ) {
+?>
 <div class="section banner fp-auto-height">
   <div class="container">
     <div class="row">
       <div class="col-12 d-flex align-items-center justify-content-center">
-        <a href="">
+        <a href="<?php echo $bn_url; ?>" target="_blank">
           <img src="<?php echo $zeplin ?>/2933.png"
             srcset="<?php echo $zeplin ?>/2933@2x.png 2x, <?php echo $zeplin ?>/2933@3x.png 3x">
           푸고 서포터즈 <span class="pointColor">지원하기 <i class="fas fa-chevron-right"></i></span>
@@ -34,3 +39,4 @@
     </div>
   </div>
 </div>
+<?php }; ?>
