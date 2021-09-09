@@ -16,8 +16,8 @@ $zeplin = get_home_url() . '/wp-content/uploads/zeplin';
         </a>
       </div>
       <div class="col-12 col-lg d-flex justify-content-end btnWrap px-0 px-lg">
-        <a target="_blank" class="btn" href="void(0);" onclick="alert('9월 9일 런칭 예정입니다.');return false;">
-        <!-- <a target="_blank" class="btn" href="<?php echo get_field('link') ?>"> -->
+        <!-- <a target="_blank" class="btn" href="void(0);" onclick="alert('9월 9일 런칭 예정입니다.');return false;"> -->
+        <a target="_blank" class="btn" href="<?php echo get_field('link') ?>">
           구매하기 <i class="d-none d-lg-inlineblock fas fa-chevron-right"></i>
         </a>
       </div>
